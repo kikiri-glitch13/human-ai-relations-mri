@@ -1,0 +1,83 @@
+{
+  "package": "Human–AI Relations MRI v1.0 Publication Build",
+  "status": "PUBLICATION_LOCKED",
+  "validation": "PASS",
+  "canonical_machine_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "files": [
+    {
+      "name": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+      "bytes": 1289925,
+      "sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c"
+    },
+    {
+      "name": "Human_AI_Relations_Corpus_Source_Manifest_v1.0.json",
+      "bytes": 12303,
+      "sha256": "aecbe8b92ac382d48cc97d745da099e52f56d94405c485417605f31df2b63263"
+    },
+    {
+      "name": "Human_AI_Relations_Corpus_Source_Manifest_v1.0.md",
+      "bytes": 2023,
+      "sha256": "dfb3f41178cfa19d65e74734f0b51b6c4fc6b57e0d7b8638abe1a4c690142788"
+    },
+    {
+      "name": "Human_AI_Relations_Compact_Router_v1.0.json",
+      "bytes": 24032,
+      "sha256": "b10b8fb611ac363b28e24054c0e9806001a2275059228b4a12c1adb9f2815114"
+    },
+    {
+      "name": "Human_AI_Relations_Compact_Router_v1.0.md",
+      "bytes": 1498,
+      "sha256": "4b0d70a5e42ef3359621de46433911dfbb90001c9ae4ea8bf4795ea804fba47f"
+    },
+    {
+      "name": "Human_AI_Relations_MRI_v1.0_Final_Publication_Validation.json",
+      "bytes": 1435,
+      "sha256": "7eab5313bf15fb5ffbd3f37bbdd2691ac0c5eb3cb76cca3bed29342f74387915"
+    },
+    {
+      "name": "Human_AI_Relations_MRI_v1.0_Final_Publication_Validation.md",
+      "bytes": 531,
+      "sha256": "ddf3bf1b0105512fdee8334431fe3c93eb23ccde0120791965425c879fb0ab38"
+    },
+    {
+      "name": "Human_AI_Relations_Global_Source_Registry_v1.0.json",
+      "bytes": 178739,
+      "sha256": "9eb58338714f4e2b85c85926922b150beb903c55d274be4f6e9cbbc387a6ffd0"
+    },
+    {
+      "name": "Domain07_Publication_Final_20260924.md",
+      "bytes": 66747,
+      "sha256": "f836513538a78519b1f856fc690e75afbfb8d309306cbce534c532ca6177183b"
+    },
+    {
+      "name": "Human_AI_Relations_NEQ_Cluster_Registry_v0.9.5.json",
+      "bytes": 13644,
+      "sha256": "2d40ee431e5620158b48063fefb5b6af3aaf6650d87415c8e9d263bb5af62244"
+    },
+    {
+      "name": "Human_AI_Relations_Domain_Reverse_Index_v0.9.3.json",
+      "bytes": 96349,
+      "sha256": "023a9b909054ba0f7368c1a3d17d18cf2aa9f92b28912c5feffeaab191dce419"
+    },
+    {
+      "name": "Human_AI_Relations_Domain_Source_Index_v0.9.4.json",
+      "bytes": 155533,
+      "sha256": "ac79962461d00cfb4c37737ac7ad43938fd56a9dce00bdabff2dcf9fea47b50e"
+    },
+    {
+      "name": "Human_AI_Relations_Provenance_Registry_v0.9.2.json",
+      "bytes": 220045,
+      "sha256": "5ed39ae4564373fb0778cd2847906e2efb0693ad21de5161fd0b576d22bb4140"
+    },
+    {
+      "name": "Human_AI_Relations_Section_Registry_v0.9.1.json",
+      "bytes": 380605,
+      "sha256": "8f24d0a410af33fa5de5a7577a83a9a006ca08ba516131b82b8ae0256a96baa5"
+    },
+    {
+      "name": "HAI_Local_to_Global_Source_Map_v0.9-pre-MRI.csv",
+      "bytes": 43425,
+      "sha256": "c3a4b11fe7a6b4ed3ad56c4fb24ee6bf614b6c0c55167c8157c31230cab1d5f8"
+    }
+  ]
+}
