@@ -1,0 +1,2068 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_SHARD",
+  "registry": "Major Claims",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. Canonical authority remains the full Publication Build JSON.",
+  "count": 37,
+  "claims": [
+    {
+      "claim_id": "HAI-CLM-001",
+      "claim": "Human–AI success conditions are domain- and goal-dependent; different outcomes should not be collapsed into one generic “AI benefit.”",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D00",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0002",
+        "HAI-SRC-0004"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D00",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D00-CORE-PRINCIPLE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D00:1207-1226",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D00-CORE-PRINCIPLE",
+            "heading": "基本原則",
+            "locator": "D00:75-147",
+            "section_type": "CORE_PRINCIPLE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0002",
+          "HAI-SRC-0004"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-033"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-002",
+      "claim": "Strong existing theory does not by itself constitute direct evidence for a new AI configuration; transfer from adjacent research requires qualification.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D00",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0002",
+        "HAI-SRC-0004"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D00",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D00-CORE-PRINCIPLE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D00:1207-1226",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D00-CORE-PRINCIPLE",
+            "heading": "基本原則",
+            "locator": "D00:75-147",
+            "section_type": "CORE_PRINCIPLE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0002",
+          "HAI-SRC-0004"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-034"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-003",
+      "claim": "AI-assisted task performance does not establish durable, transferable, independently demonstrable human learning.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D01",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0013",
+        "HAI-SRC-0011"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D01-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D01:828-844",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D01:92-220",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0013",
+          "HAI-SRC-0011"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-001"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-004",
+      "claim": "Direct AI-learning evidence is heterogeneous: assisted performance, immediate learning, independent performance, and delayed retention can move in different directions depending on system design, task, assessment, and time horizon.",
+      "claim_type": "Descriptive",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D01",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0015",
+        "HAI-SRC-0016",
+        "HAI-SRC-0017",
+        "HAI-SRC-0018",
+        "HAI-SRC-0019",
+        "HAI-SRC-0020"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D01:828-844",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D01:376-394",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0015",
+          "HAI-SRC-0016",
+          "HAI-SRC-0017",
+          "HAI-SRC-0018",
+          "HAI-SRC-0019",
+          "HAI-SRC-0020"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-001",
+        "HAI-QRY-002"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-005",
+      "claim": "General long-term deskilling caused by persistent generative-AI use is not established by current longitudinal evidence.",
+      "claim_type": "Empirical boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D01",
+      "empirical_evidence_status": "E",
+      "supporting_source_ids": [],
+      "limiting_source_ids": [
+        "HAI-SRC-0015",
+        "HAI-SRC-0017",
+        "HAI-SRC-0012",
+        "HAI-SRC-0033"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D01:828-844",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D01:376-394",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D01:845-863",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [
+          "HAI-SRC-0015",
+          "HAI-SRC-0017",
+          "HAI-SRC-0012",
+          "HAI-SRC-0033"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-001",
+        "HAI-QRY-002"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-006",
+      "claim": "Human final approval does not establish human-led decision formation.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D02",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0026",
+        "HAI-SRC-0031"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [
+        "HAI-SRC-0002"
+      ],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D02",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D02-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D02:1080-1098",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D02-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D02:94-271",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0026",
+          "HAI-SRC-0031"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [
+          "HAI-SRC-0002"
+        ],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-004"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-007",
+      "claim": "AI can materially shape decision formation through option generation, filtering, ranking, framing, and recommendation without holding formal decision authority.",
+      "claim_type": "Conceptual / Descriptive",
+      "claim_status": "RETAINED",
+      "primary_domain": "D02",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0025",
+        "HAI-SRC-0026",
+        "HAI-SRC-0031",
+        "HAI-SRC-0032"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "AI can shape decision formation without formal authority",
+          "claim_type": "Descriptive",
+          "status": "B",
+          "scope": "documented configurations"
+        },
+        {
+          "component": "authority and influence are conceptually distinct",
+          "claim_type": "Conceptual",
+          "status": null,
+          "scope": "cross-domain audit distinction"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D02",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D02-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D02:1080-1098",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D02:465-570",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D02-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D02:94-271",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0025",
+          "HAI-SRC-0026",
+          "HAI-SRC-0031",
+          "HAI-SRC-0032"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-004",
+        "HAI-QRY-005",
+        "HAI-QRY-031"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-008",
+      "claim": "Human–AI combination does not automatically outperform the better solo human or AI performer; performance depends on task and configuration.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D02",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0030"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D02",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D02:1080-1098",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D02:465-570",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0030"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-035"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-009",
+      "claim": "Trust, reliance, and appropriate reliance are distinct constructs and should not be treated as one quantity.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D03",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0001"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D03-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D03:847-866",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D03:89-272",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0001"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-006"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-010",
+      "claim": "Explanation alone does not ensure appropriate reliance; its effects depend on factors such as task difficulty and verification cost.",
+      "claim_type": "Empirical / Conceptual",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D03",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0035",
+        "HAI-SRC-0036",
+        "HAI-SRC-0031"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D03-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D03:847-866",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D03; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D03:89-272",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0035",
+          "HAI-SRC-0036",
+          "HAI-SRC-0031"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-006",
+        "HAI-QRY-007"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-011",
+      "claim": "Sycophantic behavior occurs in tested LLM systems, but model-side sycophancy alone does not establish increased human trust, reliance, or downstream harm.",
+      "claim_type": "Descriptive + boundary",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D03",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0038"
+      ],
+      "limiting_source_ids": [
+        "HAI-SRC-0048"
+      ],
+      "adjacent_source_ids": [
+        "HAI-SRC-0038"
+      ],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "sycophantic model behavior occurs under tested conditions",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "tested LLM/model settings"
+        },
+        {
+          "component": "human trust/reliance/downstream harm from model-side sycophancy alone",
+          "claim_type": "Boundary",
+          "status": "E",
+          "scope": "not established generally"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D03:847-866",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D03; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D03:867-895",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0038"
+        ],
+        "limiting_source_ids": [
+          "HAI-SRC-0048"
+        ],
+        "adjacent_source_ids": [
+          "HAI-SRC-0038"
+        ],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-006",
+        "HAI-QRY-008"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-012",
+      "claim": "AI-mediated communication can alter message characteristics, communication speed, emotional language, and interpersonal perception under studied conditions.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D04",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0041"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D04:1061-1079",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D04:360-381",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0041"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-009"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-013",
+      "claim": "Generative-AI dialogue can produce persistent belief change under some experimentally studied conditions, but this does not establish general behavioral or institutional effects.",
+      "claim_type": "Causal",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D04",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0043"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D04:1061-1079",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D04:360-381",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0043"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-010"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-014",
+      "claim": "AI-mediated common-ground generation can increase agreement or endorsement under studied conditions; increased agreement does not establish mutual understanding or legitimacy.",
+      "claim_type": "Empirical + Conceptual",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D04",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0044"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "AI common-ground generation can increase agreement/endorsement",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "studied experimental conditions"
+        },
+        {
+          "component": "agreement establishes understanding or legitimacy",
+          "claim_type": "Conceptual non-entailment",
+          "status": null,
+          "scope": "not entailed"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D04-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D04:1061-1079",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D04:360-381",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D04:97-265",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0044"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-010"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-015",
+      "claim": "AI-directed attachment-related tendencies can be empirically measured in human users.",
+      "claim_type": "Measurement / Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D05",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0047"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D05:1316-1335",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D05; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0047"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-011"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-016",
+      "claim": "Human–AI attachment scores do not currently establish construct equivalence with human attachment.",
+      "claim_type": "Measurement boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D05",
+      "empirical_evidence_status": "E",
+      "supporting_source_ids": [],
+      "limiting_source_ids": [
+        "HAI-SRC-0047"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D05:1316-1335",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D05; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D05:1336-1357",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [
+          "HAI-SRC-0047"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-011"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-017",
+      "claim": "Some AI-companion interactions can reduce short-term subjective loneliness; long-term social integration and objective social-isolation effects remain unestablished.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D05",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0049",
+        "HAI-SRC-0064"
+      ],
+      "limiting_source_ids": [
+        "HAI-SRC-0050"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "short-term subjective loneliness reduction",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "selected studied companion interactions"
+        },
+        {
+          "component": "long-term social integration/objective isolation benefit",
+          "claim_type": "Empirical boundary",
+          "status": "E",
+          "scope": "not established"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D05:1316-1335",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D05; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0049",
+          "HAI-SRC-0064"
+        ],
+        "limiting_source_ids": [
+          "HAI-SRC-0050"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-011",
+        "HAI-QRY-012"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-018",
+      "claim": "Some structured, clinically designed generative-AI systems can improve short-term symptom outcomes in selected adult populations.",
+      "claim_type": "Causal / Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D06",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0055",
+        "HAI-SRC-0057"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D06:1327-1345",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D06:380-422",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0055",
+          "HAI-SRC-0057"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-013"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-019",
+      "claim": "Evidence for structured clinical AI should not be transferred directly to general-purpose LLMs, human-therapist equivalence, or long-term recovery.",
+      "claim_type": "Evidence boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D06",
+      "empirical_evidence_status": "E",
+      "supporting_source_ids": [],
+      "limiting_source_ids": [
+        "HAI-SRC-0055",
+        "HAI-SRC-0056",
+        "HAI-SRC-0060"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D06:1327-1345",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D06:1346-1368",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [
+          "HAI-SRC-0055",
+          "HAI-SRC-0056",
+          "HAI-SRC-0060"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-013"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-020",
+      "claim": "AI can affect discrete suicide-prevention processes under studied conditions, but detection or process improvement does not establish end-to-end prevention or safe outcome.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D06",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0061"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "discrete suicide-prevention process outcomes",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "studied interventions/processes"
+        },
+        {
+          "component": "end-to-end prevention or safe outcome",
+          "claim_type": "Empirical boundary",
+          "status": "E",
+          "scope": "not established"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D06:1327-1345",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D06:380-422",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0061"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-013",
+        "HAI-QRY-014"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-021",
+      "claim": "Dependence on technological or human support does not by itself determine whether autonomy is lost or preserved.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D07",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0003",
+        "HAI-SRC-0071",
+        "HAI-SRC-0073",
+        "HAI-SRC-0074"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D07-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D07:1132-1151",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D07:64-345",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0003",
+          "HAI-SRC-0071",
+          "HAI-SRC-0073",
+          "HAI-SRC-0074"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-003",
+        "HAI-QRY-005",
+        "HAI-QRY-015",
+        "HAI-QRY-016",
+        "HAI-QRY-030"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-022",
+      "claim": "Support-inclusive functioning can be a legitimate outcome; unaided performance is not a universal success criterion for assistive contexts.",
+      "claim_type": "Conceptual / Existing tradition",
+      "claim_status": "RETAINED",
+      "primary_domain": "D08",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0024",
+        "HAI-SRC-0073",
+        "HAI-SRC-0074"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D08",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D08-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D08:1308-1327",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D08-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D08:95-244",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0024",
+          "HAI-SRC-0073",
+          "HAI-SRC-0074"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-003",
+        "HAI-QRY-017",
+        "HAI-QRY-030",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-023",
+      "claim": "Improved accessibility or task performance does not by itself establish improved participation or social inclusion.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D08",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0024",
+        "HAI-SRC-0073",
+        "HAI-SRC-0074"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D08",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D08-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D08:1308-1327",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D08-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D08:95-244",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0024",
+          "HAI-SRC-0073",
+          "HAI-SRC-0074"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-003",
+        "HAI-QRY-017"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-024",
+      "claim": "Generative AI can improve short-term productivity in selected tasks and populations.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0084",
+        "HAI-SRC-0085"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D09:434-452",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0084",
+          "HAI-SRC-0085"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-025",
+      "claim": "Generative-AI productivity effects are heterogeneous and can be negative in some task/expertise configurations.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0040",
+        "HAI-SRC-0087"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D09:434-452",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0040",
+          "HAI-SRC-0087"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-026",
+      "claim": "AI adoption can redistribute work and create new oversight, integration, verification, and coordination tasks rather than simply eliminating work.",
+      "claim_type": "Descriptive / Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0086",
+        "HAI-SRC-0088"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D09:434-452",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0086",
+          "HAI-SRC-0088"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018",
+        "HAI-QRY-019",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-027",
+      "claim": "Productivity gain does not establish worker skill improvement, lower total workload, better well-being, or worker benefit.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0084",
+        "HAI-SRC-0086"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [
+        "HAI-SRC-0090"
+      ],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D09:76-268",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0084",
+          "HAI-SRC-0086"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [
+          "HAI-SRC-0090"
+        ],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018",
+        "HAI-QRY-019",
+        "HAI-QRY-020"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-028",
+      "claim": "Human presence, formal approval, or a human-in-the-loop label does not establish effective oversight or control.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D10",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0007",
+        "HAI-SRC-0002",
+        "HAI-SRC-0093",
+        "HAI-SRC-0112"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D10-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D10:1443-1462",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D10:90-364",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0007",
+          "HAI-SRC-0002",
+          "HAI-SRC-0093",
+          "HAI-SRC-0112"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-021",
+        "HAI-QRY-022"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-029",
+      "claim": "Effective oversight must be evaluated through context-specific factors including observability, interpretation, authority, time, action capability, system response, feedback, recovery, and organizational capacity.",
+      "claim_type": "Audit claim",
+      "claim_status": "RETAINED",
+      "primary_domain": "D10",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0007",
+        "HAI-SRC-0002",
+        "HAI-SRC-0093",
+        "HAI-SRC-0113"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "oversight dimensions are audit dimensions/candidate enabling conditions",
+          "claim_type": "Conceptual/Audit",
+          "status": null,
+          "scope": "not universal sufficient conditions"
+        },
+        {
+          "component": "specific human-factor mechanisms",
+          "claim_type": "Adjacent/theory-consistent",
+          "status": "C",
+          "scope": "context dependent"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D10-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D10:1443-1462",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D10:90-364",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0007",
+          "HAI-SRC-0002",
+          "HAI-SRC-0093",
+          "HAI-SRC-0113"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-021",
+        "HAI-QRY-022",
+        "HAI-QRY-023",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-030",
+      "claim": "Average accuracy alone does not establish system safety.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D10",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0093",
+        "HAI-SRC-0098"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D10-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D10:1443-1462",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D10:90-364",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0093",
+          "HAI-SRC-0098"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-021",
+        "HAI-QRY-023",
+        "HAI-QRY-024"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-031",
+      "claim": "High predictive accuracy does not establish institutional legitimacy.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D11",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0100",
+        "HAI-SRC-0101",
+        "HAI-SRC-0102"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D11",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D11-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D11:1465-1530",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D11-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D11:121-166",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0100",
+          "HAI-SRC-0101",
+          "HAI-SRC-0102"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-024"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-032",
+      "claim": "Compliance with a statistical fairness metric does not by itself establish justice or legal compliance.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D11",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0101",
+        "HAI-SRC-0102"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D11",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D11-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D11:1465-1530",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D11-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D11:121-166",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0101",
+          "HAI-SRC-0102"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-024",
+        "HAI-QRY-036"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-033",
+      "claim": "Explanation, contestability, review, appeal, remedy, transparency, and accountability are distinct institutional functions.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D11",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0104",
+        "HAI-SRC-0109",
+        "HAI-SRC-0110",
+        "HAI-SRC-0114"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D11",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D11-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D11:1465-1530",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D11-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D11:121-166",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0104",
+          "HAI-SRC-0109",
+          "HAI-SRC-0110",
+          "HAI-SRC-0114"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-025",
+        "HAI-QRY-026"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-034",
+      "claim": "Prediction accuracy does not establish consumer benefit, financial capability, fairness, or investor welfare.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0117",
+        "HAI-SRC-0118",
+        "HAI-SRC-0119",
+        "HAI-SRC-0120"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+            "heading": "中心的な区別（Core Distinctions）",
+            "locator": "D12:112-191",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0117",
+          "HAI-SRC-0118",
+          "HAI-SRC-0119",
+          "HAI-SRC-0120"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-024",
+        "HAI-QRY-027",
+        "HAI-QRY-028",
+        "HAI-QRY-031",
+        "HAI-QRY-036"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-035",
+      "claim": "Alternative-data / algorithmic lending can improve prediction or credit access for some borrowers under studied market conditions, but this does not establish universal borrower welfare or fairness.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0117",
+        "HAI-SRC-0118"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D12; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0117",
+          "HAI-SRC-0118"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-027"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-036",
+      "claim": "LLM financial advice can alter financial decisions and can increase portfolio risk under some studied conditions; the direction of long-term investor benefit is not established.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0119",
+        "HAI-SRC-0120"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "LLM advice can alter financial decisions / increase risk in studied conditions",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "specific studies"
+        },
+        {
+          "component": "long-term investor benefit",
+          "claim_type": "Empirical boundary",
+          "status": "E",
+          "scope": "not established"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D12; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0119",
+          "HAI-SRC-0120"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-028"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-037",
+      "claim": "Agentic finance raises distinct authorization, revocation, logging, rollback, recovery, provider-dependence, and responsibility questions; long-term real-world evidence remains limited.",
+      "claim_type": "Audit / Predictive boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [
+        "HAI-SRC-0093",
+        "HAI-SRC-0069"
+      ],
+      "source_linkage_status": "NOT_APPLICABLE",
+      "evidence_basis": "DOMAIN_12_RESEARCH_GAP_AND_AUDIT_SYNTHESIS",
+      "evidence_profile": [
+        {
+          "component": "agentic-finance control/governance questions",
+          "claim_type": "Audit",
+          "status": null,
+          "scope": "conceptual extension"
+        },
+        {
+          "component": "long-term real-world outcome evidence",
+          "claim_type": "Predictive boundary",
+          "status": "E",
+          "scope": "limited / historically sparse"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET",
+          "HAI-SEC-D12-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "What We Cannot Say Yet",
+            "locator": "D12:1309-1337",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          },
+          {
+            "section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+            "heading": "中心的な区別（Core Distinctions）",
+            "locator": "D12:112-191",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [
+          "HAI-SRC-0093",
+          "HAI-SRC-0069"
+        ],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-029",
+        "HAI-QRY-032"
+      ]
+    }
+  ]
+}
