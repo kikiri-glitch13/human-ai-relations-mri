@@ -5,135 +5,228 @@
   "status": "PUBLICATION_LOCKED",
   "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
   "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
-  "design": {
-    "purpose": "Small-file Web/AI retrieval layer over the locked canonical MRI v1.0 build.",
-    "target_max_file_size_bytes": 102400,
-    "authority_rule": "Canonical Publication Build controls over all retrieval derivatives.",
-    "retrieval_sequence": [
-      "Human_AI_Relations_MRI_v1.0_WEB_ENTRY.md",
-      "Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json",
-      "relevant DOMAIN_Dxx shard",
-      "Human_AI_Relations_MRI_v1.0_CLAIMS.json",
-      "Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json",
-      "canonical full JSON only if deeper context is needed"
-    ]
-  },
+  "authority_rule": "Canonical Publication Build controls over all retrieval derivatives.",
+  "retrieval_order": [
+    "Human_AI_Relations_MRI_v1.0_WEB_ENTRY.md",
+    "relevant DOMAIN_Dxx.md",
+    "matching DOMAIN_Dxx.json if accessible",
+    "Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json",
+    "Human_AI_Relations_MRI_v1.0_CLAIMS.json",
+    "Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json",
+    "Human_AI_Relations_MRI_v1.0_Publication_Build.json"
+  ],
   "counts": {
-    "domain_shards": 13,
+    "domain_markdown_mirrors": 13,
+    "domain_json_shards": 13,
     "major_claims": 37,
     "non_equivalences": 280,
     "query_routes": 36,
-    "global_sources": 124,
-    "files_in_web_retrieval_layer": 19
+    "global_sources": 124
   },
   "files": [
     {
+      "filename": "CROSS_MODEL_RETRIEVAL_TESTS.md",
+      "role": "SUPPORT",
+      "bytes": 984,
+      "sha256": "beb4f10d0aa133b054d6972e6503a38c38a409049327856c0a453f0af2682f9a"
+    },
+    {
       "filename": "Human_AI_Relations_MRI_v1.0_CLAIMS.json",
+      "role": "CLAIMS",
       "bytes": 72227,
-      "sha256": "4ba3066945227b0f4f6340bdf5ed9921197e6554905f1cccbd4fcd53fff9878a",
-      "role": "CLAIMS"
+      "sha256": "4ba3066945227b0f4f6340bdf5ed9921197e6554905f1cccbd4fcd53fff9878a"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D00.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 32665,
-      "sha256": "74c273cd30f497c81221302c35fe8daba3db3d1490c2306fee44e9d1e7d4285e",
-      "role": "DOMAIN_SHARD"
+      "sha256": "74c273cd30f497c81221302c35fe8daba3db3d1490c2306fee44e9d1e7d4285e"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D00.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 10830,
+      "sha256": "bb735fb66e38324262b1543aade153dbb9e3bdc45cfdb81e1710941648732094"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D01.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 50116,
-      "sha256": "89d825acbc179a153f02705cf9eb29dddfb93170319e59159173854df417351d",
-      "role": "DOMAIN_SHARD"
+      "sha256": "89d825acbc179a153f02705cf9eb29dddfb93170319e59159173854df417351d"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D01.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 14759,
+      "sha256": "2a81a17978e011d1731023f30a47f16c6921949c172832fa049ebc0c100ec06f"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D02.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 57518,
-      "sha256": "920695280f8424b5c0378040cb98968a080795ba76a3e5089f1b29751a0fef86",
-      "role": "DOMAIN_SHARD"
+      "sha256": "920695280f8424b5c0378040cb98968a080795ba76a3e5089f1b29751a0fef86"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D02.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 14781,
+      "sha256": "af2f747943e7bd1687aa1cbe7b9cc696622e5cb1c8cbe9c9c3ded7b9dfd57075"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D03.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 50593,
-      "sha256": "e4ca9e816563c80397faace96766ddfb39ae1dc4d7747d9cfa6e4ad1bf574be2",
-      "role": "DOMAIN_SHARD"
+      "sha256": "e4ca9e816563c80397faace96766ddfb39ae1dc4d7747d9cfa6e4ad1bf574be2"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D03.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 13729,
+      "sha256": "442e586873e0ceef608e9df9871c8af6fc1b9bb570560d3dd2d7f5f1cb80a6df"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D04.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 46597,
-      "sha256": "384a4c0988ea636320dc89ef6f8e8bf4e27216ad5dd179ed753133f31c940567",
-      "role": "DOMAIN_SHARD"
+      "sha256": "384a4c0988ea636320dc89ef6f8e8bf4e27216ad5dd179ed753133f31c940567"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D04.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 11862,
+      "sha256": "a9534b5050934759394708276bd41cc6586f916d0cf26a6f5a80a2f32de57ee2"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D05.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 50209,
-      "sha256": "9ffc7ff11b342003911ad0945efe5888127079084c1dc8e22c39d96498147856",
-      "role": "DOMAIN_SHARD"
+      "sha256": "9ffc7ff11b342003911ad0945efe5888127079084c1dc8e22c39d96498147856"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D05.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 12338,
+      "sha256": "065b299f52b9939b4db2e761e83a968dad715f6cc130b1186d4b77e81a77d505"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D06.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 41855,
-      "sha256": "b9e9664753b992f9f9f145e48dbdbe5ec7803065f8a4e276e08ba08535919476",
-      "role": "DOMAIN_SHARD"
+      "sha256": "b9e9664753b992f9f9f145e48dbdbe5ec7803065f8a4e276e08ba08535919476"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D06.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 12998,
+      "sha256": "5d9f888d40734bad3062bae18c68644ce72740c45fcd75e7d40dddeae677e922"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D07.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 63911,
-      "sha256": "7d6c1f6ecdd791594daf5572475fcce55cd2817e9e441870690f48c4b2ed9bbd",
-      "role": "DOMAIN_SHARD"
+      "sha256": "7d6c1f6ecdd791594daf5572475fcce55cd2817e9e441870690f48c4b2ed9bbd"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D07.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 15245,
+      "sha256": "acc4e3b4f05e8a710f9f9bad15203eaef96a5c8252d94ef573276979ef3cc7e9"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D08.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 49950,
-      "sha256": "bfdc2b8816104db294ed3ad4cea6a2f143246a836a4a764c608efe4095dfc761",
-      "role": "DOMAIN_SHARD"
+      "sha256": "bfdc2b8816104db294ed3ad4cea6a2f143246a836a4a764c608efe4095dfc761"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D08.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 13090,
+      "sha256": "a89f02bd7eba07cc10c86e42c06ec84c4045b70b15a60c8440cac76a1c191959"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D09.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 60745,
-      "sha256": "e4aab8ecc6471e09ab82d04c9720dc776fcc80871c4e2df2cd31e90a769abd75",
-      "role": "DOMAIN_SHARD"
+      "sha256": "e4aab8ecc6471e09ab82d04c9720dc776fcc80871c4e2df2cd31e90a769abd75"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D09.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 14226,
+      "sha256": "4a2a25bea9a5db53bb25ad9d1345ad64a4e0f4a2de74d2fbb7a867eb724c8edf"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D10.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 60800,
-      "sha256": "ccfae50845167c6a36118e0f6f22b9bea7c85fd5e028fdc72c495303f11efaa9",
-      "role": "DOMAIN_SHARD"
+      "sha256": "ccfae50845167c6a36118e0f6f22b9bea7c85fd5e028fdc72c495303f11efaa9"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D10.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 13558,
+      "sha256": "9fe46643decfac49765c4a5ab7fd11babb04ff9e79b50164946782b5d3ddcfa0"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D11.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 75506,
-      "sha256": "61d53020b9c828dd53d5cf48a3188f737d38b4fce3a63f2aaffb8ccd60b00f5c",
-      "role": "DOMAIN_SHARD"
+      "sha256": "61d53020b9c828dd53d5cf48a3188f737d38b4fce3a63f2aaffb8ccd60b00f5c"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D11.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 15322,
+      "sha256": "fea7df413a39d94502f65c2ecce357a4f6f0fd85ae5a9bd0d8cb9c8d96a426c4"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D12.json",
+      "role": "DOMAIN_JSON_SHARD",
       "bytes": 79767,
-      "sha256": "f5dd0ffd89388a0bfce0cf97302bb303593d7fda554bd01dce7dfa8b270bd010",
-      "role": "DOMAIN_SHARD"
+      "sha256": "f5dd0ffd89388a0bfce0cf97302bb303593d7fda554bd01dce7dfa8b270bd010"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D12.md",
+      "role": "DOMAIN_MARKDOWN_MIRROR",
+      "bytes": 15600,
+      "sha256": "e1adeb92f414c565d1b28372ef238bdaad7b1da34d620a29aec391020a6eb8d9"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json",
+      "role": "QUERY_ROUTES",
       "bytes": 63426,
-      "sha256": "5c36786bc45858730f1e8d4b92516f3bc347eda49f4370195c6a68b9fc802a3b",
-      "role": "QUERY_ROUTES"
+      "sha256": "5c36786bc45858730f1e8d4b92516f3bc347eda49f4370195c6a68b9fc802a3b"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json",
-      "bytes": 79258,
-      "sha256": "9934a0037fcd5be6384cb74e1cbdac926589578ad41eef223a24d257e6719b4d",
-      "role": "SOURCE_INDEX"
+      "role": "SOURCE_INDEX",
+      "bytes": 73845,
+      "sha256": "f10093e396a5e3705214ed895f0682210b18b09681964977dc2ccda1837c9482"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_WEB_ENTRY.md",
-      "bytes": 8823,
-      "sha256": "3494fbc61d26e3edfd11f88a60b6ef8021a8aa162c922d8089a5b390db1e5324",
-      "role": "WEB_ENTRY"
+      "role": "WEB_ENTRY",
+      "bytes": 10565,
+      "sha256": "ecdc3e27751358fbe776a8580b531567a152aedede8c1b26c1241700baf171cb"
     },
     {
       "filename": "Human_AI_Relations_MRI_v1.0_WEB_RETRIEVAL_VALIDATION.md",
-      "bytes": 1772,
-      "sha256": "cc4db97e11f2a99e53a5e11a5f48ce4fc0bdfd1f3ff90a8942057326faa59c6d",
-      "role": "VALIDATION"
+      "role": "VALIDATION",
+      "bytes": 2827,
+      "sha256": "c86e9688133b3d4644e34b649f6dc4f78912d9fb8a554bc9b8faaa0820c1d3c6"
+    },
+    {
+      "filename": "NOTE_WEB_RETRIEVAL_PATCH.md",
+      "role": "SUPPORT",
+      "bytes": 2087,
+      "sha256": "ea974317b59a3d89ba3aa0032c2ba456c084f762dc58c9427ef1dd0270129756"
+    },
+    {
+      "filename": "README_WEB_RETRIEVAL_PATCH.md",
+      "role": "SUPPORT",
+      "bytes": 824,
+      "sha256": "8fcdc3cdf74cefcac9e87692445a2fa86def2423dea1dbbf0bcc79b401e2db03"
     }
   ]
 }
