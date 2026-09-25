@@ -1,0 +1,2456 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_SHARD",
+  "registry": "Query Routing",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Use this file to route natural-language questions to primary domain shards, claims, and NEQs.",
+  "retrieval_protocol": {
+    "default_order": [
+      "resolve query cluster",
+      "retrieve primary domain(s)",
+      "apply Domain 0 audit rules",
+      "retrieve core HAI-CLM records",
+      "retrieve key HAI-NEQ records",
+      "retrieve What We Can Say Now",
+      "retrieve What We Cannot Say Yet",
+      "retrieve Boundary Conditions",
+      "retrieve secondary domain(s)",
+      "retrieve counterexample domain(s)",
+      "retrieve Direct AI-Specific Evidence",
+      "retrieve Does Not Support constraints",
+      "retrieve supporting / limiting / adjacent HAI-SRC records"
+    ],
+    "source_use_rule": "A source must be read with its domain-specific SUPPORTS and DOES_NOT_SUPPORT fields. Global source identity does not imply a single global evidentiary role.",
+    "legal_rule": "Legal instruments, case law, standards, and policy documents are not empirical proof of effectiveness.",
+    "counterexample_rule": "Counterexample domains are anti-overgeneralization routes, not oppositional verdicts."
+  },
+  "count": 36,
+  "query_routes": [
+    {
+      "route_id": "HAI-QRY-001",
+      "query_cluster": "AI learning / retention / transfer",
+      "primary_domains": [
+        "D01"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-003",
+        "HAI-CLM-004",
+        "HAI-CLM-005"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-001",
+        "HAI-NEQ-002",
+        "HAI-NEQ-003",
+        "HAI-NEQ-004",
+        "HAI-NEQ-005",
+        "HAI-NEQ-006",
+        "HAI-NEQ-007",
+        "HAI-NEQ-008",
+        "HAI-NEQ-009",
+        "HAI-NEQ-010",
+        "HAI-NEQ-219"
+      ],
+      "secondary_domains": [
+        "D09",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D01": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D01-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D01-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D01-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-002",
+      "query_cluster": "AI causes deskilling",
+      "primary_domains": [
+        "D01"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-004",
+        "HAI-CLM-005"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-008",
+        "HAI-NEQ-133",
+        "HAI-NEQ-215",
+        "HAI-NEQ-216",
+        "HAI-NEQ-217",
+        "HAI-NEQ-218"
+      ],
+      "secondary_domains": [
+        "D09",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D01": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D01-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D01-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D01-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-003",
+      "query_cluster": "permanent AI support means failure",
+      "primary_domains": [
+        "D08"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-021",
+        "HAI-CLM-022",
+        "HAI-CLM-023"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-009",
+        "HAI-NEQ-094",
+        "HAI-NEQ-095",
+        "HAI-NEQ-115",
+        "HAI-NEQ-116"
+      ],
+      "secondary_domains": [
+        "D01",
+        "D07"
+      ],
+      "counterexample_domains": [
+        "D01"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D08": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D08-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D08-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D08-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D08-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D08-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-004",
+      "query_cluster": "who really made the decision?",
+      "primary_domains": [
+        "D02"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-006",
+        "HAI-CLM-007"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-013",
+        "HAI-NEQ-014",
+        "HAI-NEQ-015",
+        "HAI-NEQ-016",
+        "HAI-NEQ-017",
+        "HAI-NEQ-018",
+        "HAI-NEQ-019",
+        "HAI-NEQ-020",
+        "HAI-NEQ-021",
+        "HAI-NEQ-022",
+        "HAI-NEQ-023",
+        "HAI-NEQ-024",
+        "HAI-NEQ-025",
+        "HAI-NEQ-026",
+        "HAI-NEQ-027",
+        "HAI-NEQ-028",
+        "HAI-NEQ-261",
+        "HAI-NEQ-011",
+        "HAI-NEQ-012",
+        "HAI-NEQ-179",
+        "HAI-NEQ-220",
+        "HAI-NEQ-222"
+      ],
+      "secondary_domains": [
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D02": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D02-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D02-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D02-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D02-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-005",
+      "query_cluster": "delegation and autonomy",
+      "primary_domains": [
+        "D02"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-007",
+        "HAI-CLM-021"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-024",
+        "HAI-NEQ-025",
+        "HAI-NEQ-091",
+        "HAI-NEQ-092",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-272",
+        "HAI-NEQ-273",
+        "HAI-NEQ-223"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D08",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D02": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D02-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D02-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D02-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D02-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-006",
+      "query_cluster": "trust / overtrust / reliance",
+      "primary_domains": [
+        "D03"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-009",
+        "HAI-CLM-010",
+        "HAI-CLM-011"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-029",
+        "HAI-NEQ-030",
+        "HAI-NEQ-031",
+        "HAI-NEQ-032",
+        "HAI-NEQ-033",
+        "HAI-NEQ-034",
+        "HAI-NEQ-035",
+        "HAI-NEQ-036",
+        "HAI-NEQ-037",
+        "HAI-NEQ-038",
+        "HAI-NEQ-039",
+        "HAI-NEQ-040",
+        "HAI-NEQ-041",
+        "HAI-NEQ-042",
+        "HAI-NEQ-043",
+        "HAI-NEQ-224",
+        "HAI-NEQ-225",
+        "HAI-NEQ-226",
+        "HAI-NEQ-228",
+        "HAI-NEQ-229",
+        "HAI-NEQ-221"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D10",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D03": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D03-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D03-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D03-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-007",
+      "query_cluster": "explanation improves decisions",
+      "primary_domains": [
+        "D03"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-010"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-026",
+        "HAI-NEQ-037",
+        "HAI-NEQ-038",
+        "HAI-NEQ-039",
+        "HAI-NEQ-040",
+        "HAI-NEQ-154",
+        "HAI-NEQ-258",
+        "HAI-NEQ-262",
+        "HAI-NEQ-263",
+        "HAI-NEQ-264"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D10",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D10"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D03": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D03-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D03-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D03-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-008",
+      "query_cluster": "AI agreement validates user belief",
+      "primary_domains": [
+        "D03"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-011"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-043",
+        "HAI-NEQ-055",
+        "HAI-NEQ-074",
+        "HAI-NEQ-075",
+        "HAI-NEQ-228",
+        "HAI-NEQ-229"
+      ],
+      "secondary_domains": [
+        "D04",
+        "D05",
+        "D06"
+      ],
+      "counterexample_domains": [
+        "D04"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D03": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D03-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D03-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D03-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-009",
+      "query_cluster": "AI translation / rewriting preserves intent",
+      "primary_domains": [
+        "D04"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-012"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-044",
+        "HAI-NEQ-045",
+        "HAI-NEQ-046",
+        "HAI-NEQ-047",
+        "HAI-NEQ-048",
+        "HAI-NEQ-049",
+        "HAI-NEQ-050",
+        "HAI-NEQ-051",
+        "HAI-NEQ-052",
+        "HAI-NEQ-053",
+        "HAI-NEQ-054",
+        "HAI-NEQ-055",
+        "HAI-NEQ-056",
+        "HAI-NEQ-057",
+        "HAI-NEQ-058",
+        "HAI-NEQ-059",
+        "HAI-NEQ-060",
+        "HAI-NEQ-061",
+        "HAI-NEQ-230",
+        "HAI-NEQ-231",
+        "HAI-NEQ-232",
+        "HAI-NEQ-233",
+        "HAI-NEQ-248",
+        "HAI-NEQ-249",
+        "HAI-NEQ-234"
+      ],
+      "secondary_domains": [
+        "D08"
+      ],
+      "counterexample_domains": [
+        "D11"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D04": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D04-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D04-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D04-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D04-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-010",
+      "query_cluster": "AI persuasion / deliberation / consensus",
+      "primary_domains": [
+        "D04"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-013",
+        "HAI-CLM-014"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-048",
+        "HAI-NEQ-054",
+        "HAI-NEQ-055",
+        "HAI-NEQ-056",
+        "HAI-NEQ-235"
+      ],
+      "secondary_domains": [
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D04": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D04-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D04-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D04-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D04-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-011",
+      "query_cluster": "AI companionship / attachment / intimacy",
+      "primary_domains": [
+        "D05"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-015",
+        "HAI-CLM-016",
+        "HAI-CLM-017"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-062",
+        "HAI-NEQ-063",
+        "HAI-NEQ-064",
+        "HAI-NEQ-065",
+        "HAI-NEQ-066",
+        "HAI-NEQ-067",
+        "HAI-NEQ-068",
+        "HAI-NEQ-069",
+        "HAI-NEQ-070",
+        "HAI-NEQ-071",
+        "HAI-NEQ-072",
+        "HAI-NEQ-073",
+        "HAI-NEQ-074",
+        "HAI-NEQ-075",
+        "HAI-NEQ-076",
+        "HAI-NEQ-077",
+        "HAI-NEQ-078",
+        "HAI-NEQ-236",
+        "HAI-NEQ-237",
+        "HAI-NEQ-238",
+        "HAI-NEQ-239"
+      ],
+      "secondary_domains": [
+        "D06",
+        "D07"
+      ],
+      "counterexample_domains": [
+        "D04"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D05": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D05-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D05-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D05-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-012",
+      "query_cluster": "AI companion reduces loneliness",
+      "primary_domains": [
+        "D05"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-017"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-069",
+        "HAI-NEQ-070",
+        "HAI-NEQ-071",
+        "HAI-NEQ-111",
+        "HAI-NEQ-112",
+        "HAI-NEQ-239",
+        "HAI-NEQ-245"
+      ],
+      "secondary_domains": [
+        "D06",
+        "D07"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D05": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D05-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D05-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D05-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-013",
+      "query_cluster": "AI therapy / mental-health benefit",
+      "primary_domains": [
+        "D06"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-018",
+        "HAI-CLM-019",
+        "HAI-CLM-020"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-079",
+        "HAI-NEQ-080",
+        "HAI-NEQ-081",
+        "HAI-NEQ-082",
+        "HAI-NEQ-083",
+        "HAI-NEQ-084",
+        "HAI-NEQ-085",
+        "HAI-NEQ-086",
+        "HAI-NEQ-087",
+        "HAI-NEQ-088",
+        "HAI-NEQ-089",
+        "HAI-NEQ-240",
+        "HAI-NEQ-241",
+        "HAI-NEQ-242",
+        "HAI-NEQ-243"
+      ],
+      "secondary_domains": [
+        "D05",
+        "D07",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D05"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D06": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D06-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D06-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D06-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-014",
+      "query_cluster": "crisis detection means prevention",
+      "primary_domains": [
+        "D06"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-020"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-087",
+        "HAI-NEQ-088",
+        "HAI-NEQ-089",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-246"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D06": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D06-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D06-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D06-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-015",
+      "query_cluster": "care monitoring / aging in place",
+      "primary_domains": [
+        "D07"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-021"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-096",
+        "HAI-NEQ-097",
+        "HAI-NEQ-098",
+        "HAI-NEQ-099",
+        "HAI-NEQ-100",
+        "HAI-NEQ-101",
+        "HAI-NEQ-102",
+        "HAI-NEQ-103",
+        "HAI-NEQ-104",
+        "HAI-NEQ-105",
+        "HAI-NEQ-106",
+        "HAI-NEQ-107",
+        "HAI-NEQ-108",
+        "HAI-NEQ-109",
+        "HAI-NEQ-110",
+        "HAI-NEQ-111",
+        "HAI-NEQ-112",
+        "HAI-NEQ-113",
+        "HAI-NEQ-114",
+        "HAI-NEQ-244",
+        "HAI-NEQ-245",
+        "HAI-NEQ-246",
+        "HAI-NEQ-247"
+      ],
+      "secondary_domains": [
+        "D06",
+        "D08",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D05"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D07": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D07-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D07-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D07-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-016",
+      "query_cluster": "supported decision-making / consent",
+      "primary_domains": [
+        "D07"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-021"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-101",
+        "HAI-NEQ-102",
+        "HAI-NEQ-103",
+        "HAI-NEQ-104",
+        "HAI-NEQ-105"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D12"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D07": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D07-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D07-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D07-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-017",
+      "query_cluster": "accessibility / assistive AI",
+      "primary_domains": [
+        "D08"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-022",
+        "HAI-CLM-023"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-115",
+        "HAI-NEQ-116",
+        "HAI-NEQ-117",
+        "HAI-NEQ-118",
+        "HAI-NEQ-119",
+        "HAI-NEQ-120",
+        "HAI-NEQ-121",
+        "HAI-NEQ-122",
+        "HAI-NEQ-123",
+        "HAI-NEQ-124",
+        "HAI-NEQ-125",
+        "HAI-NEQ-126",
+        "HAI-NEQ-248",
+        "HAI-NEQ-249",
+        "HAI-NEQ-250",
+        "HAI-NEQ-251"
+      ],
+      "secondary_domains": [
+        "D01",
+        "D07"
+      ],
+      "counterexample_domains": [
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D08": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D08-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D08-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D08-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D08-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D08-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-018",
+      "query_cluster": "AI improves productivity",
+      "primary_domains": [
+        "D09"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-024",
+        "HAI-CLM-025",
+        "HAI-CLM-026",
+        "HAI-CLM-027"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-127",
+        "HAI-NEQ-128",
+        "HAI-NEQ-129",
+        "HAI-NEQ-130",
+        "HAI-NEQ-131",
+        "HAI-NEQ-132",
+        "HAI-NEQ-133",
+        "HAI-NEQ-134",
+        "HAI-NEQ-135",
+        "HAI-NEQ-136",
+        "HAI-NEQ-137",
+        "HAI-NEQ-138",
+        "HAI-NEQ-139",
+        "HAI-NEQ-140",
+        "HAI-NEQ-141",
+        "HAI-NEQ-252",
+        "HAI-NEQ-253",
+        "HAI-NEQ-254",
+        "HAI-NEQ-255",
+        "HAI-NEQ-256",
+        "HAI-NEQ-257",
+        "HAI-NEQ-258",
+        "HAI-NEQ-259"
+      ],
+      "secondary_domains": [
+        "D01",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D01"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D09": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D09-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D09-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D09-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-019",
+      "query_cluster": "AI reduces workload",
+      "primary_domains": [
+        "D09"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-026",
+        "HAI-CLM-027"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-129",
+        "HAI-NEQ-130",
+        "HAI-NEQ-131",
+        "HAI-NEQ-132",
+        "HAI-NEQ-256"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D09": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D09-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D09-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D09-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-020",
+      "query_cluster": "workers trust AI because they use it",
+      "primary_domains": [
+        "D09"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-027"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-135",
+        "HAI-NEQ-136",
+        "HAI-NEQ-137"
+      ],
+      "secondary_domains": [
+        "D03",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D09": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D09-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D09-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D09-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-021",
+      "query_cluster": "human-in-the-loop means safe",
+      "primary_domains": [
+        "D10"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-028",
+        "HAI-CLM-029",
+        "HAI-CLM-030"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-142",
+        "HAI-NEQ-143",
+        "HAI-NEQ-144",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-151",
+        "HAI-NEQ-152",
+        "HAI-NEQ-153",
+        "HAI-NEQ-154",
+        "HAI-NEQ-155",
+        "HAI-NEQ-156",
+        "HAI-NEQ-157",
+        "HAI-NEQ-158",
+        "HAI-NEQ-159",
+        "HAI-NEQ-160",
+        "HAI-NEQ-161",
+        "HAI-NEQ-162",
+        "HAI-NEQ-163",
+        "HAI-NEQ-164",
+        "HAI-NEQ-165",
+        "HAI-NEQ-166",
+        "HAI-NEQ-167",
+        "HAI-NEQ-168",
+        "HAI-NEQ-169",
+        "HAI-NEQ-170",
+        "HAI-NEQ-260"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D09",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D10": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D10-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D10-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D10-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-022",
+      "query_cluster": "override button / human control",
+      "primary_domains": [
+        "D10"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-028",
+        "HAI-CLM-029"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-144",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-159",
+        "HAI-NEQ-160",
+        "HAI-NEQ-161",
+        "HAI-NEQ-162",
+        "HAI-NEQ-260",
+        "HAI-NEQ-180"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D11",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D02"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D10": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D10-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D10-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D10-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-023",
+      "query_cluster": "AI reasoning trace proves safety",
+      "primary_domains": [
+        "D10"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-029",
+        "HAI-CLM-030"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-154",
+        "HAI-NEQ-155",
+        "HAI-NEQ-156",
+        "HAI-NEQ-164",
+        "HAI-NEQ-263",
+        "HAI-NEQ-264"
+      ],
+      "secondary_domains": [
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D10": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D10-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D10-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D10-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-024",
+      "query_cluster": "accuracy means safe / fair / legitimate",
+      "primary_domains": [
+        "D11"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-030",
+        "HAI-CLM-031",
+        "HAI-CLM-032",
+        "HAI-CLM-034"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-123",
+        "HAI-NEQ-157",
+        "HAI-NEQ-171",
+        "HAI-NEQ-172",
+        "HAI-NEQ-173",
+        "HAI-NEQ-190",
+        "HAI-NEQ-204"
+      ],
+      "secondary_domains": [
+        "D08",
+        "D10",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D11": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D11-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D11-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D11-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D11-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D11-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-025",
+      "query_cluster": "explanation / transparency means accountability",
+      "primary_domains": [
+        "D11"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-033"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-178",
+        "HAI-NEQ-182",
+        "HAI-NEQ-183",
+        "HAI-NEQ-184",
+        "HAI-NEQ-185",
+        "HAI-NEQ-186",
+        "HAI-NEQ-187",
+        "HAI-NEQ-188",
+        "HAI-NEQ-189",
+        "HAI-NEQ-258",
+        "HAI-NEQ-261",
+        "HAI-NEQ-262",
+        "HAI-NEQ-263",
+        "HAI-NEQ-264",
+        "HAI-NEQ-265",
+        "HAI-NEQ-266",
+        "HAI-NEQ-267",
+        "HAI-NEQ-268",
+        "HAI-NEQ-269",
+        "HAI-NEQ-270",
+        "HAI-NEQ-174",
+        "HAI-NEQ-175",
+        "HAI-NEQ-176",
+        "HAI-NEQ-177",
+        "HAI-NEQ-181"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D10",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D11": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D11-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D11-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D11-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D11-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D11-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-026",
+      "query_cluster": "audit / certification proves safety",
+      "primary_domains": [
+        "D11"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-033"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-182",
+        "HAI-NEQ-183",
+        "HAI-NEQ-184",
+        "HAI-NEQ-185",
+        "HAI-NEQ-186",
+        "HAI-NEQ-187",
+        "HAI-NEQ-188",
+        "HAI-NEQ-189",
+        "HAI-NEQ-266",
+        "HAI-NEQ-267",
+        "HAI-NEQ-268"
+      ],
+      "secondary_domains": [
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D10"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D11": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D11-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D11-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D11-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D11-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D11-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-027",
+      "query_cluster": "AI credit scoring / financial access",
+      "primary_domains": [
+        "D12"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-034",
+        "HAI-CLM-035"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-190",
+        "HAI-NEQ-191",
+        "HAI-NEQ-192",
+        "HAI-NEQ-193",
+        "HAI-NEQ-194",
+        "HAI-NEQ-195",
+        "HAI-NEQ-196",
+        "HAI-NEQ-197",
+        "HAI-NEQ-198",
+        "HAI-NEQ-199",
+        "HAI-NEQ-200",
+        "HAI-NEQ-201",
+        "HAI-NEQ-202",
+        "HAI-NEQ-203",
+        "HAI-NEQ-204",
+        "HAI-NEQ-271",
+        "HAI-NEQ-274",
+        "HAI-NEQ-275",
+        "HAI-NEQ-276"
+      ],
+      "secondary_domains": [
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-028",
+      "query_cluster": "AI investment advice",
+      "primary_domains": [
+        "D12"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-034",
+        "HAI-CLM-036"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-195",
+        "HAI-NEQ-196",
+        "HAI-NEQ-197",
+        "HAI-NEQ-198",
+        "HAI-NEQ-199",
+        "HAI-NEQ-200",
+        "HAI-NEQ-201",
+        "HAI-NEQ-202",
+        "HAI-NEQ-203",
+        "HAI-NEQ-204",
+        "HAI-NEQ-205",
+        "HAI-NEQ-206",
+        "HAI-NEQ-207",
+        "HAI-NEQ-208",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-211",
+        "HAI-NEQ-212",
+        "HAI-NEQ-213",
+        "HAI-NEQ-214",
+        "HAI-NEQ-272",
+        "HAI-NEQ-273",
+        "HAI-NEQ-274",
+        "HAI-NEQ-275",
+        "HAI-NEQ-276",
+        "HAI-NEQ-277",
+        "HAI-NEQ-278"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D03"
+      ],
+      "counterexample_domains": [
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-029",
+      "query_cluster": "agentic finance / automated execution",
+      "primary_domains": [
+        "D12"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-037"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-193",
+        "HAI-NEQ-194",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-211",
+        "HAI-NEQ-272",
+        "HAI-NEQ-273",
+        "HAI-NEQ-269",
+        "HAI-NEQ-270"
+      ],
+      "secondary_domains": [
+        "D10",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D02"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-030",
+      "query_cluster": "AI dependence always reduces autonomy",
+      "primary_domains": [
+        "D07",
+        "D08"
+      ],
+      "routing_mode": "MULTI_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-021",
+        "HAI-CLM-022"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-073",
+        "HAI-NEQ-091",
+        "HAI-NEQ-092",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-250",
+        "HAI-NEQ-272",
+        "HAI-NEQ-090",
+        "HAI-NEQ-093"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D07": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D07-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D07-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D07-SOURCE-LEDGER"
+          ]
+        },
+        "D08": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D08-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D08-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D08-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D08-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D08-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-031",
+      "query_cluster": "personalization means user benefit",
+      "primary_domains": [
+        "D02",
+        "D12"
+      ],
+      "routing_mode": "MULTI_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-007",
+        "HAI-CLM-034"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-021",
+        "HAI-NEQ-057",
+        "HAI-NEQ-076",
+        "HAI-NEQ-100",
+        "HAI-NEQ-121",
+        "HAI-NEQ-197",
+        "HAI-NEQ-198",
+        "HAI-NEQ-199",
+        "HAI-NEQ-200",
+        "HAI-NEQ-251",
+        "HAI-NEQ-274",
+        "HAI-NEQ-275",
+        "HAI-NEQ-276"
+      ],
+      "secondary_domains": [
+        "D05",
+        "D07",
+        "D08"
+      ],
+      "counterexample_domains": [
+        "D11"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D02": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D02-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D02-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D02-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D02-SOURCE-LEDGER"
+          ]
+        },
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-032",
+      "query_cluster": "AI replaces humans",
+      "primary_domains": [],
+      "routing_mode": "CONTEXT_DEPENDENT",
+      "core_claim_ids": [
+        "HAI-CLM-022",
+        "HAI-CLM-026",
+        "HAI-CLM-029",
+        "HAI-CLM-037"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-113",
+        "HAI-NEQ-129",
+        "HAI-NEQ-142",
+        "HAI-NEQ-143",
+        "HAI-NEQ-253",
+        "HAI-NEQ-255",
+        "HAI-NEQ-256"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D09",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D07": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D07-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D07-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D07-SOURCE-LEDGER"
+          ]
+        },
+        "D09": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D09-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D09-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D09-SOURCE-LEDGER"
+          ]
+        },
+        "D10": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D10-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D10-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D10-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-033",
+      "query_cluster": "does AI help / is AI beneficial?",
+      "primary_domains": [
+        "D00"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-001"
+      ],
+      "key_non_equivalence_ids": [],
+      "secondary_domains": [
+        "D01",
+        "D02",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08",
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D00": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D00-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D00-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D00-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D00-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D00-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-034",
+      "query_cluster": "can existing theory be transferred to AI / do we need a new Human–AI theory?",
+      "primary_domains": [
+        "D00"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-002"
+      ],
+      "key_non_equivalence_ids": [],
+      "secondary_domains": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "counterexample_domains": [],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D00": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D00-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D00-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D00-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D00-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D00-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-035",
+      "query_cluster": "is human plus AI better than human or AI alone?",
+      "primary_domains": [
+        "D02"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-008"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-222"
+      ],
+      "secondary_domains": [
+        "D01",
+        "D03",
+        "D09"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D02": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D02-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D02-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D02-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D02-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-036",
+      "query_cluster": "is this AI claim legal, normative, or empirical?",
+      "primary_domains": [
+        "D11",
+        "D12"
+      ],
+      "routing_mode": "MULTI_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-032",
+        "HAI-CLM-034"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-172",
+        "HAI-NEQ-173",
+        "HAI-NEQ-186",
+        "HAI-NEQ-279",
+        "HAI-NEQ-280"
+      ],
+      "secondary_domains": [
+        "D00",
+        "D10"
+      ],
+      "counterexample_domains": [],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D11": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D11-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D11-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D11-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D11-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D11-SOURCE-LEDGER"
+          ]
+        },
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ]
+}
