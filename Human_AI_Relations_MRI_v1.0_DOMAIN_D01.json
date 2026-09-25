@@ -1,0 +1,1424 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D01",
+    "title": "【Human–AI Relations 領域1】学習・能力形成 ―― AI支援で課題ができることは「学習」を意味するのか",
+    "canonical_domain_name": "Learning・Capability Formation",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/n455d371bf73e",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-003",
+      "claim": "AI-assisted task performance does not establish durable, transferable, independently demonstrable human learning.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D01",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0013",
+        "HAI-SRC-0011"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D01-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D01:828-844",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D01:92-220",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0013",
+          "HAI-SRC-0011"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-001"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-004",
+      "claim": "Direct AI-learning evidence is heterogeneous: assisted performance, immediate learning, independent performance, and delayed retention can move in different directions depending on system design, task, assessment, and time horizon.",
+      "claim_type": "Descriptive",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D01",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0015",
+        "HAI-SRC-0016",
+        "HAI-SRC-0017",
+        "HAI-SRC-0018",
+        "HAI-SRC-0019",
+        "HAI-SRC-0020"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D01:828-844",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D01:376-394",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0015",
+          "HAI-SRC-0016",
+          "HAI-SRC-0017",
+          "HAI-SRC-0018",
+          "HAI-SRC-0019",
+          "HAI-SRC-0020"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-001",
+        "HAI-QRY-002"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-005",
+      "claim": "General long-term deskilling caused by persistent generative-AI use is not established by current longitudinal evidence.",
+      "claim_type": "Empirical boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D01",
+      "empirical_evidence_status": "E",
+      "supporting_source_ids": [],
+      "limiting_source_ids": [
+        "HAI-SRC-0015",
+        "HAI-SRC-0017",
+        "HAI-SRC-0012",
+        "HAI-SRC-0033"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D01:828-844",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D01:376-394",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D01:845-863",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [
+          "HAI-SRC-0015",
+          "HAI-SRC-0017",
+          "HAI-SRC-0012",
+          "HAI-SRC-0033"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-001",
+        "HAI-QRY-002"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-001",
+      "label": "Performance ≠ Learning",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:94-94",
+        "source_excerpt": "### 3.1 Assisted Performance ≠ Learning",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-002",
+      "label": "Immediate Post-Test ≠ Delayed Retention",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:127-127",
+        "source_excerpt": "### 3.3 Immediate Post-Test ≠ Delayed Retention",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-003",
+      "label": "Learning ≠ Retention",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "DERIVED_FROM_EXPLICIT_ASSESSMENT_DISTINCTION",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:94-94",
+        "source_excerpt": "### 3.1 Assisted Performance ≠ Learning",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-004",
+      "label": "Retention ≠ Transfer",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "DERIVED_FROM_EXPLICIT_ASSESSMENT_DISTINCTION",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:123-131",
+        "source_excerpt": "Transfer（転移）も、Knowledge / Skillが異なるTaskやContextへどの程度Generalize（一般化）するかを見るAssessmentである。[D1-S01]  ---  ### 3.3 Immediate Post-Test ≠ Delayed Retention  同一Sessionまたは介入直後のAI-free Test（AIなしテスト）を、そのままRetentionとは呼ばない。 Delayed Retentionを主張するには、時間を置いた評価が必要である。 ",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-005",
+      "label": "Correct Answer ≠ Understanding",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:134-134",
+        "source_excerpt": "### 3.4 Correct Answer ≠ Understanding",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-006",
+      "label": "Confidence ≠ Understanding",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:148-148",
+        "source_excerpt": "### 3.5 Confidence ≠ Understanding",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-03"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-007",
+      "label": "Perceived Fluency ≠ Durable Learning",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:156-158",
+        "source_excerpt": "**Perceived Fluency（流暢に理解できた感覚）** **≠ Durable Learning（持続的学習）** である。",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-008",
+      "label": "Cognitive Offloading ≠ Deskilling",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:162-162",
+        "source_excerpt": "### 3.6 Cognitive Offloading ≠ Deskilling",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-009",
+      "label": "Permanent Support ≠ Learning Failure",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:179-179",
+        "source_excerpt": "### 3.7 Permanent Support ≠ Learning Failure",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-010",
+      "label": "Human-only Performance ≠ Universal Gold Standard",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:92-220",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-215",
+      "label": "Cognitive Offloading ≠ Skill Non-use",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_OR_CLOSE_PARAPHRASE",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:170-172",
+        "source_excerpt": "**認知的オフローディング（Offloading）** **≠ 技能非使用（Skill Non-use）** **≠ 独立遂行低下（Reduced Independent Performance）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-216",
+      "label": "Skill Non-use ≠ Reduced Independent Performance",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:170-172",
+        "source_excerpt": "**認知的オフローディング（Offloading）** **≠ 技能非使用（Skill Non-use）** **≠ 独立遂行低下（Reduced Independent Performance）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-217",
+      "label": "Reduced Independent Performance ≠ Measured Skill Loss",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:169-173",
+        "source_excerpt": "さらに、 **認知的オフローディング（Offloading）** **≠ 技能非使用（Skill Non-use）** **≠ 独立遂行低下（Reduced Independent Performance）** **≠ 測定された技能低下（Measured Skill Loss）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-218",
+      "label": "Measured Skill Loss ≠ Long-term Deskilling",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:168-174",
+        "source_excerpt": "とは自動的に言えない。 さらに、 **認知的オフローディング（Offloading）** **≠ 技能非使用（Skill Non-use）** **≠ 独立遂行低下（Reduced Independent Performance）** **≠ 測定された技能低下（Measured Skill Loss）** **≠ 長期的技能萎縮（Long-term Deskilling）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-219",
+      "label": "Answer Provision ≠ Learning Harm",
+      "primary_domain": "D01",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D01",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D01:92-220",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-01",
+      "secondary_neq_cluster_ids": []
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-001",
+      "query_cluster": "AI learning / retention / transfer",
+      "primary_domains": [
+        "D01"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-003",
+        "HAI-CLM-004",
+        "HAI-CLM-005"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-001",
+        "HAI-NEQ-002",
+        "HAI-NEQ-003",
+        "HAI-NEQ-004",
+        "HAI-NEQ-005",
+        "HAI-NEQ-006",
+        "HAI-NEQ-007",
+        "HAI-NEQ-008",
+        "HAI-NEQ-009",
+        "HAI-NEQ-010",
+        "HAI-NEQ-219"
+      ],
+      "secondary_domains": [
+        "D09",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D01": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D01-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D01-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D01-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-002",
+      "query_cluster": "AI causes deskilling",
+      "primary_domains": [
+        "D01"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-004",
+        "HAI-CLM-005"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-008",
+        "HAI-NEQ-133",
+        "HAI-NEQ-215",
+        "HAI-NEQ-216",
+        "HAI-NEQ-217",
+        "HAI-NEQ-218"
+      ],
+      "secondary_domains": [
+        "D09",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D01": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D01-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D01-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D01-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-001",
+      "HAI-QRY-002"
+    ],
+    "secondary": [
+      "HAI-QRY-003",
+      "HAI-QRY-017",
+      "HAI-QRY-018",
+      "HAI-QRY-033",
+      "HAI-QRY-034",
+      "HAI-QRY-035"
+    ],
+    "counterexample": [
+      "HAI-QRY-003",
+      "HAI-QRY-018"
+    ]
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D01-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D01:20-35"
+    },
+    {
+      "section_id": "HAI-SEC-D01-DOMAIN-SCOPE",
+      "section_type": "DOMAIN_SCOPE",
+      "heading": "Domain",
+      "source_locator": "D01:36-74"
+    },
+    {
+      "section_id": "HAI-SEC-D01-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D01:75-91"
+    },
+    {
+      "section_id": "HAI-SEC-D01-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Key Distinctions",
+      "source_locator": "D01:92-220"
+    },
+    {
+      "section_id": "HAI-SEC-D01-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D01:341-375"
+    },
+    {
+      "section_id": "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence",
+      "source_locator": "D01:376-394"
+    },
+    {
+      "section_id": "HAI-SEC-D01-ALTERNATIVE-EXPLANATIONS",
+      "section_type": "ALTERNATIVE_EXPLANATIONS",
+      "heading": "Counterevidence / Alternative Explanations",
+      "source_locator": "D01:755-797"
+    },
+    {
+      "section_id": "HAI-SEC-D01-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence / Alternative Explanations",
+      "source_locator": "D01:755-797"
+    },
+    {
+      "section_id": "HAI-SEC-D01-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D01:798-827"
+    },
+    {
+      "section_id": "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "現時点で言えること / What We Can Say Now",
+      "source_locator": "D01:828-844"
+    },
+    {
+      "section_id": "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "現時点では言えないこと / What We Cannot Say Yet",
+      "source_locator": "D01:845-863"
+    },
+    {
+      "section_id": "HAI-SEC-D01-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D01:864-929"
+    },
+    {
+      "section_id": "HAI-SEC-D01-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D01:930-961"
+    },
+    {
+      "section_id": "HAI-SEC-D01-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D01:962-1369"
+    },
+    {
+      "section_id": "HAI-SEC-D01-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D01:1370-1390"
+    },
+    {
+      "section_id": "HAI-SEC-D01-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D01:1391-1424"
+    },
+    {
+      "section_id": "HAI-SEC-D01-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D01:1425-1467"
+    },
+    {
+      "section_id": "HAI-SEC-D01-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D01].does_not_support"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0011",
+      "record_type": "STANDARD",
+      "canonical_title": "AERA / APA / NCME (2014)",
+      "canonical_citation": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for Educational and Psychological Testing.",
+      "year": "2014",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D0-S11",
+        "D1-S13"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D01"
+      ],
+      "source_types": [
+        "Authoritative Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.testingstandards.net/open-access-files.html",
+      "source_lock_verification_note": "2014 English edition remains an official open-access edition; a revision process is underway.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S13",
+          "supports": "Validity（妥当性）はTarget ConstructとScore Interpretation / Intended Useに依存すること。",
+          "does_not_support": "AI-free Testだけが普遍的に唯一正しい評価であること。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0012",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Risko & Gilbert (2016)",
+      "canonical_citation": "Risko, E. F., & Gilbert, S. J. (2016). Cognitive Offloading. Trends in Cognitive Sciences, 20(9), 676–688.",
+      "year": "2016",
+      "doi_or_primary_ids": [
+        "10.1016/j.tics.2016.07.002"
+      ],
+      "local_source_ids": [
+        "D0-S12",
+        "D1-S09"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D01"
+      ],
+      "source_types": [
+        "Review",
+        "Authoritative Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S09",
+          "supports": "External ToolによるCognitive Offloadingが確立された現象であること。",
+          "does_not_support": "Generative AI-specific Deskilling。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": "Generative AI以前の研究伝統。",
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0013",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Barnett & Ceci (2002)",
+      "canonical_citation": "Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? A taxonomy for far transfer. Psychological Bulletin, 128(4), 612–637.",
+      "year": "2002",
+      "doi_or_primary_ids": [
+        "10.1037/0033-2909.128.4.612"
+      ],
+      "local_source_ids": [
+        "D1-S01"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Authoritative Review / Taxonomy"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S01",
+          "supports": "Transferが単一Outcomeではなく、Content、Context、Time、Modality等によって異なること。",
+          "does_not_support": "Generative AI固有のTransfer Effect。",
+          "evidence_layer": "Layer A — Existing Research Tradition",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": "AI-specific Evidenceではない。",
+          "claim_type": "Conceptual / Empirical Review"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0014",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Roediger & Karpicke (2006)",
+      "canonical_citation": "Roediger, H. L., III, & Karpicke, J. D. (2006). Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention. Psychological Science, 17(3), 249–255.",
+      "year": "2006",
+      "doi_or_primary_ids": [
+        "10.1111/j.1467-9280.2006.01693.x"
+      ],
+      "local_source_ids": [
+        "D1-S02"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Experimental Cognitive Psychology"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S02",
+          "supports": "Immediate PerformanceとDelayed Retentionが異なる方向へ動き得ること。Retrieval PracticeがDelayed Retentionを改善し得ること。",
+          "does_not_support": "AI use necessarily reduces Retrieval Practice or Retention.",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0015",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Bastani et al. (2025)",
+      "canonical_citation": "Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences, 122(26), e2422633122.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1073/pnas.2422633122",
+        "10.1073/pnas.2518204122"
+      ],
+      "local_source_ids": [
+        "D1-S03"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S03",
+          "supports": "Assisted Performanceとshort-term AI-free Performanceの乖離。System Design matters.",
+          "does_not_support": "Delayed Retention Loss、Long-term Deskilling、Generative AI一般の教育的有害性。",
+          "evidence_layer": "Layer B — Direct AI-Specific Evidence",
+          "evidence_status": "B within studied conditions",
+          "directness": null,
+          "key_limitation": "Same-session / short-term outcomeであり、Delayed Retentionではない。",
+          "claim_type": "Empirical / Causal within experiment"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0016",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Kestin et al. (2025)",
+      "canonical_citation": "Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports, 15, 17458.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1038/s41598-025-97652-6"
+      ],
+      "local_source_ids": [
+        "D1-S04"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Randomized Crossover Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S04",
+          "supports": "Structured AI tutoring can improve immediate learning under studied conditions.",
+          "does_not_support": "Long-term Retention、Far Transfer、AI Tutor一般の優越。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within studied conditions",
+          "directness": null,
+          "key_limitation": "Long-term Follow-up / Far Transferを測定していない。",
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0017",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Barcaui (2025)",
+      "canonical_citation": "Barcaui, A. (2025). ChatGPT as a cognitive crutch: Evidence from a randomized controlled trial on knowledge retention. Social Sciences & Humanities Open, 12, 102287.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1016/j.ssaho.2025.102287"
+      ],
+      "local_source_ids": [
+        "D1-S05"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S05",
+          "supports": "特定条件で45日後Retentionが低下し得ること。",
+          "does_not_support": "一般的Long-term Deskilling、不可逆的Skill Loss、Cognitive Offloadingが因果媒介であること。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within studied conditions",
+          "directness": null,
+          "key_limitation": "単一Population / Task / AI条件。",
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0018",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Fernandes et al. (2026)",
+      "canonical_citation": "Fernandes, D., Villa, S., Nicholls, S., Haavisto, O., Buschek, D., Schmidt, A., Kosch, T., Shen, C., & Welsch, R. (2026). AI makes you smarter but none the wiser: The disconnect between performance and metacognition. Computers in Human Behavior, 175, 108779.",
+      "year": "2026",
+      "doi_or_primary_ids": [
+        "10.1016/j.chb.2025.108779"
+      ],
+      "local_source_ids": [
+        "D1-S06"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Experimental Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S06",
+          "supports": "AI-assisted Performance GainとSelf-assessment Overestimationが併存し得ること。",
+          "does_not_support": "AI generally causes overconfidence。Underlying Skill Loss。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within tested tasks",
+          "directness": null,
+          "key_limitation": "Task-specific、short-term study。",
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0019",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Liebenow (2025)",
+      "canonical_citation": "Liebenow, L. (2025). Self-Assessment Accuracy in the Age of Artificial Intelligence: Differential Effects of LLM-Generated Feedback. Computers & Education, 237, 105385.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1016/j.compedu.2025.105385"
+      ],
+      "local_source_ids": [
+        "D1-S07"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Empirical Educational Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S07",
+          "supports": "LLM FeedbackのMetacognitive EffectがInitial Self-assessment Accuracyによって異なり得ること。",
+          "does_not_support": "AI Feedbackが全LearnerのMetacognitionを一律に改善または悪化させること。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within studied population",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0020",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Tran-Le et al. / LeetCoach (2026)",
+      "canonical_citation": "Tran-Le, B.-T., Thomas, P., Stiffler, N. M., & Nguyen, T. N. (2026). How Does LLM-powered Coding Assistance Shape Incidental Learning? Exploring Cognitive Forcing Strategies in Programming Education. Proceedings of the AAAI Conference on Artificial Intelligence, 40(48), 40880–40888.",
+      "year": "2026",
+      "doi_or_primary_ids": [
+        "10.1609/aaai.v40i48.42121"
+      ],
+      "local_source_ids": [
+        "D1-S08"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Pilot Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S08",
+          "supports": "適切なPrompting / Cognitive Forcing条件でNoviceにもIncidental Learningが生じ得ること。",
+          "does_not_support": "Novices generally benefit more than experts。AI-specific Expertise Rule。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B local / low generalizability",
+          "directness": null,
+          "key_limitation": "Very small pilot N。",
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0021",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Chi et al. (1989; 1994)",
+      "canonical_citation": "Chi et al. (1989; 1994)",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1207/s15516709cog1302_1",
+        "10.1207/s15516709cog1803_3"
+      ],
+      "local_source_ids": [
+        "D1-S10"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Experimental Learning Research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S10",
+          "supports": "Learner-generated Self-ExplanationがLearningを支援し得ること。",
+          "does_not_support": "Self-ExplanationがProvided Explanationより常に優れていること。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0022",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Sweller, van Merriënboer & Paas (2019)",
+      "canonical_citation": "Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive Architecture and Instructional Design: 20 Years Later. Educational Psychology Review, 31(2), 261–292.",
+      "year": "2019",
+      "doi_or_primary_ids": [
+        "10.1007/s10648-019-09465-5"
+      ],
+      "local_source_ids": [
+        "D1-S11"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Major Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S11",
+          "supports": "Cognitive LoadとInstructional Designの関係。Worked Examples等の既存Instructional Research。",
+          "does_not_support": "AI-specific Learning Effect。Less Effort = Better/Worse Learningという単純則。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0023",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Kalyuga et al. (2003)",
+      "canonical_citation": "Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The Expertise Reversal Effect. Educational Psychologist, 38(1), 23–31.",
+      "year": "2003",
+      "doi_or_primary_ids": [
+        "10.1207/S15326985EP3801_4"
+      ],
+      "local_source_ids": [
+        "D1-S12"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Theoretical / Empirical Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S12",
+          "supports": "Instructional Supportの効果がPrior Expertiseによって変化し得ること。",
+          "does_not_support": "AI-specificなNovice Harm / Expert Benefitの普遍則。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0024",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "WHO — International Classification of Functioning, Disability and Health",
+      "canonical_citation": "World Health Organization. (2001). International Classification of Functioning, Disability and Health.",
+      "year": "2001",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D1-S14",
+        "D7-S01",
+        "D8-S01"
+      ],
+      "used_in_domains": [
+        "D01",
+        "D07",
+        "D08"
+      ],
+      "source_types": [
+        "Authoritative International Framework",
+        "International Classification / Foundational Framework",
+        "Foundational conceptual framework."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D01",
+          "local_source_id": "D1-S14",
+          "supports": "FunctioningをEnvironmental Factorsを含むContextで評価すること。",
+          "does_not_support": "AI Permanent SupportのNormative Superiority（規範的優越性）。",
+          "evidence_layer": "Layer C / Authoritative Framework",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-01",
+      "name": "Capability, Learning & Skill Formation",
+      "description": "Performance, learning, retention, transfer, understanding, offloading, skill use, deskilling, and capability formation.",
+      "member_count": 15,
+      "member_ids": [
+        "HAI-NEQ-001",
+        "HAI-NEQ-002",
+        "HAI-NEQ-003",
+        "HAI-NEQ-004",
+        "HAI-NEQ-005",
+        "HAI-NEQ-006",
+        "HAI-NEQ-007",
+        "HAI-NEQ-008",
+        "HAI-NEQ-009",
+        "HAI-NEQ-010",
+        "HAI-NEQ-215",
+        "HAI-NEQ-216",
+        "HAI-NEQ-217",
+        "HAI-NEQ-218",
+        "HAI-NEQ-219"
+      ],
+      "domains": [
+        "D01"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-001",
+        "HAI-QRY-002",
+        "HAI-QRY-003"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D01",
+    "primary_claim_ids": [
+      "HAI-CLM-003",
+      "HAI-CLM-004",
+      "HAI-CLM-005"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-001",
+      "HAI-NEQ-002",
+      "HAI-NEQ-003",
+      "HAI-NEQ-004",
+      "HAI-NEQ-005",
+      "HAI-NEQ-006",
+      "HAI-NEQ-007",
+      "HAI-NEQ-008",
+      "HAI-NEQ-009",
+      "HAI-NEQ-010",
+      "HAI-NEQ-215",
+      "HAI-NEQ-216",
+      "HAI-NEQ-217",
+      "HAI-NEQ-218",
+      "HAI-NEQ-219"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-001",
+        "HAI-QRY-002"
+      ],
+      "secondary": [
+        "HAI-QRY-003",
+        "HAI-QRY-017",
+        "HAI-QRY-018",
+        "HAI-QRY-033",
+        "HAI-QRY-034",
+        "HAI-QRY-035"
+      ],
+      "counterexample": [
+        "HAI-QRY-003",
+        "HAI-QRY-018"
+      ]
+    },
+    "section_ids": [
+      "HAI-SEC-D01-DOCUMENT-STATUS",
+      "HAI-SEC-D01-DOMAIN-SCOPE",
+      "HAI-SEC-D01-CORE-QUESTION",
+      "HAI-SEC-D01-CORE-DISTINCTIONS",
+      "HAI-SEC-D01-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D01-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "HAI-SEC-D01-ALTERNATIVE-EXPLANATIONS",
+      "HAI-SEC-D01-COUNTEREVIDENCE",
+      "HAI-SEC-D01-EVIDENCE-STATUS",
+      "HAI-SEC-D01-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D01-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D01-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D01-CROSS-REFERENCES",
+      "HAI-SEC-D01-SOURCE-LEDGER",
+      "HAI-SEC-D01-RESEARCH-GAPS",
+      "HAI-SEC-D01-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D01-FINAL-ASSESSMENT",
+      "HAI-SEC-D01-DOES-NOT-SUPPORT"
+    ],
+    "source_ids": [
+      "HAI-SRC-0011",
+      "HAI-SRC-0012",
+      "HAI-SRC-0013",
+      "HAI-SRC-0014",
+      "HAI-SRC-0015",
+      "HAI-SRC-0016",
+      "HAI-SRC-0017",
+      "HAI-SRC-0018",
+      "HAI-SRC-0019",
+      "HAI-SRC-0020",
+      "HAI-SRC-0021",
+      "HAI-SRC-0022",
+      "HAI-SRC-0023",
+      "HAI-SRC-0024"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Performance::PERFORMANCE",
+        "Learning::LEARNING",
+        "Retention::RETENTION",
+        "Transfer::TRANSFER",
+        "Unaided Capability::CAPABILITY_UNAIDED",
+        "AI-use Competence::CAPABILITY_AI_USE",
+        "Joint-System Performance::PERFORMANCE_JOINT_SYSTEM",
+        "Cognitive Offloading::COGNITIVE_OFFLOADING",
+        "Deskilling::DESKILLING"
+      ],
+      "related": [
+        "Calibration::CALIBRATION",
+        "Confidence::CONFIDENCE",
+        "Explanation::EXPLANATION",
+        "Productivity::PRODUCTIVITY",
+        "Financial Capability::FINANCIAL_CAPABILITY"
+      ]
+    },
+    "counts": {
+      "primary_claims": 3,
+      "non_equivalences": 15,
+      "primary_routes": 2,
+      "secondary_routes": 6,
+      "counterexample_routes": 2,
+      "sections": 18,
+      "sources": 14
+    }
+  }
+}

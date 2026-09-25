@@ -1,0 +1,971 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D00",
+    "title": "【Human–AI Relations 領域0】横断総論 ―― AI支援・委任・依存・自律・責任を混同しないための監査規格",
+    "canonical_domain_name": "Cross-Domain Audit Protocol",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/nb6cb682cad9f",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-001",
+      "claim": "Human–AI success conditions are domain- and goal-dependent; different outcomes should not be collapsed into one generic “AI benefit.”",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D00",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0002",
+        "HAI-SRC-0004"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D00",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D00-CORE-PRINCIPLE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D00:1207-1226",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D00-CORE-PRINCIPLE",
+            "heading": "基本原則",
+            "locator": "D00:75-147",
+            "section_type": "CORE_PRINCIPLE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0002",
+          "HAI-SRC-0004"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-033"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-002",
+      "claim": "Strong existing theory does not by itself constitute direct evidence for a new AI configuration; transfer from adjacent research requires qualification.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D00",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0002",
+        "HAI-SRC-0004"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D00",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D00-CORE-PRINCIPLE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D00:1207-1226",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D00-CORE-PRINCIPLE",
+            "heading": "基本原則",
+            "locator": "D00:75-147",
+            "section_type": "CORE_PRINCIPLE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0002",
+          "HAI-SRC-0004"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-034"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-028",
+      "label": "Execution ≠ Responsibility",
+      "primary_domain": "D00",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D00",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D00-CORE-PRINCIPLE",
+        "origin_heading": "基本原則",
+        "origin_locator": "D00:129-137",
+        "source_excerpt": "### 人間による最終承認（Human Final Approval） ≠ 人間主導の判断形成（Human-led Decision Formation）  最終承認を人間が行ったことだけでは、判断形成が人間主導だったとは言えない。  ### 個別化（Personalization） ≠ 本人中心性（Person-Centeredness）  個人に合わせてOutputを変えることだけでは、本人のValues、Preferences、Goalsを中心にした支援とは言えない。  ### 実行（Execution） ≠ 責任（Responsibility）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-02",
+      "secondary_neq_cluster_ids": []
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-033",
+      "query_cluster": "does AI help / is AI beneficial?",
+      "primary_domains": [
+        "D00"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-001"
+      ],
+      "key_non_equivalence_ids": [],
+      "secondary_domains": [
+        "D01",
+        "D02",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08",
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D00": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D00-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D00-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D00-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D00-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D00-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-034",
+      "query_cluster": "can existing theory be transferred to AI / do we need a new Human–AI theory?",
+      "primary_domains": [
+        "D00"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-002"
+      ],
+      "key_non_equivalence_ids": [],
+      "secondary_domains": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "counterexample_domains": [],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D00": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D00-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D00-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D00-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D00-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D00-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-033",
+      "HAI-QRY-034"
+    ],
+    "secondary": [
+      "HAI-QRY-036"
+    ],
+    "counterexample": []
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D00-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D00:15-36"
+    },
+    {
+      "section_id": "HAI-SEC-D00-DOMAIN-SCOPE",
+      "section_type": "DOMAIN_SCOPE",
+      "heading": "Domain",
+      "source_locator": "D00:37-53"
+    },
+    {
+      "section_id": "HAI-SEC-D00-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D00:54-74"
+    },
+    {
+      "section_id": "HAI-SEC-D00-CORE-PRINCIPLE",
+      "section_type": "CORE_PRINCIPLE",
+      "heading": "基本原則",
+      "source_locator": "D00:75-147"
+    },
+    {
+      "section_id": "HAI-SEC-D00-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D00:229-264"
+    },
+    {
+      "section_id": "HAI-SEC-D00-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D00:728-759"
+    },
+    {
+      "section_id": "HAI-SEC-D00-EXISTING-THEORY-FIRST",
+      "section_type": "EXISTING_THEORY_FIRST",
+      "heading": "Existing-Theory-First",
+      "source_locator": "D00:760-786"
+    },
+    {
+      "section_id": "HAI-SEC-D00-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence",
+      "source_locator": "D00:888-904"
+    },
+    {
+      "section_id": "HAI-SEC-D00-ALTERNATIVE-EXPLANATIONS",
+      "section_type": "ALTERNATIVE_EXPLANATIONS",
+      "heading": "Alternative Explanations",
+      "source_locator": "D00:905-927"
+    },
+    {
+      "section_id": "HAI-SEC-D00-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D00:1186-1206"
+    },
+    {
+      "section_id": "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "現時点で言えること / What We Can Say Now",
+      "source_locator": "D00:1207-1226"
+    },
+    {
+      "section_id": "HAI-SEC-D00-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "現時点では言えないこと / What We Cannot Say Yet",
+      "source_locator": "D00:1227-1252"
+    },
+    {
+      "section_id": "HAI-SEC-D00-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D00:1253-1298"
+    },
+    {
+      "section_id": "HAI-SEC-D00-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D00:1299-1312"
+    },
+    {
+      "section_id": "HAI-SEC-D00-BROAD-EXPLORATION-CLOSURE",
+      "section_type": "BROAD_EXPLORATION_CLOSURE",
+      "heading": "Broad Exploration Closure",
+      "source_locator": "D00:1313-1330"
+    },
+    {
+      "section_id": "HAI-SEC-D00-UPDATE-CONDITIONS",
+      "section_type": "UPDATE_CONDITIONS",
+      "heading": "更新条件",
+      "source_locator": "D00:1331-1349"
+    },
+    {
+      "section_id": "HAI-SEC-D00-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D00:1350-1535"
+    },
+    {
+      "section_id": "HAI-SEC-D00-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D00:1536-1557"
+    },
+    {
+      "section_id": "HAI-SEC-D00-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D00:1558-1605"
+    },
+    {
+      "section_id": "HAI-SEC-D00-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D00].does_not_support"
+    },
+    {
+      "section_id": "HAI-SEC-D00-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D00; evidence_layer≈Layer B/Direct AI]"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0001",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Lee & See (2004)",
+      "canonical_citation": "Lee, J. D., & See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. Human Factors, 46(1), 50–80.",
+      "year": "2004",
+      "doi_or_primary_ids": [
+        "10.1518/hfes.46.1.50_30392"
+      ],
+      "local_source_ids": [
+        "D0-S01",
+        "D3-S01"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D03"
+      ],
+      "source_types": [
+        "Authoritative Review / Human Factors",
+        "Foundational Review / Conceptual Framework"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S01",
+          "supports": "TrustとRelianceを同一視しないこと。Automationの能力・目的・Process等に対するTrustと、Appropriate Relianceの区別。",
+          "does_not_support": "Current Generative AIにおけるTrust Effectの方向を一律に予測すること。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0002",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Parasuraman, Sheridan & Wickens (2000)",
+      "canonical_citation": "Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). A model for types and levels of human interaction with automation. IEEE Transactions on Systems, Man, and Cybernetics—Part A, 30(3), 286–297.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1109/3468.844354"
+      ],
+      "local_source_ids": [
+        "D0-S02",
+        "D10-S02"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D10"
+      ],
+      "source_types": [
+        "Conceptual / Human Factors framework"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S02",
+          "supports": "Information Acquisition、Information Analysis、Decision / Action Selection、Action Implementation等、Automation Functionを分解するPrior Art。",
+          "does_not_support": "Domain 0の5 Questionsが新しい独立5次元Theoryであること。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0003",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Assistive Technology / Independence Review",
+      "canonical_citation": "van Dam et al. Systematic Review on Assistive Technology, independence, choice and control.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1080/17483107.2022.2162614"
+      ],
+      "local_source_ids": [
+        "D0-S03"
+      ],
+      "used_in_domains": [
+        "D00"
+      ],
+      "source_types": [
+        "Systematic Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S03",
+          "supports": "継続的External SupportとChoice、Control、Participation、Perceived Independenceが両立し得ること。",
+          "does_not_support": "AI Dependence一般がAutonomyを維持または向上させるというCausal Claim。",
+          "evidence_layer": "Layer C — Adjacent Evidence",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0004",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "Sociotechnical Systems Tradition",
+      "canonical_citation": "Sociotechnical Systems Tradition",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D0-S04"
+      ],
+      "used_in_domains": [
+        "D00"
+      ],
+      "source_types": [
+        "Existing Research Tradition / Sociotechnical Systems"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S04",
+          "supports": "TechnologyのOutcomeをTechnical Component単独へ還元せず、Human、Organization、Workflow、Institution等を含めて分析すること。",
+          "does_not_support": "すべてのHuman–AI Outcomeを一つのSociotechnical Theoryだけで完全に説明できること。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0005",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Dietvorst et al. (2015)",
+      "canonical_citation": "Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err. Journal of Experimental Psychology: General, 144(1), 114–126.",
+      "year": "2015",
+      "doi_or_primary_ids": [
+        "10.1037/xge0000033"
+      ],
+      "local_source_ids": [
+        "D0-S05",
+        "D2-S06",
+        "D3-S03"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D02",
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Research",
+        "Behavioral Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S05",
+          "supports": "Algorithmic AdviceへのRelianceがError Experience等によって低下し得ること。",
+          "does_not_support": "People generally distrust AI。",
+          "evidence_layer": "Layer A / C",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0006",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Logg, Minson & Moore (2019)",
+      "canonical_citation": "Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm Appreciation: People Prefer Algorithmic to Human Judgment. Organizational Behavior and Human Decision Processes, 151, 90–103.",
+      "year": "2019",
+      "doi_or_primary_ids": [
+        "10.1016/j.obhdp.2018.12.005"
+      ],
+      "local_source_ids": [
+        "D0-S06",
+        "D2-S07",
+        "D3-S04"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D02",
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Research",
+        "Behavioral Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S06",
+          "supports": "一定条件ではAlgorithmic AdviceがHuman Adviceより選好される場合があること。",
+          "does_not_support": "People generally overtrust AI。",
+          "evidence_layer": "Layer A / C",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0007",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Endsley & Kiris — Out-of-the-Loop",
+      "canonical_citation": "Endsley, M. R., & Kiris, E. O. (1995). The Out-of-the-Loop Performance Problem and Level of Control in Automation. Human Factors, 37(2), 381–394.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1518/001872095779064555"
+      ],
+      "local_source_ids": [
+        "D0-S07",
+        "D9-S08",
+        "D10-S01"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D09",
+        "D10"
+      ],
+      "source_types": [
+        "Human Factors / Experimental Automation Research",
+        "Human Factors / Automation Experimental Literature",
+        "Controlled Human Factors Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S07",
+          "supports": "AutomationによりHuman OperatorのSituation AwarenessやManual Takeover等が問題になり得ること。",
+          "does_not_support": "Human Oversight is impossible。Automation necessarily reduces safety。",
+          "evidence_layer": "Layer C",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0008",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Clark & Chalmers (1998)",
+      "canonical_citation": "Clark, A., & Chalmers, D. (1998). The Extended Mind. Analysis, 58(1), 7–19.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D0-S08"
+      ],
+      "used_in_domains": [
+        "D00"
+      ],
+      "source_types": [
+        "Conceptual / Philosophy"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S08",
+          "supports": "CognitionとExternal Resourceの境界を考えるConceptual Comparison。",
+          "does_not_support": "AI-specific Human OutcomeのEmpirical Claim。",
+          "evidence_layer": "Conceptual Lens",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0009",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Elish — Moral Crumple Zone",
+      "canonical_citation": "Elish — Moral Crumple Zone",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D0-S09",
+        "D9-S10"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D09"
+      ],
+      "source_types": [
+        "Critical / Conceptual literature on responsibility in automated systems",
+        "Conceptual / Ethics of Automation",
+        "Conceptual Lens."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S09",
+          "supports": "Automation Failure時にHuman OperatorへResponsibilityが不均衡に集中する可能性を分析する視点。",
+          "does_not_support": "すべてのAI事故でHumanが不当に責任を負うというUniversal Causal Claim。",
+          "evidence_layer": "Conceptual / Critical Lens",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0010",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO/IEC FDIS 42105",
+      "canonical_citation": "Guidance for human oversight of AI systems",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D0-S10",
+        "D11-S13"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D11"
+      ],
+      "source_types": [
+        "Standardization Document"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": true,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.iso.org/standard/86902.html",
+      "source_lock_verification_note": "ISO/IEC FDIS 42105; Under development; Stage 50.20.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S10",
+          "supports": "Human Oversightに関する国際標準化が進行していること。",
+          "does_not_support": "2026年9月時点ですでにPublished International Standardとして確立しているという記述。",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0011",
+      "record_type": "STANDARD",
+      "canonical_title": "AERA / APA / NCME (2014)",
+      "canonical_citation": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for Educational and Psychological Testing.",
+      "year": "2014",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D0-S11",
+        "D1-S13"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D01"
+      ],
+      "source_types": [
+        "Authoritative Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.testingstandards.net/open-access-files.html",
+      "source_lock_verification_note": "2014 English edition remains an official open-access edition; a revision process is underway.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S11",
+          "supports": "Measurement ValidityがTarget Construct、Score Interpretation、Intended Useに依存すること。",
+          "does_not_support": "単一の測定方式を全DomainへUniversal Gold Standardとして適用すること。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0012",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Risko & Gilbert (2016)",
+      "canonical_citation": "Risko, E. F., & Gilbert, S. J. (2016). Cognitive Offloading. Trends in Cognitive Sciences, 20(9), 676–688.",
+      "year": "2016",
+      "doi_or_primary_ids": [
+        "10.1016/j.tics.2016.07.002"
+      ],
+      "local_source_ids": [
+        "D0-S12",
+        "D1-S09"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D01"
+      ],
+      "source_types": [
+        "Review",
+        "Authoritative Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D00",
+          "local_source_id": "D0-S12",
+          "supports": "人間がExternal ResourceへCognitive Operationsを移すCognitive Offloadingが確立した現象であること。",
+          "does_not_support": "Offloadingが必然的にLong-term Cognitive DeclineやDeskillingを引き起こすこと。",
+          "evidence_layer": "Layer A",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-02",
+      "name": "Decision Formation, Authority & Delegation",
+      "description": "Advice, recommendation, decision formation, authority, influence, delegation, authorization, execution, and practical choice.",
+      "member_count": 18,
+      "member_ids": [
+        "HAI-NEQ-011",
+        "HAI-NEQ-012",
+        "HAI-NEQ-013",
+        "HAI-NEQ-014",
+        "HAI-NEQ-015",
+        "HAI-NEQ-016",
+        "HAI-NEQ-017",
+        "HAI-NEQ-018",
+        "HAI-NEQ-019",
+        "HAI-NEQ-020",
+        "HAI-NEQ-021",
+        "HAI-NEQ-022",
+        "HAI-NEQ-023",
+        "HAI-NEQ-027",
+        "HAI-NEQ-028",
+        "HAI-NEQ-193",
+        "HAI-NEQ-194",
+        "HAI-NEQ-222"
+      ],
+      "domains": [
+        "D00",
+        "D02",
+        "D12"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-004",
+        "HAI-QRY-027",
+        "HAI-QRY-029",
+        "HAI-QRY-031",
+        "HAI-QRY-035"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D00",
+    "primary_claim_ids": [
+      "HAI-CLM-001",
+      "HAI-CLM-002"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-028"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-033",
+        "HAI-QRY-034"
+      ],
+      "secondary": [
+        "HAI-QRY-036"
+      ],
+      "counterexample": []
+    },
+    "section_ids": [
+      "HAI-SEC-D00-DOCUMENT-STATUS",
+      "HAI-SEC-D00-DOMAIN-SCOPE",
+      "HAI-SEC-D00-CORE-QUESTION",
+      "HAI-SEC-D00-CORE-PRINCIPLE",
+      "HAI-SEC-D00-EVIDENCE-STATUS",
+      "HAI-SEC-D00-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D00-EXISTING-THEORY-FIRST",
+      "HAI-SEC-D00-COUNTEREVIDENCE",
+      "HAI-SEC-D00-ALTERNATIVE-EXPLANATIONS",
+      "HAI-SEC-D00-CROSS-REFERENCES",
+      "HAI-SEC-D00-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D00-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D00-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D00-RESEARCH-GAPS",
+      "HAI-SEC-D00-BROAD-EXPLORATION-CLOSURE",
+      "HAI-SEC-D00-UPDATE-CONDITIONS",
+      "HAI-SEC-D00-SOURCE-LEDGER",
+      "HAI-SEC-D00-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D00-FINAL-ASSESSMENT",
+      "HAI-SEC-D00-DOES-NOT-SUPPORT",
+      "HAI-SEC-D00-DIRECT-AI-SPECIFIC-EVIDENCE"
+    ],
+    "source_ids": [
+      "HAI-SRC-0001",
+      "HAI-SRC-0002",
+      "HAI-SRC-0003",
+      "HAI-SRC-0004",
+      "HAI-SRC-0005",
+      "HAI-SRC-0006",
+      "HAI-SRC-0007",
+      "HAI-SRC-0008",
+      "HAI-SRC-0009",
+      "HAI-SRC-0010",
+      "HAI-SRC-0011",
+      "HAI-SRC-0012"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Authority::AUTHORITY",
+        "Responsibility::RESPONSIBILITY_GENERAL"
+      ],
+      "related": [
+        "Observability::OBSERVABILITY",
+        "Reversibility::REVERSIBILITY"
+      ]
+    },
+    "counts": {
+      "primary_claims": 2,
+      "non_equivalences": 1,
+      "primary_routes": 2,
+      "secondary_routes": 1,
+      "counterexample_routes": 0,
+      "sections": 21,
+      "sources": 12
+    }
+  }
+}

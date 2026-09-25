@@ -1,0 +1,1763 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D09",
+    "title": "【Human–AI Relations 領域9】AIと仕事・組織・アルゴリズム管理 ―― 生産性が上がることは、労働者の能力・自律・仕事の質が向上したことを意味するのか",
+    "canonical_domain_name": "Work・Organization・Algorithmic Management",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/n2ad28a452953",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-024",
+      "claim": "Generative AI can improve short-term productivity in selected tasks and populations.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0084",
+        "HAI-SRC-0085"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D09:434-452",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0084",
+          "HAI-SRC-0085"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-025",
+      "claim": "Generative-AI productivity effects are heterogeneous and can be negative in some task/expertise configurations.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0040",
+        "HAI-SRC-0087"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D09:434-452",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0040",
+          "HAI-SRC-0087"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-026",
+      "claim": "AI adoption can redistribute work and create new oversight, integration, verification, and coordination tasks rather than simply eliminating work.",
+      "claim_type": "Descriptive / Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0086",
+        "HAI-SRC-0088"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D09:434-452",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0086",
+          "HAI-SRC-0088"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018",
+        "HAI-QRY-019",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-027",
+      "claim": "Productivity gain does not establish worker skill improvement, lower total workload, better well-being, or worker benefit.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D09",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0084",
+        "HAI-SRC-0086"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [
+        "HAI-SRC-0090"
+      ],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D09-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D09:1367-1386",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D09:76-268",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0084",
+          "HAI-SRC-0086"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [
+          "HAI-SRC-0090"
+        ],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-018",
+        "HAI-QRY-019",
+        "HAI-QRY-020"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-127",
+      "label": "Productivity ≠ Worker Skill",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-FINAL-ASSESSMENT",
+        "origin_heading": "Final Assessment",
+        "origin_locator": "D09:2048-2048",
+        "source_excerpt": "**Productivity ≠ Worker Skill**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-01"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-128",
+      "label": "Productivity ≠ Job Quality",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D09:58-60",
+        "source_excerpt": "生産性（Productivity） ≠ 労働者の技能（Worker Skill） 生産性向上",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-129",
+      "label": "Automation ≠ Work Elimination",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1324-1328",
+        "source_excerpt": "以下はConceptual Distinctionである。  - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-130",
+      "label": "Task Reduction ≠ Total Work Reduction",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_OR_CLOSE_PARAPHRASE",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1324-1328",
+        "source_excerpt": "以下はConceptual Distinctionである。  - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-131",
+      "label": "Time Saved ≠ Workload Reduction",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1325-1327",
+        "source_excerpt": " - Productivity ≠ Skill - Time Saved ≠ Workload Reduction",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-132",
+      "label": "Workload ≠ Work Intensity",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_OR_CLOSE_PARAPHRASE",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1324-1328",
+        "source_excerpt": "以下はConceptual Distinctionである。  - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-133",
+      "label": "Skill-use Reduction ≠ Skill Loss",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_OR_CLOSE_PARAPHRASE",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D09:152-160",
+        "source_excerpt": "が増える場合がある。  ---  ## 2.7 技能変化 ≠ 技能低下  AI導入によって特定技能を使う頻度が低下しても、 技能使用の減少（Skill Use Reduction） ≠ 技能喪失（Skill Loss）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-01"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-134",
+      "label": "New Skill Demand ≠ Overall Capability Improvement",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D09:59-59",
+        "source_excerpt": "≠ 労働者の技能（Worker Skill）",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-01"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-135",
+      "label": "AI Adoption ≠ Worker Acceptance",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D09:59-59",
+        "source_excerpt": "≠ 労働者の技能（Worker Skill）",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-136",
+      "label": "Compliance ≠ Trust",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1323-1329",
+        "source_excerpt": "Domain 9では概念的な非含意（Conceptual Non-entailment）へA–Fを機械適用しない。 以下はConceptual Distinctionである。  - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination - Compliance ≠ Trust",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-137",
+      "label": "Formal Choice ≠ Effective Choice",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1322-1330",
+        "source_excerpt": " Domain 9では概念的な非含意（Conceptual Non-entailment）へA–Fを機械適用しない。 以下はConceptual Distinctionである。  - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination - Compliance ≠ Trust - Formal Choice ≠ Effective Choice",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-138",
+      "label": "Individual Autonomy ≠ Collective Worker Voice",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D09:76-268",
+        "source_excerpt": null,
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-139",
+      "label": "Monitoring ≠ Management Quality",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D09:59-67",
+        "source_excerpt": "≠ 労働者の技能（Worker Skill） 生産性向上 ≠ 労働負荷低下 自動化（Automation） ≠ 労働の消滅 支援（Assistance） ≠ エンパワーメント（Empowerment） 監視（Monitoring） ≠ 管理の質（Management Quality）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-140",
+      "label": "Measurement ≠ Fair Evaluation",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D09:76-268",
+        "source_excerpt": null,
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-141",
+      "label": "Productivity Gain ≠ Worker Benefit",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1325-1333",
+        "source_excerpt": " - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination - Compliance ≠ Trust - Formal Choice ≠ Effective Choice - Explanation ≠ Contestability - Human Final Approval ≠ Independent Judgment - Productivity Gain ≠ Worker Benefit",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-252",
+      "label": "AI Introduction Effect ≠ Single Outcome",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-DOCUMENT-STATUS",
+        "origin_heading": "Document Status",
+        "origin_locator": "D09:48-48",
+        "source_excerpt": "**AI導入効果 ≠ 単一の結果（Single Outcome）**",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-253",
+      "label": "Assistance ≠ Empowerment",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D09:57-65",
+        "source_excerpt": "最低限、 生産性（Productivity） ≠ 労働者の技能（Worker Skill） 生産性向上 ≠ 労働負荷低下 自動化（Automation） ≠ 労働の消滅 支援（Assistance） ≠ エンパワーメント（Empowerment）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-254",
+      "label": "Organizational Efficiency ≠ Worker Well-being",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D09:56-62",
+        "source_excerpt": "**AIを利用した労働者の業務遂行（Performance）が向上したとき、それは労働者自身の技能（Skill）、自律（Autonomy）、ウェルビーイング（Well-being）、キャリア形成（Career Development）まで改善したことを意味するのか。** 最低限、 生産性（Productivity） ≠ 労働者の技能（Worker Skill） 生産性向上 ≠ 労働負荷低下 自動化（Automation）",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-255",
+      "label": "Human Final Approval ≠ Effective Human Control",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1324-1332",
+        "source_excerpt": "以下はConceptual Distinctionである。  - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination - Compliance ≠ Trust - Formal Choice ≠ Effective Choice - Explanation ≠ Contestability - Human Final Approval ≠ Independent Judgment",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-09"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-256",
+      "label": "Task Disappearance ≠ Task-System Disappearance",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D09:115-123",
+        "source_excerpt": "が新たに発生する場合がある。[D9-S04]  ---  ## 2.4 課題削減 ≠ 労働削減  一つの課題が減ったことから、人間の総労働量が減ったとは推論しない。 **課題の消滅（Task Disappearance）** **≠ 課題システム全体の消滅（Task-System Disappearance）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-257",
+      "label": "Skill Loss ≠ Irreversible Skill Loss",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D09:159-161",
+        "source_excerpt": "技能使用の減少（Skill Use Reduction） ≠ 技能喪失（Skill Loss） ≠ 不可逆的な技能喪失（Irreversible Skill Loss）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-09",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-01"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-258",
+      "label": "Explanation ≠ Contestability",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+        "origin_heading": "Evidence Status",
+        "origin_locator": "D09:1323-1331",
+        "source_excerpt": "Domain 9では概念的な非含意（Conceptual Non-entailment）へA–Fを機械適用しない。 以下はConceptual Distinctionである。  - Productivity ≠ Skill - Time Saved ≠ Workload Reduction - Automation ≠ Work Elimination - Compliance ≠ Trust - Formal Choice ≠ Effective Choice - Explanation ≠ Contestability",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-11",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-09"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-259",
+      "label": "Review Staff Presence ≠ Effective Review Capacity",
+      "primary_domain": "D09",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D09",
+        "provenance_class": "SECTION_LEVEL_PROVENANCE_ONLY",
+        "confidence": "MEDIUM",
+        "origin_section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D09:237-237",
+        "source_excerpt": "## 2.16 Review担当者の存在 ≠ Review可能性",
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-11",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-09"
+      ]
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-018",
+      "query_cluster": "AI improves productivity",
+      "primary_domains": [
+        "D09"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-024",
+        "HAI-CLM-025",
+        "HAI-CLM-026",
+        "HAI-CLM-027"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-127",
+        "HAI-NEQ-128",
+        "HAI-NEQ-129",
+        "HAI-NEQ-130",
+        "HAI-NEQ-131",
+        "HAI-NEQ-132",
+        "HAI-NEQ-133",
+        "HAI-NEQ-134",
+        "HAI-NEQ-135",
+        "HAI-NEQ-136",
+        "HAI-NEQ-137",
+        "HAI-NEQ-138",
+        "HAI-NEQ-139",
+        "HAI-NEQ-140",
+        "HAI-NEQ-141",
+        "HAI-NEQ-252",
+        "HAI-NEQ-253",
+        "HAI-NEQ-254",
+        "HAI-NEQ-255",
+        "HAI-NEQ-256",
+        "HAI-NEQ-257",
+        "HAI-NEQ-258",
+        "HAI-NEQ-259"
+      ],
+      "secondary_domains": [
+        "D01",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D01"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D09": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D09-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D09-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D09-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-019",
+      "query_cluster": "AI reduces workload",
+      "primary_domains": [
+        "D09"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-026",
+        "HAI-CLM-027"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-129",
+        "HAI-NEQ-130",
+        "HAI-NEQ-131",
+        "HAI-NEQ-132",
+        "HAI-NEQ-256"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D09": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D09-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D09-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D09-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-020",
+      "query_cluster": "workers trust AI because they use it",
+      "primary_domains": [
+        "D09"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-027"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-135",
+        "HAI-NEQ-136",
+        "HAI-NEQ-137"
+      ],
+      "secondary_domains": [
+        "D03",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D09": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D09-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D09-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D09-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-018",
+      "HAI-QRY-019",
+      "HAI-QRY-020"
+    ],
+    "secondary": [
+      "HAI-QRY-001",
+      "HAI-QRY-002",
+      "HAI-QRY-021",
+      "HAI-QRY-032",
+      "HAI-QRY-033",
+      "HAI-QRY-034",
+      "HAI-QRY-035"
+    ],
+    "counterexample": [
+      "HAI-QRY-006",
+      "HAI-QRY-017",
+      "HAI-QRY-019",
+      "HAI-QRY-028",
+      "HAI-QRY-033"
+    ]
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D09-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D09:20-52"
+    },
+    {
+      "section_id": "HAI-SEC-D09-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D09:53-75"
+    },
+    {
+      "section_id": "HAI-SEC-D09-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Core Distinctions",
+      "source_locator": "D09:76-268"
+    },
+    {
+      "section_id": "HAI-SEC-D09-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D09:269-327"
+    },
+    {
+      "section_id": "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence",
+      "source_locator": "D09:434-452"
+    },
+    {
+      "section_id": "HAI-SEC-D09-ALTERNATIVE-EXPLANATIONS",
+      "section_type": "ALTERNATIVE_EXPLANATIONS",
+      "heading": "Alternative Explanations / Counterevidence",
+      "source_locator": "D09:1244-1281"
+    },
+    {
+      "section_id": "HAI-SEC-D09-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Alternative Explanations / Counterevidence",
+      "source_locator": "D09:1244-1281"
+    },
+    {
+      "section_id": "HAI-SEC-D09-COUNTEREVIDENCE-56",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence to “AI Makes Workers More Productive”",
+      "source_locator": "D09:1282-1291"
+    },
+    {
+      "section_id": "HAI-SEC-D09-COUNTEREVIDENCE-57",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence to “AI Deskills Workers”",
+      "source_locator": "D09:1292-1305"
+    },
+    {
+      "section_id": "HAI-SEC-D09-COUNTEREVIDENCE-58",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence to “AI Empowers Workers”",
+      "source_locator": "D09:1306-1320"
+    },
+    {
+      "section_id": "HAI-SEC-D09-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D09:1321-1366"
+    },
+    {
+      "section_id": "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "What We Can Say Now / 現時点で言えること",
+      "source_locator": "D09:1367-1386"
+    },
+    {
+      "section_id": "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "What We Cannot Say Yet / 現時点では言えないこと",
+      "source_locator": "D09:1387-1407"
+    },
+    {
+      "section_id": "HAI-SEC-D09-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D09:1408-1479"
+    },
+    {
+      "section_id": "HAI-SEC-D09-HIGH-RISK-MISINTERPRETATIONS",
+      "section_type": "HIGH_RISK_MISINTERPRETATIONS",
+      "heading": "High-Risk Misinterpretations",
+      "source_locator": "D09:1480-1553"
+    },
+    {
+      "section_id": "HAI-SEC-D09-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D09:1554-1804"
+    },
+    {
+      "section_id": "HAI-SEC-D09-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D09:1805-1848"
+    },
+    {
+      "section_id": "HAI-SEC-D09-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D09:1849-1908"
+    },
+    {
+      "section_id": "HAI-SEC-D09-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D09:1955-1991"
+    },
+    {
+      "section_id": "HAI-SEC-D09-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D09:1992-2060"
+    },
+    {
+      "section_id": "HAI-SEC-D09-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D09].does_not_support"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0007",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Endsley & Kiris — Out-of-the-Loop",
+      "canonical_citation": "Endsley, M. R., & Kiris, E. O. (1995). The Out-of-the-Loop Performance Problem and Level of Control in Automation. Human Factors, 37(2), 381–394.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1518/001872095779064555"
+      ],
+      "local_source_ids": [
+        "D0-S07",
+        "D9-S08",
+        "D10-S01"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D09",
+        "D10"
+      ],
+      "source_types": [
+        "Human Factors / Experimental Automation Research",
+        "Human Factors / Automation Experimental Literature",
+        "Controlled Human Factors Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S08",
+          "supports": "AutomationによってActive Controlから外れたHuman OperatorのSituation AwarenessやIntervention Performanceが低下し得ること。",
+          "does_not_support": "Generative AIによるlong-term irreversible deskilling。",
+          "evidence_layer": "Adjacent Evidence",
+          "evidence_status": "A within classic automation scope.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0009",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Elish — Moral Crumple Zone",
+      "canonical_citation": "Elish — Moral Crumple Zone",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D0-S09",
+        "D9-S10"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D09"
+      ],
+      "source_types": [
+        "Critical / Conceptual literature on responsibility in automated systems",
+        "Conceptual / Ethics of Automation",
+        "Conceptual Lens."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S10",
+          "supports": "Actual ControlとFormal Responsibilityが乖離し得ること。",
+          "does_not_support": "Every AI workplace failureへの適用。",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0040",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Dell'Acqua et al. — Jagged Technological Frontier",
+      "canonical_citation": "Dell'Acqua, F., et al. Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1287/orsc.2025.21838"
+      ],
+      "local_source_ids": [
+        "D3-S10",
+        "D9-S03"
+      ],
+      "used_in_domains": [
+        "D03",
+        "D09"
+      ],
+      "source_types": [
+        "Field Experiment",
+        "Field Experiment / Knowledge Work"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S03",
+          "supports": "AI BenefitがTaskとAI Capabilityへの適合に依存し得ること。",
+          "does_not_support": "固定的・普遍的なCapability Frontier。",
+          "evidence_layer": "Direct AI-Specific Evidence",
+          "evidence_status": "B.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0084",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Noy & Zhang (2023)",
+      "canonical_citation": "Noy, S., & Zhang, W. Experimental evidence on the productivity effects of generative artificial intelligence.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1126/science.adh2586"
+      ],
+      "local_source_ids": [
+        "D9-S01"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [
+        "Randomized Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S01",
+          "supports": "特定Writing TaskにおけるTime / Quality改善。",
+          "does_not_support": "Long-term skill、career、firm-level productivity、well-being。",
+          "evidence_layer": "Direct AI-Specific Evidence",
+          "evidence_status": "B.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0085",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Brynjolfsson, Li & Raymond (2025)",
+      "canonical_citation": "Brynjolfsson, E., Li, D., & Raymond, L. R. Generative AI at Work.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1093/qje/qjae044"
+      ],
+      "local_source_ids": [
+        "D9-S02"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S02",
+          "supports": "特定Customer Support settingでのPerformance BenefitとWorker heterogeneity。",
+          "does_not_support": "Universal productivity effect、long-term career / skill outcome。",
+          "evidence_layer": "Direct AI-Specific Evidence",
+          "evidence_status": "B.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0086",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Humlum & Vestergaard",
+      "canonical_citation": "Humlum, A., & Vestergaard, E. Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3386/w33777"
+      ],
+      "local_source_ids": [
+        "D9-S04"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S04",
+          "supports": "Task Redistribution。",
+          "does_not_support": "Universal increase in total labor、universal workload direction。",
+          "evidence_layer": "Direct AI-Specific Evidence",
+          "evidence_status": "B.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0087",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Becker et al. / METR (2025)",
+      "canonical_citation": "Becker, J., Rush, N., Barnes, B., & Rein, D. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D9-S05"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial / Research Report"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S05",
+          "supports": "Task / expertise-specific productivity penalty; perceived vs measured productivity distinction.",
+          "does_not_support": "Software development一般、2026以降のModel、all coding tasks。",
+          "evidence_layer": "Direct AI-Specific Evidence",
+          "evidence_status": "B.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0088",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Ranganathan & Ye (2026)",
+      "canonical_citation": "UC Berkeley Haas ongoing research",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D9-S06"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S06",
+          "supports": "特定settingにおけるWork Intensification pattern。",
+          "does_not_support": "Domain-wide causal effect、population-wide burnout outcome。",
+          "evidence_layer": "Direct descriptive AI-Specific Evidence",
+          "evidence_status": "B within studied setting.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0089",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Brynjolfsson, Chandar & Chen (2026)",
+      "canonical_citation": "Brynjolfsson, E., Chandar, B., & Chen, R. Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D9-S07"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S07",
+          "supports": "Age-specific employment change associated with AI exposure.",
+          "does_not_support": "Direct proof of future expertise-pipeline collapse。",
+          "evidence_layer": "Direct labor-market evidence",
+          "evidence_status": "B for employment pattern; D for future expertise consequence.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0090",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Ravid et al. (2023)",
+      "canonical_citation": "Ravid, D. M., White, J. C., Tomczak, D. L., Miles, A. F., & Behrend, T. S. A meta-analysis of the effects of electronic performance monitoring on work outcomes.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1111/peps.12514"
+      ],
+      "local_source_ids": [
+        "D9-S09"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S09",
+          "supports": "当該Evidence BaseではEPMによるPerformance改善を支持するEvidenceが確認されず、Stress増加との関連が観察された。Transparent / less invasive MonitoringではAttitudeがよりPositive。",
+          "does_not_support": "Current GenAI monitoring systemのDirect causal effect。",
+          "evidence_layer": "Adjacent Evidence",
+          "evidence_status": "A within EPM literature.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0091",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Directive (EU) 2024/2831",
+      "canonical_citation": "Directive (EU) 2024/2831 on improving working conditions in platform work",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D9-S11"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [
+        "Legal Source."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://eur-lex.europa.eu/eli/dir/2024/2831/oj",
+      "source_lock_verification_note": "Directive (EU) 2024/2831 is the Platform Work Directive. Article 10 requires human oversight and sufficient human resources for automated monitoring/decision systems in digital labour platforms.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D09",
+          "local_source_id": "D9-S11",
+          "supports": "Platform WorkにおけるAlgorithmic ManagementへのBinding Legal Boundary。",
+          "does_not_support": "一般Workplace AIすべてへの直接適用。",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-09",
+      "name": "Work, Productivity, Skill & Worker Agency",
+      "description": "Productivity, work elimination, task redistribution, workload, work intensity, worker acceptance, worker voice, and worker benefit.",
+      "member_count": 20,
+      "member_ids": [
+        "HAI-NEQ-127",
+        "HAI-NEQ-128",
+        "HAI-NEQ-129",
+        "HAI-NEQ-130",
+        "HAI-NEQ-131",
+        "HAI-NEQ-132",
+        "HAI-NEQ-133",
+        "HAI-NEQ-134",
+        "HAI-NEQ-135",
+        "HAI-NEQ-136",
+        "HAI-NEQ-137",
+        "HAI-NEQ-138",
+        "HAI-NEQ-139",
+        "HAI-NEQ-140",
+        "HAI-NEQ-141",
+        "HAI-NEQ-252",
+        "HAI-NEQ-253",
+        "HAI-NEQ-254",
+        "HAI-NEQ-256",
+        "HAI-NEQ-257"
+      ],
+      "domains": [
+        "D09"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-002",
+        "HAI-QRY-018",
+        "HAI-QRY-019",
+        "HAI-QRY-020",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "cluster_id": "HAI-NEQC-10",
+      "name": "Oversight, Control, Safety & Recovery",
+      "description": "Human oversight, control, override, detection, observability, execution, safe state, reliability, independence, assurance, and system recovery.",
+      "member_count": 36,
+      "member_ids": [
+        "HAI-NEQ-098",
+        "HAI-NEQ-108",
+        "HAI-NEQ-109",
+        "HAI-NEQ-110",
+        "HAI-NEQ-142",
+        "HAI-NEQ-143",
+        "HAI-NEQ-144",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-151",
+        "HAI-NEQ-152",
+        "HAI-NEQ-153",
+        "HAI-NEQ-154",
+        "HAI-NEQ-155",
+        "HAI-NEQ-156",
+        "HAI-NEQ-157",
+        "HAI-NEQ-158",
+        "HAI-NEQ-159",
+        "HAI-NEQ-160",
+        "HAI-NEQ-161",
+        "HAI-NEQ-162",
+        "HAI-NEQ-163",
+        "HAI-NEQ-164",
+        "HAI-NEQ-165",
+        "HAI-NEQ-166",
+        "HAI-NEQ-167",
+        "HAI-NEQ-168",
+        "HAI-NEQ-169",
+        "HAI-NEQ-170",
+        "HAI-NEQ-246",
+        "HAI-NEQ-255",
+        "HAI-NEQ-260"
+      ],
+      "domains": [
+        "D07",
+        "D09",
+        "D10"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-007",
+        "HAI-QRY-014",
+        "HAI-QRY-015",
+        "HAI-QRY-018",
+        "HAI-QRY-021",
+        "HAI-QRY-022",
+        "HAI-QRY-023",
+        "HAI-QRY-024",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "cluster_id": "HAI-NEQC-11",
+      "name": "Institution, Law, Governance & Accountability",
+      "description": "Legitimacy, fairness, legal compliance, contestability, review, appeal, remedy, accountability, audit, certification, standards, and liability.",
+      "member_count": 31,
+      "member_ids": [
+        "HAI-NEQ-171",
+        "HAI-NEQ-172",
+        "HAI-NEQ-173",
+        "HAI-NEQ-174",
+        "HAI-NEQ-175",
+        "HAI-NEQ-176",
+        "HAI-NEQ-177",
+        "HAI-NEQ-178",
+        "HAI-NEQ-179",
+        "HAI-NEQ-180",
+        "HAI-NEQ-181",
+        "HAI-NEQ-182",
+        "HAI-NEQ-183",
+        "HAI-NEQ-184",
+        "HAI-NEQ-185",
+        "HAI-NEQ-186",
+        "HAI-NEQ-187",
+        "HAI-NEQ-188",
+        "HAI-NEQ-189",
+        "HAI-NEQ-258",
+        "HAI-NEQ-259",
+        "HAI-NEQ-261",
+        "HAI-NEQ-262",
+        "HAI-NEQ-263",
+        "HAI-NEQ-264",
+        "HAI-NEQ-265",
+        "HAI-NEQ-266",
+        "HAI-NEQ-267",
+        "HAI-NEQ-268",
+        "HAI-NEQ-269",
+        "HAI-NEQ-270"
+      ],
+      "domains": [
+        "D09",
+        "D11"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-004",
+        "HAI-QRY-007",
+        "HAI-QRY-018",
+        "HAI-QRY-022",
+        "HAI-QRY-023",
+        "HAI-QRY-024",
+        "HAI-QRY-025",
+        "HAI-QRY-026",
+        "HAI-QRY-029",
+        "HAI-QRY-036"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D09",
+    "primary_claim_ids": [
+      "HAI-CLM-024",
+      "HAI-CLM-025",
+      "HAI-CLM-026",
+      "HAI-CLM-027"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-127",
+      "HAI-NEQ-128",
+      "HAI-NEQ-129",
+      "HAI-NEQ-130",
+      "HAI-NEQ-131",
+      "HAI-NEQ-132",
+      "HAI-NEQ-133",
+      "HAI-NEQ-134",
+      "HAI-NEQ-135",
+      "HAI-NEQ-136",
+      "HAI-NEQ-137",
+      "HAI-NEQ-138",
+      "HAI-NEQ-139",
+      "HAI-NEQ-140",
+      "HAI-NEQ-141",
+      "HAI-NEQ-252",
+      "HAI-NEQ-253",
+      "HAI-NEQ-254",
+      "HAI-NEQ-255",
+      "HAI-NEQ-256",
+      "HAI-NEQ-257",
+      "HAI-NEQ-258",
+      "HAI-NEQ-259"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-018",
+        "HAI-QRY-019",
+        "HAI-QRY-020"
+      ],
+      "secondary": [
+        "HAI-QRY-001",
+        "HAI-QRY-002",
+        "HAI-QRY-021",
+        "HAI-QRY-032",
+        "HAI-QRY-033",
+        "HAI-QRY-034",
+        "HAI-QRY-035"
+      ],
+      "counterexample": [
+        "HAI-QRY-006",
+        "HAI-QRY-017",
+        "HAI-QRY-019",
+        "HAI-QRY-028",
+        "HAI-QRY-033"
+      ]
+    },
+    "section_ids": [
+      "HAI-SEC-D09-DOCUMENT-STATUS",
+      "HAI-SEC-D09-CORE-QUESTION",
+      "HAI-SEC-D09-CORE-DISTINCTIONS",
+      "HAI-SEC-D09-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D09-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "HAI-SEC-D09-ALTERNATIVE-EXPLANATIONS",
+      "HAI-SEC-D09-COUNTEREVIDENCE",
+      "HAI-SEC-D09-COUNTEREVIDENCE-56",
+      "HAI-SEC-D09-COUNTEREVIDENCE-57",
+      "HAI-SEC-D09-COUNTEREVIDENCE-58",
+      "HAI-SEC-D09-EVIDENCE-STATUS",
+      "HAI-SEC-D09-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D09-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D09-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D09-HIGH-RISK-MISINTERPRETATIONS",
+      "HAI-SEC-D09-SOURCE-LEDGER",
+      "HAI-SEC-D09-CROSS-REFERENCES",
+      "HAI-SEC-D09-RESEARCH-GAPS",
+      "HAI-SEC-D09-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D09-FINAL-ASSESSMENT",
+      "HAI-SEC-D09-DOES-NOT-SUPPORT"
+    ],
+    "source_ids": [
+      "HAI-SRC-0007",
+      "HAI-SRC-0009",
+      "HAI-SRC-0040",
+      "HAI-SRC-0084",
+      "HAI-SRC-0085",
+      "HAI-SRC-0086",
+      "HAI-SRC-0087",
+      "HAI-SRC-0088",
+      "HAI-SRC-0089",
+      "HAI-SRC-0090",
+      "HAI-SRC-0091"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Productivity::PRODUCTIVITY",
+        "Workload::WORKLOAD",
+        "Work Intensity::WORK_INTENSITY",
+        "Effective Choice::EFFECTIVE_CHOICE"
+      ],
+      "related": [
+        "Performance::PERFORMANCE",
+        "Learning::LEARNING",
+        "Retention::RETENTION",
+        "Transfer::TRANSFER",
+        "AI-use Competence::CAPABILITY_AI_USE",
+        "Joint-System Performance::PERFORMANCE_JOINT_SYSTEM",
+        "Cognitive Offloading::COGNITIVE_OFFLOADING",
+        "Deskilling::DESKILLING",
+        "Authority::AUTHORITY",
+        "Trust::TRUST_PSYCHOLOGICAL",
+        "Reliance::RELIANCE_BEHAVIOR",
+        "Monitoring::MONITORING",
+        "Participation::PARTICIPATION",
+        "Inclusion::INCLUSION",
+        "Accessibility::ACCESSIBILITY",
+        "Authorship::AUTHORSHIP",
+        "Effective Oversight::EFFECTIVE_OVERSIGHT",
+        "Contestability::CONTESTABILITY",
+        "Review::REVIEW_INSTITUTIONAL",
+        "Accountability::ACCOUNTABILITY",
+        "Responsibility::RESPONSIBILITY_GENERAL"
+      ]
+    },
+    "counts": {
+      "primary_claims": 4,
+      "non_equivalences": 23,
+      "primary_routes": 3,
+      "secondary_routes": 7,
+      "counterexample_routes": 5,
+      "sections": 21,
+      "sources": 11
+    }
+  }
+}

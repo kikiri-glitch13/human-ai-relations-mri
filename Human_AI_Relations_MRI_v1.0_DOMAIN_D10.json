@@ -1,0 +1,1816 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D10",
+    "title": "【Human–AI Relations 領域10】AI監督・安全・制御・Embodied Systems ―― 人間が最後に残っていることは、AIが人間のControl下にあり安全であることを意味するのか",
+    "canonical_domain_name": "Oversight・Safety・Control・Embodied Systems",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/nd3a15fcf3978",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-028",
+      "claim": "Human presence, formal approval, or a human-in-the-loop label does not establish effective oversight or control.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D10",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0007",
+        "HAI-SRC-0002",
+        "HAI-SRC-0093",
+        "HAI-SRC-0112"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D10-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D10:1443-1462",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D10:90-364",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0007",
+          "HAI-SRC-0002",
+          "HAI-SRC-0093",
+          "HAI-SRC-0112"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-021",
+        "HAI-QRY-022"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-029",
+      "claim": "Effective oversight must be evaluated through context-specific factors including observability, interpretation, authority, time, action capability, system response, feedback, recovery, and organizational capacity.",
+      "claim_type": "Audit claim",
+      "claim_status": "RETAINED",
+      "primary_domain": "D10",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0007",
+        "HAI-SRC-0002",
+        "HAI-SRC-0093",
+        "HAI-SRC-0113"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "oversight dimensions are audit dimensions/candidate enabling conditions",
+          "claim_type": "Conceptual/Audit",
+          "status": null,
+          "scope": "not universal sufficient conditions"
+        },
+        {
+          "component": "specific human-factor mechanisms",
+          "claim_type": "Adjacent/theory-consistent",
+          "status": "C",
+          "scope": "context dependent"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D10-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D10:1443-1462",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D10:90-364",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0007",
+          "HAI-SRC-0002",
+          "HAI-SRC-0093",
+          "HAI-SRC-0113"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-021",
+        "HAI-QRY-022",
+        "HAI-QRY-023",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-030",
+      "claim": "Average accuracy alone does not establish system safety.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D10",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0093",
+        "HAI-SRC-0098"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D10-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now / 現時点で言えること",
+            "locator": "D10:1443-1462",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D10:90-364",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0093",
+          "HAI-SRC-0098"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-021",
+        "HAI-QRY-023",
+        "HAI-QRY-024"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-142",
+      "label": "Human Presence ≠ Effective Oversight",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:92-92",
+        "source_excerpt": "## 2.1 Human Presence ≠ Effective Oversight",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-143",
+      "label": "Human-in-the-loop ≠ Effective Human Control",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:109-109",
+        "source_excerpt": "## 2.2 Human-in-the-loop ≠ Effective Human Control",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-144",
+      "label": "Override Button ≠ Effective Override",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:139-139",
+        "source_excerpt": "## 2.4 Override Button ≠ Effective Override",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-145",
+      "label": "Detection ≠ Interpretation",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:157-157",
+        "source_excerpt": "## 2.5 Detection ≠ Interpretation",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-146",
+      "label": "Interpretation ≠ Correct Decision",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:163-163",
+        "source_excerpt": "## 2.6 Interpretation ≠ Correct Decision",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-147",
+      "label": "Correct Decision ≠ Successful Execution",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:169-169",
+        "source_excerpt": "## 2.7 Correct Decision ≠ Successful Execution",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-148",
+      "label": "Successful Execution ≠ Recovery",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:182-182",
+        "source_excerpt": "## 2.8 Successful Execution ≠ Recovery",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-149",
+      "label": "Stop ≠ Safe State",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:188-188",
+        "source_excerpt": "## 2.9 Stop ≠ Safe State ≠ Recovery",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-150",
+      "label": "Safe State ≠ Recovery",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:188-188",
+        "source_excerpt": "## 2.9 Stop ≠ Safe State ≠ Recovery",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-151",
+      "label": "Monitoring ≠ Control",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:208-208",
+        "source_excerpt": "## 2.10 Monitoring ≠ Control",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-152",
+      "label": "Monitoring ≠ Situation Awareness",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:221-221",
+        "source_excerpt": "## 2.11 Monitoring ≠ Situation Awareness",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-153",
+      "label": "Data Availability ≠ Usable Observability",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:227-227",
+        "source_excerpt": "## 2.12 Data Availability ≠ Usable Observability",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-154",
+      "label": "Explanation ≠ Process Visibility",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:233-233",
+        "source_excerpt": "## 2.13 Explanation ≠ Process Visibility",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-155",
+      "label": "Visible Reasoning ≠ Faithful Reasoning",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:244-244",
+        "source_excerpt": "## 2.14 Visible Reasoning ≠ Faithful Reasoning",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-156",
+      "label": "Faithful Reasoning ≠ Safe Reasoning",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:250-250",
+        "source_excerpt": "## 2.15 Faithful Reasoning ≠ Safe Reasoning",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-157",
+      "label": "Average Accuracy ≠ System Safety",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:265-265",
+        "source_excerpt": "## 2.16 Average Accuracy ≠ System Safety",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-158",
+      "label": "Reliable Automation ≠ Easy Human Takeover",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:281-281",
+        "source_excerpt": "## 2.17 Reliable Automation ≠ Easy Human Takeover",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-159",
+      "label": "Formal Authority ≠ Practical Authority",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:287-287",
+        "source_excerpt": "## 2.18 Formal Authority ≠ Practical Authority",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-02"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-160",
+      "label": "Authority ≠ Action Capability",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:301-301",
+        "source_excerpt": "## 2.19 Authority ≠ Action Capability",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-02"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-161",
+      "label": "Action Issued ≠ Action Executed",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:307-307",
+        "source_excerpt": "## 2.20 Action Issued ≠ Action Executed",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-162",
+      "label": "Action Executed ≠ Desired State Achieved",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:313-313",
+        "source_excerpt": "## 2.21 Action Executed ≠ Desired State Achieved",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-163",
+      "label": "Redundancy ≠ Independence",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:320-320",
+        "source_excerpt": "## 2.22 Redundancy ≠ Independence",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-164",
+      "label": "AI Critic ≠ Independent Assurance",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:326-326",
+        "source_excerpt": "## 2.23 AI Critic ≠ Independent Assurance",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-165",
+      "label": "Safety ≠ Reliability",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:332-332",
+        "source_excerpt": "## 2.24 Safety ≠ Reliability",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-166",
+      "label": "Reliability ≠ Continuity",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:340-340",
+        "source_excerpt": "## 2.25 Reliability ≠ Continuity",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-167",
+      "label": "Reversibility ≠ Safety",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:347-347",
+        "source_excerpt": "## 2.26 Reversibility ≠ Safety",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-168",
+      "label": "Human Responsibility ≠ Human Control",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:359-359",
+        "source_excerpt": "## 2.28 Human Responsibility ≠ Human Control",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-02"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-169",
+      "label": "Multiple AI Reviewers ≠ Independent Assurance",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:90-364",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-170",
+      "label": "Single-Agent Safety ≠ Multi-Agent Safety",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:90-364",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-260",
+      "label": "Formal Control ≠ Practical Control",
+      "primary_domain": "D10",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D10",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D10:283-291",
+        "source_excerpt": "Automation（自動化）が通常時に高いReliability（信頼性）を持つことと、Failure時にHumanが容易にControlを取り戻せることは別である。[D10-S01][D10-S03]  ---  ## 2.18 Formal Authority ≠ Practical Authority  規則上停止できても、  - Production Pressure（生産圧力）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": []
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-021",
+      "query_cluster": "human-in-the-loop means safe",
+      "primary_domains": [
+        "D10"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-028",
+        "HAI-CLM-029",
+        "HAI-CLM-030"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-142",
+        "HAI-NEQ-143",
+        "HAI-NEQ-144",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-151",
+        "HAI-NEQ-152",
+        "HAI-NEQ-153",
+        "HAI-NEQ-154",
+        "HAI-NEQ-155",
+        "HAI-NEQ-156",
+        "HAI-NEQ-157",
+        "HAI-NEQ-158",
+        "HAI-NEQ-159",
+        "HAI-NEQ-160",
+        "HAI-NEQ-161",
+        "HAI-NEQ-162",
+        "HAI-NEQ-163",
+        "HAI-NEQ-164",
+        "HAI-NEQ-165",
+        "HAI-NEQ-166",
+        "HAI-NEQ-167",
+        "HAI-NEQ-168",
+        "HAI-NEQ-169",
+        "HAI-NEQ-170",
+        "HAI-NEQ-260"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D09",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D10": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D10-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D10-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D10-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-022",
+      "query_cluster": "override button / human control",
+      "primary_domains": [
+        "D10"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-028",
+        "HAI-CLM-029"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-144",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-159",
+        "HAI-NEQ-160",
+        "HAI-NEQ-161",
+        "HAI-NEQ-162",
+        "HAI-NEQ-260",
+        "HAI-NEQ-180"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D11",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D02"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D10": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D10-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D10-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D10-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-023",
+      "query_cluster": "AI reasoning trace proves safety",
+      "primary_domains": [
+        "D10"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-029",
+        "HAI-CLM-030"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-154",
+        "HAI-NEQ-155",
+        "HAI-NEQ-156",
+        "HAI-NEQ-164",
+        "HAI-NEQ-263",
+        "HAI-NEQ-264"
+      ],
+      "secondary_domains": [
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D10": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D10-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D10-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D10-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-021",
+      "HAI-QRY-022",
+      "HAI-QRY-023"
+    ],
+    "secondary": [
+      "HAI-QRY-004",
+      "HAI-QRY-006",
+      "HAI-QRY-007",
+      "HAI-QRY-013",
+      "HAI-QRY-014",
+      "HAI-QRY-015",
+      "HAI-QRY-018",
+      "HAI-QRY-019",
+      "HAI-QRY-024",
+      "HAI-QRY-025",
+      "HAI-QRY-026",
+      "HAI-QRY-029",
+      "HAI-QRY-032",
+      "HAI-QRY-033",
+      "HAI-QRY-034",
+      "HAI-QRY-036"
+    ],
+    "counterexample": [
+      "HAI-QRY-007",
+      "HAI-QRY-026"
+    ]
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D10-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D10:20-62"
+    },
+    {
+      "section_id": "HAI-SEC-D10-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D10:63-89"
+    },
+    {
+      "section_id": "HAI-SEC-D10-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Core Distinctions",
+      "source_locator": "D10:90-364"
+    },
+    {
+      "section_id": "HAI-SEC-D10-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D10:365-433"
+    },
+    {
+      "section_id": "HAI-SEC-D10-EXISTING-THEORY-FIRST",
+      "section_type": "EXISTING_THEORY_FIRST",
+      "heading": "Existing-Theory-First",
+      "source_locator": "D10:434-457"
+    },
+    {
+      "section_id": "HAI-SEC-D10-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence",
+      "source_locator": "D10:1334-1351"
+    },
+    {
+      "section_id": "HAI-SEC-D10-EVIDENCE-ARCHITECTURE",
+      "section_type": "EVIDENCE_ARCHITECTURE",
+      "heading": "Evidence Architecture",
+      "source_locator": "D10:1373-1395"
+    },
+    {
+      "section_id": "HAI-SEC-D10-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D10:1396-1442"
+    },
+    {
+      "section_id": "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "What We Can Say Now / 現時点で言えること",
+      "source_locator": "D10:1443-1462"
+    },
+    {
+      "section_id": "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "What We Cannot Say Yet / 現時点では言えないこと",
+      "source_locator": "D10:1463-1483"
+    },
+    {
+      "section_id": "HAI-SEC-D10-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D10:1484-1538"
+    },
+    {
+      "section_id": "HAI-SEC-D10-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D10:1585-1636"
+    },
+    {
+      "section_id": "HAI-SEC-D10-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D10:1637-1841"
+    },
+    {
+      "section_id": "HAI-SEC-D10-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D10:1842-1885"
+    },
+    {
+      "section_id": "HAI-SEC-D10-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D10:1886-1919"
+    },
+    {
+      "section_id": "HAI-SEC-D10-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D10:1920-2002"
+    },
+    {
+      "section_id": "HAI-SEC-D10-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D10].does_not_support"
+    },
+    {
+      "section_id": "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D10; evidence_layer≈Layer B/Direct AI]"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0002",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Parasuraman, Sheridan & Wickens (2000)",
+      "canonical_citation": "Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). A model for types and levels of human interaction with automation. IEEE Transactions on Systems, Man, and Cybernetics—Part A, 30(3), 286–297.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1109/3468.844354"
+      ],
+      "local_source_ids": [
+        "D0-S02",
+        "D10-S02"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D10"
+      ],
+      "source_types": [
+        "Conceptual / Human Factors framework"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S02",
+          "supports": "Automation should be analyzed function-by-function rather than as a single scalar.",
+          "does_not_support": "One universally optimal automation level.",
+          "evidence_layer": "Existing Research Tradition.",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0007",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Endsley & Kiris — Out-of-the-Loop",
+      "canonical_citation": "Endsley, M. R., & Kiris, E. O. (1995). The Out-of-the-Loop Performance Problem and Level of Control in Automation. Human Factors, 37(2), 381–394.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1518/001872095779064555"
+      ],
+      "local_source_ids": [
+        "D0-S07",
+        "D9-S08",
+        "D10-S01"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D09",
+        "D10"
+      ],
+      "source_types": [
+        "Human Factors / Experimental Automation Research",
+        "Human Factors / Automation Experimental Literature",
+        "Controlled Human Factors Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S01",
+          "supports": "Automation conditions can reduce Situation Awareness and impair failure takeover performance.",
+          "does_not_support": "Universal deskilling; direct transfer to current Agentic AI.",
+          "evidence_layer": "Existing Human Factors Evidence",
+          "evidence_status": "A within studied scope.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0069",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Regulation (EU) 2024/1689 — EU AI Act",
+      "canonical_citation": "Regulation (EU) 2024/1689",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D7-S09",
+        "D10-S14",
+        "D11-S06",
+        "D12-S06"
+      ],
+      "used_in_domains": [
+        "D07",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "source_types": [
+        "Binding Legal Source",
+        "Binding Legal Source within its scope.",
+        "Regulation"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": true,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "source_lock_verification_note": "Regulation (EU) 2024/1689 remains a binding EU Regulation. Article 14 addresses effective human oversight for high-risk AI; Annex III includes specified creditworthiness and life/health-insurance use cases.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S14",
+          "supports": null,
+          "does_not_support": null,
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0092",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Bainbridge (1983)",
+      "canonical_citation": "Bainbridge, L. Ironies of Automation.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1016/0005-1098(83"
+      ],
+      "local_source_ids": [
+        "D10-S03"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S03",
+          "supports": "Automation can leave humans responsible for difficult abnormal conditions.",
+          "does_not_support": "Automation is inherently unsafe.",
+          "evidence_layer": "Existing Research Tradition.",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0093",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Leveson — STAMP / Systems-Theoretic Safety",
+      "canonical_citation": "Leveson, N. Engineering a Safer World: Systems Thinking Applied to Safety.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D10-S04"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S04",
+          "supports": "Safety analysis based on constraints, control structure, feedback and sociotechnical interaction rather than only linear component failures.",
+          "does_not_support": "Every AI hazard requires STPA specifically.",
+          "evidence_layer": "Existing Safety Research Tradition.",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0094",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Weak-to-Strong Generalization",
+      "canonical_citation": "OpenAI research, 2023",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D10-S09"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "Early evidence / research direction."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S09",
+          "supports": "Scalable Oversight can be studied empirically through weak-supervisor / strong-model analogues.",
+          "does_not_support": "Superhuman AI alignment or oversight is solved.",
+          "evidence_layer": "Direct AI-Specific Research",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0095",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Meier et al. (2026)",
+      "canonical_citation": "Meier, D., Francis, L. J., Kaiser, M. B., Ruas, T., Wahle, J. P., & Gipp, B. Risky Business: Measuring The Faithfulness-Safety Tension.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D10-S10"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S10",
+          "supports": "Faithful Reasoning ≠ Safe Reasoning.",
+          "does_not_support": "Faithfulness generally decreases safety across models and environments.",
+          "evidence_layer": "Direct AI-Specific Evidence",
+          "evidence_status": "B with strong scope limitation.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0096",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Li, Naito & Shirado — HiddenBench",
+      "canonical_citation": "Li, Y., Naito, A., & Shirado, H. Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D10-S11"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S11",
+          "supports": "Severe collective reasoning failure can occur in distributed-information Multi-Agent LLM settings.",
+          "does_not_support": "All Multi-Agent Systems are unsafe or structurally inferior.",
+          "evidence_layer": "Direct AI-Specific Evidence",
+          "evidence_status": "B within studied setting.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0097",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO 18497-1:2024",
+      "canonical_citation": "Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery — Part 1: Machine design principles and vocabulary",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D10-S12"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "International Standard",
+        "Sector Safety Standard."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.iso.org/standard/82684.html",
+      "source_lock_verification_note": "ISO 18497-1:2024 is a published International Standard for partially automated, semi-autonomous and autonomous agricultural machinery and tractors.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S12",
+          "supports": "Agriculture-specific embodied safety boundary.",
+          "does_not_support": "General Agentic AI safety claims.",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0098",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO 21448:2022",
+      "canonical_citation": "Road vehicles — Safety of the intended functionality",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D10-S13"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "International Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.iso.org/standard/77490.html",
+      "source_lock_verification_note": "ISO 21448:2022 is a published International Standard on road-vehicle Safety of the Intended Functionality (SOTIF).",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S13",
+          "supports": "Hazard can arise from specification / performance insufficiency without component failure.",
+          "does_not_support": "Direct application to general-purpose AI agents.",
+          "evidence_layer": "Adjacent Sector Safety Standard.",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0099",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "DoD Directive 3000.09",
+      "canonical_citation": "Autonomy in Weapon Systems",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D10-S15"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "Military Policy / Legal-Operational Boundary."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodd/300009p.pdf",
+      "source_lock_verification_note": "DoD Directive 3000.09, Autonomy in Weapon Systems, effective 25 January 2023.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D10",
+          "local_source_id": "D10-S15",
+          "supports": null,
+          "does_not_support": "General civilian AI oversight requirement.",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-10",
+      "name": "Oversight, Control, Safety & Recovery",
+      "description": "Human oversight, control, override, detection, observability, execution, safe state, reliability, independence, assurance, and system recovery.",
+      "member_count": 36,
+      "member_ids": [
+        "HAI-NEQ-098",
+        "HAI-NEQ-108",
+        "HAI-NEQ-109",
+        "HAI-NEQ-110",
+        "HAI-NEQ-142",
+        "HAI-NEQ-143",
+        "HAI-NEQ-144",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-151",
+        "HAI-NEQ-152",
+        "HAI-NEQ-153",
+        "HAI-NEQ-154",
+        "HAI-NEQ-155",
+        "HAI-NEQ-156",
+        "HAI-NEQ-157",
+        "HAI-NEQ-158",
+        "HAI-NEQ-159",
+        "HAI-NEQ-160",
+        "HAI-NEQ-161",
+        "HAI-NEQ-162",
+        "HAI-NEQ-163",
+        "HAI-NEQ-164",
+        "HAI-NEQ-165",
+        "HAI-NEQ-166",
+        "HAI-NEQ-167",
+        "HAI-NEQ-168",
+        "HAI-NEQ-169",
+        "HAI-NEQ-170",
+        "HAI-NEQ-246",
+        "HAI-NEQ-255",
+        "HAI-NEQ-260"
+      ],
+      "domains": [
+        "D07",
+        "D09",
+        "D10"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-007",
+        "HAI-QRY-014",
+        "HAI-QRY-015",
+        "HAI-QRY-018",
+        "HAI-QRY-021",
+        "HAI-QRY-022",
+        "HAI-QRY-023",
+        "HAI-QRY-024",
+        "HAI-QRY-032"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D10",
+    "primary_claim_ids": [
+      "HAI-CLM-028",
+      "HAI-CLM-029",
+      "HAI-CLM-030"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-142",
+      "HAI-NEQ-143",
+      "HAI-NEQ-144",
+      "HAI-NEQ-145",
+      "HAI-NEQ-146",
+      "HAI-NEQ-147",
+      "HAI-NEQ-148",
+      "HAI-NEQ-149",
+      "HAI-NEQ-150",
+      "HAI-NEQ-151",
+      "HAI-NEQ-152",
+      "HAI-NEQ-153",
+      "HAI-NEQ-154",
+      "HAI-NEQ-155",
+      "HAI-NEQ-156",
+      "HAI-NEQ-157",
+      "HAI-NEQ-158",
+      "HAI-NEQ-159",
+      "HAI-NEQ-160",
+      "HAI-NEQ-161",
+      "HAI-NEQ-162",
+      "HAI-NEQ-163",
+      "HAI-NEQ-164",
+      "HAI-NEQ-165",
+      "HAI-NEQ-166",
+      "HAI-NEQ-167",
+      "HAI-NEQ-168",
+      "HAI-NEQ-169",
+      "HAI-NEQ-170",
+      "HAI-NEQ-260"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-021",
+        "HAI-QRY-022",
+        "HAI-QRY-023"
+      ],
+      "secondary": [
+        "HAI-QRY-004",
+        "HAI-QRY-006",
+        "HAI-QRY-007",
+        "HAI-QRY-013",
+        "HAI-QRY-014",
+        "HAI-QRY-015",
+        "HAI-QRY-018",
+        "HAI-QRY-019",
+        "HAI-QRY-024",
+        "HAI-QRY-025",
+        "HAI-QRY-026",
+        "HAI-QRY-029",
+        "HAI-QRY-032",
+        "HAI-QRY-033",
+        "HAI-QRY-034",
+        "HAI-QRY-036"
+      ],
+      "counterexample": [
+        "HAI-QRY-007",
+        "HAI-QRY-026"
+      ]
+    },
+    "section_ids": [
+      "HAI-SEC-D10-DOCUMENT-STATUS",
+      "HAI-SEC-D10-CORE-QUESTION",
+      "HAI-SEC-D10-CORE-DISTINCTIONS",
+      "HAI-SEC-D10-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D10-EXISTING-THEORY-FIRST",
+      "HAI-SEC-D10-COUNTEREVIDENCE",
+      "HAI-SEC-D10-EVIDENCE-ARCHITECTURE",
+      "HAI-SEC-D10-EVIDENCE-STATUS",
+      "HAI-SEC-D10-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D10-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D10-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D10-RESEARCH-GAPS",
+      "HAI-SEC-D10-SOURCE-LEDGER",
+      "HAI-SEC-D10-CROSS-REFERENCES",
+      "HAI-SEC-D10-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D10-FINAL-ASSESSMENT",
+      "HAI-SEC-D10-DOES-NOT-SUPPORT",
+      "HAI-SEC-D10-DIRECT-AI-SPECIFIC-EVIDENCE"
+    ],
+    "source_ids": [
+      "HAI-SRC-0002",
+      "HAI-SRC-0007",
+      "HAI-SRC-0069",
+      "HAI-SRC-0092",
+      "HAI-SRC-0093",
+      "HAI-SRC-0094",
+      "HAI-SRC-0095",
+      "HAI-SRC-0096",
+      "HAI-SRC-0097",
+      "HAI-SRC-0098",
+      "HAI-SRC-0099"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Recovery::SYSTEM_SAFETY_RECOVERY",
+        "Effective Oversight::EFFECTIVE_OVERSIGHT",
+        "Observability::OBSERVABILITY",
+        "Effective Override::EFFECTIVE_OVERRIDE",
+        "Safe State::SAFE_STATE",
+        "Reversibility::REVERSIBILITY",
+        "Reliability::RELIABILITY_SYSTEM",
+        "Independent Assurance::INDEPENDENT_ASSURANCE"
+      ],
+      "related": [
+        "Decision Formation::DECISION_FORMATION",
+        "Authority::AUTHORITY",
+        "Calibration::CALIBRATION",
+        "Explanation::EXPLANATION",
+        "Monitoring::MONITORING",
+        "Detection::DETECTION",
+        "Intervention::INTERVENTION",
+        "Workload::WORKLOAD",
+        "Review::REVIEW_INSTITUTIONAL",
+        "Accountability::ACCOUNTABILITY",
+        "Audit::AUDIT",
+        "Assurance::ASSURANCE",
+        "Responsibility::RESPONSIBILITY_GENERAL",
+        "Authorization::AUTHORIZATION"
+      ]
+    },
+    "counts": {
+      "primary_claims": 3,
+      "non_equivalences": 30,
+      "primary_routes": 3,
+      "secondary_routes": 16,
+      "counterexample_routes": 2,
+      "sections": 18,
+      "sources": 11
+    }
+  }
+}

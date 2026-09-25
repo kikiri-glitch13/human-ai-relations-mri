@@ -1,0 +1,1818 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D07",
+    "title": "【Human–AI Relations 領域7】Care・Aging・Supported Decision-Making ―― 支援が増えることは、自律が失われることを意味するのか",
+    "canonical_domain_name": "Care・Aging・Supported Decision-Making",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/n46bfd11c0915",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-021",
+      "claim": "Dependence on technological or human support does not by itself determine whether autonomy is lost or preserved.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D07",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0003",
+        "HAI-SRC-0071",
+        "HAI-SRC-0073",
+        "HAI-SRC-0074"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D07-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D07:1132-1151",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+            "heading": "Core Distinctions",
+            "locator": "D07:64-345",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0003",
+          "HAI-SRC-0071",
+          "HAI-SRC-0073",
+          "HAI-SRC-0074"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-003",
+        "HAI-QRY-005",
+        "HAI-QRY-015",
+        "HAI-QRY-016",
+        "HAI-QRY-030"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-090",
+      "label": "Support ≠ Autonomy",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D07:55-55",
+        "source_excerpt": "**支援（Support） ≠ 自律（Autonomy）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-091",
+      "label": "Technology Dependence ≠ Autonomy Loss",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:87-87",
+        "source_excerpt": "### 2.3 技術依存（Technology Dependence） ≠ 自律喪失（Autonomy Loss）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-092",
+      "label": "Technology Dependence ≠ Autonomy Preservation",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:87-95",
+        "source_excerpt": "### 2.3 技術依存（Technology Dependence） ≠ 自律喪失（Autonomy Loss）  眼鏡、補聴器、車椅子、Navigation（移動・経路支援）、Medication Support（服薬支援）等と同様に、 **技術依存（Technology Dependence）** **≠ 主体性の喪失（Agency Loss）** である。[D7-S01] ただし、 **技術依存（Technology Dependence）** **≠ 自律維持（Autonomy Preservation）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-093",
+      "label": "Technology Dependence ≠ Functional Dependence",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:101-101",
+        "source_excerpt": "### 2.4 技術依存（Technology Dependence） ≠ 機能的依存（Functional Dependence）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-094",
+      "label": "Independence ≠ Absence of Support",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:107-107",
+        "source_excerpt": "### 2.5 自立（Independence） ≠ 支援の不在（Absence of Support）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-095",
+      "label": "Functional Independence ≠ Unaided Function",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:115-115",
+        "source_excerpt": "### 2.6 機能的自立（Functional Independence） ≠ 無支援機能（Unaided Function）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-096",
+      "label": "Safety ≠ Well-being",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D07:53-57",
+        "source_excerpt": "**AI支援によって安全（Safety）や生活継続が改善した場合、それは本人の自律（Autonomy）やWell-being（生活の良好さ）の改善を意味するのか。** 最低限、 **支援（Support） ≠ 自律（Autonomy）** **依存（Dependence） ≠ 自律喪失（Autonomy Loss）** **監視（Monitoring） ≠ Care**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-097",
+      "label": "Risk Reduction ≠ Good Life",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:135-135",
+        "source_excerpt": "### 2.8 Risk Reduction（リスク低減） ≠ Good Life（本人にとって望ましい生活）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-098",
+      "label": "Monitoring ≠ Care",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D07:53-57",
+        "source_excerpt": "**AI支援によって安全（Safety）や生活継続が改善した場合、それは本人の自律（Autonomy）やWell-being（生活の良好さ）の改善を意味するのか。** 最低限、 **支援（Support） ≠ 自律（Autonomy）** **依存（Dependence） ≠ 自律喪失（Autonomy Loss）** **監視（Monitoring） ≠ Care**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-099",
+      "label": "Staying Home ≠ Successful Aging in Place",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D07:51-59",
+        "source_excerpt": " 中心問いは次である。 **AI支援によって安全（Safety）や生活継続が改善した場合、それは本人の自律（Autonomy）やWell-being（生活の良好さ）の改善を意味するのか。** 最低限、 **支援（Support） ≠ 自律（Autonomy）** **依存（Dependence） ≠ 自律喪失（Autonomy Loss）** **監視（Monitoring） ≠ Care** **安全（Safety） ≠ Well-being** **自宅に留まること（Staying Home） ≠ 望ましい在宅・地域生活の継続（Successful Aging in Place）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-100",
+      "label": "Personalization ≠ Person-Centered Care",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:198-198",
+        "source_excerpt": "### 2.17 個別化（Personalization） ≠ Person-Centered Care（本人中心のケア）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-101",
+      "label": "Preference Expression ≠ Valid Consent",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:204-204",
+        "source_excerpt": "### 2.18 選好表明（Preference Expression） ≠ 有効な同意（Valid Consent）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-102",
+      "label": "Initial Consent ≠ Permanent Consent",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:210-210",
+        "source_excerpt": "### 2.19 初回同意（Initial Consent） ≠ 恒久的同意（Permanent Consent）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-103",
+      "label": "Proxy Consent ≠ Absence of Person Preference",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:216-216",
+        "source_excerpt": "### 2.20 代理人同意（Proxy Consent） ≠ 本人選好の不在（Absence of Person Preference）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-104",
+      "label": "Cognitive Support ≠ Decision Authority",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:229-229",
+        "source_excerpt": "### 2.22 認知支援（Cognitive Support） ≠ 判断権限（Decision Authority）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-105",
+      "label": "Supported Decision-Making ≠ Substituted Decision-Making",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:242-242",
+        "source_excerpt": "### 2.23 支援付き意思決定（Supported Decision-Making） ≠ 代行意思決定（Substituted Decision-Making）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-106",
+      "label": "Caregiver Burden Reduction ≠ Better Care",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:249-249",
+        "source_excerpt": "### 2.24 介護者負担の軽減（Caregiver Burden Reduction） ≠ より良いCare（Better Care）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-107",
+      "label": "Staff Workload Reduction ≠ Better Care",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:255-255",
+        "source_excerpt": "### 2.25 スタッフ業務負担の軽減（Staff Workload Reduction） ≠ より良いCare（Better Care）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-108",
+      "label": "Human Assigned ≠ Human Available",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:277-277",
+        "source_excerpt": "### 2.27 担当者の存在（Human Assigned） ≠ 対応可能な人の存在（Human Available）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-109",
+      "label": "Human Available ≠ Human Able to Intervene",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:283-283",
+        "source_excerpt": "### 2.28 対応可能な人の存在（Human Available） ≠ 実際に介入できること（Human Able to Intervene）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-110",
+      "label": "Human Ability ≠ Institutional Capacity",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:296-296",
+        "source_excerpt": "### 2.29 個人の介入能力（Human Ability） ≠ 組織的介入能力（Institutional Capacity）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-111",
+      "label": "Companionship ≠ Social Inclusion",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:302-302",
+        "source_excerpt": "### 2.30 Companionship（仲間的関係・交流） ≠ Social Inclusion（社会的包摂）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-112",
+      "label": "Loneliness Reduction ≠ Reduced Objective Social Isolation",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:315-315",
+        "source_excerpt": "### 2.31 Loneliness Reduction（孤独感低減） ≠ Reduced Objective Social Isolation（客観的社会的孤立の減少）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-113",
+      "label": "Task Replacement ≠ Caregiver Replacement",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:321-321",
+        "source_excerpt": "### 2.32 Task Replacement（Task代替） ≠ Caregiver Replacement（介護者代替）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-114",
+      "label": "Technical Availability ≠ Effective Care Capacity",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:333-333",
+        "source_excerpt": "### 2.34 技術的稼働（Technical Availability） ≠ 実効的Care能力（Effective Care Capacity）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-244",
+      "label": "Short-term Engagement ≠ Long-term Social Inclusion",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:64-345",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13",
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-245",
+      "label": "Short-term Loneliness Relief ≠ Durable Well-being",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:64-345",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13",
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-246",
+      "label": "Fall Detection ≠ Future Harm Prevention",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:64-345",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-10",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-247",
+      "label": "Short-term Burden Reduction ≠ Long-term Care Quality",
+      "primary_domain": "D07",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D07",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+        "origin_heading": "Core Distinctions",
+        "origin_locator": "D07:64-345",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-015",
+      "query_cluster": "care monitoring / aging in place",
+      "primary_domains": [
+        "D07"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-021"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-096",
+        "HAI-NEQ-097",
+        "HAI-NEQ-098",
+        "HAI-NEQ-099",
+        "HAI-NEQ-100",
+        "HAI-NEQ-101",
+        "HAI-NEQ-102",
+        "HAI-NEQ-103",
+        "HAI-NEQ-104",
+        "HAI-NEQ-105",
+        "HAI-NEQ-106",
+        "HAI-NEQ-107",
+        "HAI-NEQ-108",
+        "HAI-NEQ-109",
+        "HAI-NEQ-110",
+        "HAI-NEQ-111",
+        "HAI-NEQ-112",
+        "HAI-NEQ-113",
+        "HAI-NEQ-114",
+        "HAI-NEQ-244",
+        "HAI-NEQ-245",
+        "HAI-NEQ-246",
+        "HAI-NEQ-247"
+      ],
+      "secondary_domains": [
+        "D06",
+        "D08",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D05"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D07": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D07-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D07-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D07-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-016",
+      "query_cluster": "supported decision-making / consent",
+      "primary_domains": [
+        "D07"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-021"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-101",
+        "HAI-NEQ-102",
+        "HAI-NEQ-103",
+        "HAI-NEQ-104",
+        "HAI-NEQ-105"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D12"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D07": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D07-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D07-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D07-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-030",
+      "query_cluster": "AI dependence always reduces autonomy",
+      "primary_domains": [
+        "D07",
+        "D08"
+      ],
+      "routing_mode": "MULTI_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-021",
+        "HAI-CLM-022"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-073",
+        "HAI-NEQ-091",
+        "HAI-NEQ-092",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-250",
+        "HAI-NEQ-272",
+        "HAI-NEQ-090",
+        "HAI-NEQ-093"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D07": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D07-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D07-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D07-SOURCE-LEDGER"
+          ]
+        },
+        "D08": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D08-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D08-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D08-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D08-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D08-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D08-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-015",
+      "HAI-QRY-016",
+      "HAI-QRY-030"
+    ],
+    "secondary": [
+      "HAI-QRY-003",
+      "HAI-QRY-005",
+      "HAI-QRY-011",
+      "HAI-QRY-012",
+      "HAI-QRY-013",
+      "HAI-QRY-014",
+      "HAI-QRY-017",
+      "HAI-QRY-019",
+      "HAI-QRY-022",
+      "HAI-QRY-031",
+      "HAI-QRY-032",
+      "HAI-QRY-033",
+      "HAI-QRY-034"
+    ],
+    "counterexample": []
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D07-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D07:20-49"
+    },
+    {
+      "section_id": "HAI-SEC-D07-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D07:50-63"
+    },
+    {
+      "section_id": "HAI-SEC-D07-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Core Distinctions",
+      "source_locator": "D07:64-345"
+    },
+    {
+      "section_id": "HAI-SEC-D07-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D07:346-379"
+    },
+    {
+      "section_id": "HAI-SEC-D07-ALTERNATIVE-EXPLANATIONS",
+      "section_type": "ALTERNATIVE_EXPLANATIONS",
+      "heading": "Alternative Explanations",
+      "source_locator": "D07:1030-1075"
+    },
+    {
+      "section_id": "HAI-SEC-D07-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence / Mixed Evidence",
+      "source_locator": "D07:1076-1102"
+    },
+    {
+      "section_id": "HAI-SEC-D07-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D07:1103-1131"
+    },
+    {
+      "section_id": "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "現時点で言えること / What We Can Say Now",
+      "source_locator": "D07:1132-1151"
+    },
+    {
+      "section_id": "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "現時点では言えないこと / What We Cannot Say Yet",
+      "source_locator": "D07:1152-1174"
+    },
+    {
+      "section_id": "HAI-SEC-D07-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D07:1175-1245"
+    },
+    {
+      "section_id": "HAI-SEC-D07-HIGH-RISK-MISINTERPRETATIONS",
+      "section_type": "HIGH_RISK_MISINTERPRETATIONS",
+      "heading": "High-Risk Misinterpretations",
+      "source_locator": "D07:1277-1352"
+    },
+    {
+      "section_id": "HAI-SEC-D07-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D07:1353-1396"
+    },
+    {
+      "section_id": "HAI-SEC-D07-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D07:1422-1763"
+    },
+    {
+      "section_id": "HAI-SEC-D07-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D07:1764-1830"
+    },
+    {
+      "section_id": "HAI-SEC-D07-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D07:1831-1868"
+    },
+    {
+      "section_id": "HAI-SEC-D07-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D07:1869-1930"
+    },
+    {
+      "section_id": "HAI-SEC-D07-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D07].does_not_support"
+    },
+    {
+      "section_id": "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D07; evidence_layer≈Layer B/Direct AI]"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0024",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "WHO — International Classification of Functioning, Disability and Health",
+      "canonical_citation": "World Health Organization. (2001). International Classification of Functioning, Disability and Health.",
+      "year": "2001",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D1-S14",
+        "D7-S01",
+        "D8-S01"
+      ],
+      "used_in_domains": [
+        "D01",
+        "D07",
+        "D08"
+      ],
+      "source_types": [
+        "Authoritative International Framework",
+        "International Classification / Foundational Framework",
+        "Foundational conceptual framework."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S01",
+          "supports": "FunctioningをIndividual内部だけでなくActivities、Participation、Environmental Factorsを含むContextで評価すること。",
+          "does_not_support": "AI DependenceがAutonomyを維持するというAI-specific Causal Claim。",
+          "evidence_layer": "Layer A",
+          "evidence_status": "Not applicable",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Conceptual / Measurement Framework"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0062",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "McCance & McCormack (2025)",
+      "canonical_citation": "McCance, T., & McCormack, B. The Person-centred Nursing Framework: a mid-range theory for nursing practice.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1177/17449871241281428"
+      ],
+      "local_source_ids": [
+        "D7-S02"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Conceptual / Mid-range Theory"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S02",
+          "supports": "Person-Centered CareがPersonalizationより広く、Relational / Contextual / Professional / Care-environment要素を含むこと。",
+          "does_not_support": "AI PersonalizationがPCC Outcomeを改善するというEmpirical Claim。",
+          "evidence_layer": "Layer A",
+          "evidence_status": "Not applicable",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Conceptual"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0063",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Biard et al. (2025)",
+      "canonical_citation": "Biard, M., et al. Supporting decision making for individuals living with dementia and their care partners with knowledge translation: An umbrella review.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1002/alz.70636"
+      ],
+      "local_source_ids": [
+        "D7-S03"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Umbrella Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S03",
+          "supports": "People with dementia and Care PartnerがDecision Supportを必要とし、Knowledge Translation InterventionがDecision-related Outcomeを改善し得ること。",
+          "does_not_support": "AI-mediated Supported Decision-Makingのeffectiveness。AIへのDecision Authority移譲。",
+          "evidence_layer": "Layer A / C",
+          "evidence_status": "A/B within reviewed non-AI-specific scope",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Empirical / Review"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0064",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Mehrabi & Ghezelbash (2025)",
+      "canonical_citation": "Mehrabi, F., & Ghezelbash, A. Wired for companionship: a meta-analysis on social robots filling the void of loneliness in later life.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1093/geront/gnaf219"
+      ],
+      "local_source_ids": [
+        "D7-S04"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S04",
+          "supports": "Selected Social Robot interventions can reduce loneliness in older adults.",
+          "does_not_support": "Long-term Social Inclusion、Human Relationship Replacement、Caregiver Replacement。",
+          "evidence_layer": "Layer B — Direct AI-Specific Evidence",
+          "evidence_status": "B within studied outcome and scope",
+          "directness": null,
+          "key_limitation": "Long-term inference is limited; publication-bias concerns remain relevant.",
+          "claim_type": "Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0065",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Lee, Lee & Lee (2025)",
+      "canonical_citation": "Lee, A., Lee, H., & Lee, S.-H. Digital Healthcare Approaches for Fall Detection and Prediction in Older Adults: A Systematic Review of Evidence from Hospital and Long-Term Care Settings.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.3390/medicina61111926"
+      ],
+      "local_source_ids": [
+        "D7-S05"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Systematic Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S05",
+          "supports": "Digital systems can provide Fall Detection / Prediction under studied conditions.",
+          "does_not_support": "Detection automatically prevents falls, injury, hospitalization or other harm.",
+          "evidence_layer": "Layer B / Digital Care Evidence",
+          "evidence_status": "B for detection-related Claim; limited / mixed for downstream prevention",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0066",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Donelle et al. (2025)",
+      "canonical_citation": "Donelle, L., Hiebert, B., Warner, G., Reid, M., Reid, J., Shariff, S., Richard, E., Regan, S., Weeks, L., & Ledoux, K. Passive Remote Monitoring Technologies’ Influence on Home Care Clients’ Ability to Stay Home: Multiprovincial Randomized Controlled Trial.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.2196/69107"
+      ],
+      "local_source_ids": [
+        "D7-S06"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Pragmatic Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S06",
+          "supports": "Monitoring technology may support Aging-in-Place goals, but effectiveness for delaying higher levels of care was not established in this trial.",
+          "does_not_support": "PRM guarantees Successful Aging in Place or institutionalization prevention.",
+          "evidence_layer": "Layer C / Adjacent Digital-care Evidence",
+          "evidence_status": "C / E for this downstream outcome",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Empirical / Causal within trial"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0067",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Lumini et al. (2025)",
+      "canonical_citation": "Lumini, M. J., et al. Efficacy of digital technology-based interventions for reducing caregiver burden and stress: a systematic review and meta-analysis.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.3389/fdgth.2025.1636084"
+      ],
+      "local_source_ids": [
+        "D7-S07"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Systematic Review / Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S07",
+          "supports": "Some digital interventions reduce short-term caregiver burden and stress.",
+          "does_not_support": "AI generally reduces caregiver burden; burden reduction improves Recipient Outcome; durable long-term benefit.",
+          "evidence_layer": "Layer C — Adjacent Digital-care Evidence",
+          "evidence_status": "B within reviewed intervention class and short-term outcomes",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0068",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Morris et al. (2026)",
+      "canonical_citation": "Morris et al. Transforming dementia caregiver support with AI-powered social robotics.",
+      "year": "2026",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D7-S08"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Technical Evaluation / Feasibility / Two-phase User Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S08",
+          "supports": "RAG-grounded Caregiver-support AI can achieve relatively high content correctness / relevancy and user acceptance under tested conditions.",
+          "does_not_support": "Caregiver Burden Reduction、Recipient Clinical Outcome、Long-term Care Quality。",
+          "evidence_layer": "Layer B — Direct AI-Specific Evidence",
+          "evidence_status": "B for feasibility / system-output outcomes",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Empirical / Feasibility"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0069",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Regulation (EU) 2024/1689 — EU AI Act",
+      "canonical_citation": "Regulation (EU) 2024/1689",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D7-S09",
+        "D10-S14",
+        "D11-S06",
+        "D12-S06"
+      ],
+      "used_in_domains": [
+        "D07",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "source_types": [
+        "Binding Legal Source",
+        "Binding Legal Source within its scope.",
+        "Regulation"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": true,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "source_lock_verification_note": "Regulation (EU) 2024/1689 remains a binding EU Regulation. Article 14 addresses effective human oversight for high-risk AI; Annex III includes specified creditworthiness and life/health-insurance use cases.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S09",
+          "supports": "AI SystemのHigh-Risk classificationがSystem / Use条件に依存すること。Applicable High-Risk SystemにHuman Oversight等のRequirementが存在すること。",
+          "does_not_support": "すべてのCare AIが自動的にHigh-Riskであること。",
+          "evidence_layer": "Legal Source",
+          "evidence_status": "A–F not applicable",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Legal"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0070",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "令和8年 改正個人情報保護法",
+      "canonical_citation": "個人情報の保護に関する法律等の一部を改正する法律",
+      "year": "2026",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D7-S10"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Binding Japanese Legal Source"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_WITH_QUALIFICATION",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.ppc.go.jp/personalinfo/legal/r8kaiseihogohou/",
+      "source_lock_verification_note": "The 2026 amendment was enacted and promulgated on 17 July 2026. Except for limited provisions, commencement is to occur on a date set by Cabinet Order within two years; implementing rules/guidelines remain under development.",
+      "source_lock_supports_verdict": "QUALIFY",
+      "publication_action": "ADD_STATUS_QUALIFIER_TO_D7_S10",
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S10",
+          "supports": "「統計作成等」にのみ利用される場合など、一定条件下で本人同意を不要とする特例が設けられたこと。「統計作成等」には一定の場合にAI開発等が含まれ得ること。",
+          "does_not_support": "AI Development / Training一般で本人同意が不要になったという包括的Claim。",
+          "evidence_layer": "Legal Source",
+          "evidence_status": "A–F not applicable",
+          "directness": null,
+          "key_limitation": "具体的適用にはData Type、Purpose、条文、政令・規則・Guideline等の確認が必要。",
+          "claim_type": "Legal"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0071",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "Relational Autonomy Tradition",
+      "canonical_citation": "Relational Autonomy Tradition",
+      "year": "2000",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D7-S11"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Conceptual / Philosophical Research Tradition"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S11",
+          "supports": "Autonomyを孤立したIndividual Propertyだけではなく、Social / Relational Conditionsを含めて分析すること。",
+          "does_not_support": "AI SupportがAutonomyを改善するというEmpirical Claim。",
+          "evidence_layer": "Layer A / Conceptual Lens",
+          "evidence_status": "Not applicable",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Conceptual"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0072",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "MacIntyre (1999)",
+      "canonical_citation": "MacIntyre, A. Dependent Rational Animals: Why Human Beings Need the Virtues.",
+      "year": "1999",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D7-S12"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Philosophical / Ethical Lens"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D07",
+          "local_source_id": "D7-S12",
+          "supports": "Vulnerability、Dependence、InterdependenceをHuman Lifeの通常条件として考える視点。",
+          "does_not_support": "Technology DependenceがAutonomyを保存するというEmpirical Claim。",
+          "evidence_layer": "Conceptual Lens",
+          "evidence_status": "Not applicable",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Conceptual / Normative"
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-05",
+      "name": "Relationship, Attachment, Reciprocity & Social Outcome",
+      "description": "Attachment-like responses, intimacy, responsiveness, reciprocity, relationship quality, loneliness, and social integration.",
+      "member_count": 25,
+      "member_ids": [
+        "HAI-NEQ-062",
+        "HAI-NEQ-063",
+        "HAI-NEQ-064",
+        "HAI-NEQ-065",
+        "HAI-NEQ-066",
+        "HAI-NEQ-067",
+        "HAI-NEQ-068",
+        "HAI-NEQ-069",
+        "HAI-NEQ-070",
+        "HAI-NEQ-071",
+        "HAI-NEQ-072",
+        "HAI-NEQ-073",
+        "HAI-NEQ-074",
+        "HAI-NEQ-075",
+        "HAI-NEQ-076",
+        "HAI-NEQ-077",
+        "HAI-NEQ-078",
+        "HAI-NEQ-111",
+        "HAI-NEQ-112",
+        "HAI-NEQ-236",
+        "HAI-NEQ-237",
+        "HAI-NEQ-238",
+        "HAI-NEQ-239",
+        "HAI-NEQ-244",
+        "HAI-NEQ-245"
+      ],
+      "domains": [
+        "D05",
+        "D07"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-008",
+        "HAI-QRY-011",
+        "HAI-QRY-012",
+        "HAI-QRY-015",
+        "HAI-QRY-030",
+        "HAI-QRY-031"
+      ]
+    },
+    {
+      "cluster_id": "HAI-NEQC-07",
+      "name": "Autonomy, Dependence, Support & Consent",
+      "description": "Support, dependence, autonomy, functional independence, choice, consent, supported decision-making, and proxy involvement.",
+      "member_count": 32,
+      "member_ids": [
+        "HAI-NEQ-024",
+        "HAI-NEQ-025",
+        "HAI-NEQ-090",
+        "HAI-NEQ-091",
+        "HAI-NEQ-092",
+        "HAI-NEQ-093",
+        "HAI-NEQ-094",
+        "HAI-NEQ-095",
+        "HAI-NEQ-096",
+        "HAI-NEQ-097",
+        "HAI-NEQ-099",
+        "HAI-NEQ-100",
+        "HAI-NEQ-101",
+        "HAI-NEQ-102",
+        "HAI-NEQ-103",
+        "HAI-NEQ-104",
+        "HAI-NEQ-105",
+        "HAI-NEQ-106",
+        "HAI-NEQ-107",
+        "HAI-NEQ-113",
+        "HAI-NEQ-114",
+        "HAI-NEQ-115",
+        "HAI-NEQ-116",
+        "HAI-NEQ-124",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-211",
+        "HAI-NEQ-223",
+        "HAI-NEQ-247",
+        "HAI-NEQ-250",
+        "HAI-NEQ-272",
+        "HAI-NEQ-273"
+      ],
+      "domains": [
+        "D02",
+        "D07",
+        "D08",
+        "D12"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-003",
+        "HAI-QRY-004",
+        "HAI-QRY-005",
+        "HAI-QRY-015",
+        "HAI-QRY-016",
+        "HAI-QRY-017",
+        "HAI-QRY-028",
+        "HAI-QRY-029",
+        "HAI-QRY-030",
+        "HAI-QRY-031",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "cluster_id": "HAI-NEQC-10",
+      "name": "Oversight, Control, Safety & Recovery",
+      "description": "Human oversight, control, override, detection, observability, execution, safe state, reliability, independence, assurance, and system recovery.",
+      "member_count": 36,
+      "member_ids": [
+        "HAI-NEQ-098",
+        "HAI-NEQ-108",
+        "HAI-NEQ-109",
+        "HAI-NEQ-110",
+        "HAI-NEQ-142",
+        "HAI-NEQ-143",
+        "HAI-NEQ-144",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-151",
+        "HAI-NEQ-152",
+        "HAI-NEQ-153",
+        "HAI-NEQ-154",
+        "HAI-NEQ-155",
+        "HAI-NEQ-156",
+        "HAI-NEQ-157",
+        "HAI-NEQ-158",
+        "HAI-NEQ-159",
+        "HAI-NEQ-160",
+        "HAI-NEQ-161",
+        "HAI-NEQ-162",
+        "HAI-NEQ-163",
+        "HAI-NEQ-164",
+        "HAI-NEQ-165",
+        "HAI-NEQ-166",
+        "HAI-NEQ-167",
+        "HAI-NEQ-168",
+        "HAI-NEQ-169",
+        "HAI-NEQ-170",
+        "HAI-NEQ-246",
+        "HAI-NEQ-255",
+        "HAI-NEQ-260"
+      ],
+      "domains": [
+        "D07",
+        "D09",
+        "D10"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-007",
+        "HAI-QRY-014",
+        "HAI-QRY-015",
+        "HAI-QRY-018",
+        "HAI-QRY-021",
+        "HAI-QRY-022",
+        "HAI-QRY-023",
+        "HAI-QRY-024",
+        "HAI-QRY-032"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D07",
+    "primary_claim_ids": [
+      "HAI-CLM-021"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-090",
+      "HAI-NEQ-091",
+      "HAI-NEQ-092",
+      "HAI-NEQ-093",
+      "HAI-NEQ-094",
+      "HAI-NEQ-095",
+      "HAI-NEQ-096",
+      "HAI-NEQ-097",
+      "HAI-NEQ-098",
+      "HAI-NEQ-099",
+      "HAI-NEQ-100",
+      "HAI-NEQ-101",
+      "HAI-NEQ-102",
+      "HAI-NEQ-103",
+      "HAI-NEQ-104",
+      "HAI-NEQ-105",
+      "HAI-NEQ-106",
+      "HAI-NEQ-107",
+      "HAI-NEQ-108",
+      "HAI-NEQ-109",
+      "HAI-NEQ-110",
+      "HAI-NEQ-111",
+      "HAI-NEQ-112",
+      "HAI-NEQ-113",
+      "HAI-NEQ-114",
+      "HAI-NEQ-244",
+      "HAI-NEQ-245",
+      "HAI-NEQ-246",
+      "HAI-NEQ-247"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-015",
+        "HAI-QRY-016",
+        "HAI-QRY-030"
+      ],
+      "secondary": [
+        "HAI-QRY-003",
+        "HAI-QRY-005",
+        "HAI-QRY-011",
+        "HAI-QRY-012",
+        "HAI-QRY-013",
+        "HAI-QRY-014",
+        "HAI-QRY-017",
+        "HAI-QRY-019",
+        "HAI-QRY-022",
+        "HAI-QRY-031",
+        "HAI-QRY-032",
+        "HAI-QRY-033",
+        "HAI-QRY-034"
+      ],
+      "counterexample": []
+    },
+    "section_ids": [
+      "HAI-SEC-D07-DOCUMENT-STATUS",
+      "HAI-SEC-D07-CORE-QUESTION",
+      "HAI-SEC-D07-CORE-DISTINCTIONS",
+      "HAI-SEC-D07-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D07-ALTERNATIVE-EXPLANATIONS",
+      "HAI-SEC-D07-COUNTEREVIDENCE",
+      "HAI-SEC-D07-EVIDENCE-STATUS",
+      "HAI-SEC-D07-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D07-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D07-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D07-HIGH-RISK-MISINTERPRETATIONS",
+      "HAI-SEC-D07-CROSS-REFERENCES",
+      "HAI-SEC-D07-SOURCE-LEDGER",
+      "HAI-SEC-D07-RESEARCH-GAPS",
+      "HAI-SEC-D07-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D07-FINAL-ASSESSMENT",
+      "HAI-SEC-D07-DOES-NOT-SUPPORT",
+      "HAI-SEC-D07-DIRECT-AI-SPECIFIC-EVIDENCE"
+    ],
+    "source_ids": [
+      "HAI-SRC-0024",
+      "HAI-SRC-0062",
+      "HAI-SRC-0063",
+      "HAI-SRC-0064",
+      "HAI-SRC-0065",
+      "HAI-SRC-0066",
+      "HAI-SRC-0067",
+      "HAI-SRC-0068",
+      "HAI-SRC-0069",
+      "HAI-SRC-0070",
+      "HAI-SRC-0071",
+      "HAI-SRC-0072"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Support::SUPPORT_GENERAL",
+        "Technology Dependence::TECHNOLOGY_DEPENDENCE",
+        "Functional Independence::FUNCTIONAL_INDEPENDENCE",
+        "Monitoring::MONITORING",
+        "Detection::DETECTION",
+        "Intervention::INTERVENTION"
+      ],
+      "related": [
+        "Decision Formation::DECISION_FORMATION",
+        "Authority::AUTHORITY",
+        "Delegation::DELEGATION",
+        "Personalization::PERSONALIZATION",
+        "Mediation::MEDIATION",
+        "Social Integration::SOCIAL_INTEGRATION",
+        "Clinical Capacity::CLINICAL_CAPACITY",
+        "Participation::PARTICIPATION",
+        "Inclusion::INCLUSION",
+        "Workload::WORKLOAD",
+        "Effective Oversight::EFFECTIVE_OVERSIGHT",
+        "Responsibility::RESPONSIBILITY_GENERAL"
+      ]
+    },
+    "counts": {
+      "primary_claims": 1,
+      "non_equivalences": 29,
+      "primary_routes": 3,
+      "secondary_routes": 13,
+      "counterexample_routes": 0,
+      "sections": 18,
+      "sources": 12
+    }
+  }
+}

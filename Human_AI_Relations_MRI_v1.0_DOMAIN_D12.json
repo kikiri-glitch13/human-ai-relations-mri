@@ -1,0 +1,2274 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D12",
+    "title": "【Human–AI Relations 領域12】AIと金融・信用・保険・消費者 ―― 予測が正確なら、それは利用者にとって良い金融判断なのか",
+    "canonical_domain_name": "Finance・Consumer・Credit・Insurance",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/n9be80e4bd6b3",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-034",
+      "claim": "Prediction accuracy does not establish consumer benefit, financial capability, fairness, or investor welfare.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0117",
+        "HAI-SRC-0118",
+        "HAI-SRC-0119",
+        "HAI-SRC-0120"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+            "heading": "中心的な区別（Core Distinctions）",
+            "locator": "D12:112-191",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0117",
+          "HAI-SRC-0118",
+          "HAI-SRC-0119",
+          "HAI-SRC-0120"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-024",
+        "HAI-QRY-027",
+        "HAI-QRY-028",
+        "HAI-QRY-031",
+        "HAI-QRY-036"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-035",
+      "claim": "Alternative-data / algorithmic lending can improve prediction or credit access for some borrowers under studied market conditions, but this does not establish universal borrower welfare or fairness.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0117",
+        "HAI-SRC-0118"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D12; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0117",
+          "HAI-SRC-0118"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-027"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-036",
+      "claim": "LLM financial advice can alter financial decisions and can increase portfolio risk under some studied conditions; the direction of long-term investor benefit is not established.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0119",
+        "HAI-SRC-0120"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "LLM advice can alter financial decisions / increase risk in studied conditions",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "specific studies"
+        },
+        {
+          "component": "long-term investor benefit",
+          "claim_type": "Empirical boundary",
+          "status": "E",
+          "scope": "not established"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D12; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0119",
+          "HAI-SRC-0120"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-028"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-037",
+      "claim": "Agentic finance raises distinct authorization, revocation, logging, rollback, recovery, provider-dependence, and responsibility questions; long-term real-world evidence remains limited.",
+      "claim_type": "Audit / Predictive boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D12",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [
+        "HAI-SRC-0093",
+        "HAI-SRC-0069"
+      ],
+      "source_linkage_status": "NOT_APPLICABLE",
+      "evidence_basis": "DOMAIN_12_RESEARCH_GAP_AND_AUDIT_SYNTHESIS",
+      "evidence_profile": [
+        {
+          "component": "agentic-finance control/governance questions",
+          "claim_type": "Audit",
+          "status": null,
+          "scope": "conceptual extension"
+        },
+        {
+          "component": "long-term real-world outcome evidence",
+          "claim_type": "Predictive boundary",
+          "status": "E",
+          "scope": "limited / historically sparse"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET",
+          "HAI-SEC-D12-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+            "heading": "What We Can Say Now",
+            "locator": "D12:1243-1308",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "What We Cannot Say Yet",
+            "locator": "D12:1309-1337",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          },
+          {
+            "section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+            "heading": "中心的な区別（Core Distinctions）",
+            "locator": "D12:112-191",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [
+          "HAI-SRC-0093",
+          "HAI-SRC-0069"
+        ],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-029",
+        "HAI-QRY-032"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-190",
+      "label": "Prediction Accuracy ≠ Consumer Benefit",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-PRINCIPLE",
+        "origin_heading": "中心原則（Core Principle）",
+        "origin_locator": "D12:70-70",
+        "source_excerpt": "## Prediction Accuracy ≠ Consumer Benefit",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-191",
+      "label": "Financial Outcome ≠ Financial Capability",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-192",
+      "label": "Financial Capability ≠ Unaided Skill",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-120",
+        "source_excerpt": "## 3. 中心的な区別（Core Distinctions）  Domain 12では、以下の非含意を維持する。  ### Prediction Accuracy ≠ Consumer Benefit  ### Financial Outcome（金融上の結果） ≠ Financial Capability  ### Financial Capability ≠ Unaided Skill（無支援能力）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-193",
+      "label": "Decision ≠ Authorization",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:118-126",
+        "source_excerpt": "### Financial Outcome（金融上の結果） ≠ Financial Capability  ### Financial Capability ≠ Unaided Skill（無支援能力）  ### Information（情報） ≠ Recommendation  ### Recommendation ≠ Decision（判断）  ### Decision ≠ Authorization",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-02",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-12"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-194",
+      "label": "Authorization ≠ Execution",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:120-128",
+        "source_excerpt": "### Financial Capability ≠ Unaided Skill（無支援能力）  ### Information（情報） ≠ Recommendation  ### Recommendation ≠ Decision（判断）  ### Decision ≠ Authorization  ### Authorization ≠ Execution",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-02",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-12"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-195",
+      "label": "Advice Quality ≠ Better Financial Behavior",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-196",
+      "label": "Convenience ≠ Financial Capability",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:130-138",
+        "source_excerpt": "### Execution ≠ Responsibility  ### Advice Quality（助言品質） ≠ Better Financial Behavior（より良い金融行動）  ### Confidence（自信） ≠ Accuracy  ### Reliance（依存・利用） ≠ Appropriate Reliance（適切な依存）  ### Convenience（利便性） ≠ Financial Capability",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-197",
+      "label": "Personalization ≠ Suitability",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:132-140",
+        "source_excerpt": "### Advice Quality（助言品質） ≠ Better Financial Behavior（より良い金融行動）  ### Confidence（自信） ≠ Accuracy  ### Reliance（依存・利用） ≠ Appropriate Reliance（適切な依存）  ### Convenience（利便性） ≠ Financial Capability  ### Personalization（個別化） ≠ Suitability（適合性）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-198",
+      "label": "Personalization ≠ Fiduciary Duty",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:136-144",
+        "source_excerpt": "### Reliance（依存・利用） ≠ Appropriate Reliance（適切な依存）  ### Convenience（利便性） ≠ Financial Capability  ### Personalization（個別化） ≠ Suitability（適合性）  ### Personalization ≠ Best Interest  ### Personalization ≠ Fiduciary Duty（受託者責任）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-199",
+      "label": "Profit ≠ Best Interest",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:138-146",
+        "source_excerpt": "### Convenience（利便性） ≠ Financial Capability  ### Personalization（個別化） ≠ Suitability（適合性）  ### Personalization ≠ Best Interest  ### Personalization ≠ Fiduciary Duty（受託者責任）  ### Profit（利益） ≠ Best Interest",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-200",
+      "label": "Provider Objective ≠ Consumer Interest",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:140-148",
+        "source_excerpt": "### Personalization（個別化） ≠ Suitability（適合性）  ### Personalization ≠ Best Interest  ### Personalization ≠ Fiduciary Duty（受託者責任）  ### Profit（利益） ≠ Best Interest  ### Provider Objective ≠ Consumer Interest（利用者利益）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-201",
+      "label": "Credit Approval ≠ Affordability",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:142-150",
+        "source_excerpt": "### Personalization ≠ Best Interest  ### Personalization ≠ Fiduciary Duty（受託者責任）  ### Profit（利益） ≠ Best Interest  ### Provider Objective ≠ Consumer Interest（利用者利益）  ### Credit Approval（信用承認） ≠ Affordability",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-202",
+      "label": "Credit Access ≠ Financial Well-Being",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-203",
+      "label": "Default Reduction ≠ Borrower Benefit",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:146-154",
+        "source_excerpt": "### Profit（利益） ≠ Best Interest  ### Provider Objective ≠ Consumer Interest（利用者利益）  ### Credit Approval（信用承認） ≠ Affordability  ### Credit Access（信用へのアクセス） ≠ Financial Well-Being  ### Default Reduction（デフォルト減少） ≠ Borrower Benefit（借り手利益）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-204",
+      "label": "Prediction Accuracy ≠ Fairness",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:148-156",
+        "source_excerpt": "### Provider Objective ≠ Consumer Interest（利用者利益）  ### Credit Approval（信用承認） ≠ Affordability  ### Credit Access（信用へのアクセス） ≠ Financial Well-Being  ### Default Reduction（デフォルト減少） ≠ Borrower Benefit（借り手利益）  ### Prediction Accuracy ≠ Fairness",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-11"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-205",
+      "label": "Risk Prediction ≠ Socially Desirable Insurance Design",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:154-162",
+        "source_excerpt": "### Default Reduction（デフォルト減少） ≠ Borrower Benefit（借り手利益）  ### Prediction Accuracy ≠ Fairness  ### Fairness Metric（公平性指標） ≠ Justice（正義）  ### Fairness Metric ≠ Legal Non-discrimination（法的差別禁止）  ### Risk Prediction（リスク予測） ≠ Socially Desirable Insurance Design（社会的に望ましい保険設計）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-206",
+      "label": "Risk Pooling ≠ Uniform Pricing",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-207",
+      "label": "Risk-Based Pricing ≠ Price Optimisation",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-208",
+      "label": "Individualized Pricing ≠ Solidarity Destruction",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-209",
+      "label": "Automation ≠ Autonomy Loss",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:166-174",
+        "source_excerpt": "### Risk-Based Pricing（リスクベース価格） ≠ Price Optimisation（価格最適化）  ### Individualized Pricing（個別価格） ≠ Solidarity Destruction（連帯の破壊）  ### Detection（検知） ≠ Prevention（防止）  ### Delegation ≠ Abandonment of Decision（判断放棄）  ### Automation（自動化） ≠ Loss of Autonomy（自律喪失）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-12"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-210",
+      "label": "Automation ≠ Autonomy Preservation",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:168-176",
+        "source_excerpt": "### Individualized Pricing（個別価格） ≠ Solidarity Destruction（連帯の破壊）  ### Detection（検知） ≠ Prevention（防止）  ### Delegation ≠ Abandonment of Decision（判断放棄）  ### Automation（自動化） ≠ Loss of Autonomy（自律喪失）  ### Automation ≠ Preservation of Autonomy（自律維持）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-12"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-211",
+      "label": "Precommitment ≠ Guaranteed Autonomy",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-12"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-212",
+      "label": "Backtest Performance ≠ Live Performance",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-213",
+      "label": "Forecast Accuracy ≠ Investment Return",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-214",
+      "label": "Investment Return ≠ Investor Welfare",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:178-186",
+        "source_excerpt": "### Precommitment（事前拘束） ≠ Guaranteed Autonomy（自律の保証）  ### Cognitive Offloading（認知的外部化） ≠ Deskilling（技能低下）  ### Backtest Performance（バックテスト成績） ≠ Live Performance（実運用成績）  ### Forecast Accuracy（予測精度） ≠ Investment Return（投資収益）  ### Investment Return ≠ Investor Welfare（投資家厚生）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-271",
+      "label": "Information ≠ Recommendation",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:114-122",
+        "source_excerpt": "Domain 12では、以下の非含意を維持する。  ### Prediction Accuracy ≠ Consumer Benefit  ### Financial Outcome（金融上の結果） ≠ Financial Capability  ### Financial Capability ≠ Unaided Skill（無支援能力）  ### Information（情報） ≠ Recommendation",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-272",
+      "label": "Fewer Immediate Options ≠ Less Autonomy",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-12"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-273",
+      "label": "Opt-in Self-binding ≠ Opt-out Default",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-07",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-12"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-274",
+      "label": "Suitability ≠ Best Interest",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-275",
+      "label": "Best Interest ≠ Fiduciary Duty",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-276",
+      "label": "Fiduciary Duty ≠ AI Output Property",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-277",
+      "label": "Simulated Lifetime Benefit ≠ Observed Long-term Investor Welfare",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-278",
+      "label": "Traditional Robo-advice ≠ General-Purpose LLM Advice",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-12",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-279",
+      "label": "Legal Claim ≠ Normative Claim",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "DERIVED_FROM_CLAIM_TYPE_PROTOCOL",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-13",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-11"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-280",
+      "label": "Normative Claim ≠ Empirical Claim",
+      "primary_domain": "D12",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D12",
+        "provenance_class": "DERIVED_FROM_CLAIM_TYPE_PROTOCOL",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+        "origin_heading": "中心的な区別（Core Distinctions）",
+        "origin_locator": "D12:112-191",
+        "source_excerpt": null,
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-13",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-11"
+      ]
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-027",
+      "query_cluster": "AI credit scoring / financial access",
+      "primary_domains": [
+        "D12"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-034",
+        "HAI-CLM-035"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-190",
+        "HAI-NEQ-191",
+        "HAI-NEQ-192",
+        "HAI-NEQ-193",
+        "HAI-NEQ-194",
+        "HAI-NEQ-195",
+        "HAI-NEQ-196",
+        "HAI-NEQ-197",
+        "HAI-NEQ-198",
+        "HAI-NEQ-199",
+        "HAI-NEQ-200",
+        "HAI-NEQ-201",
+        "HAI-NEQ-202",
+        "HAI-NEQ-203",
+        "HAI-NEQ-204",
+        "HAI-NEQ-271",
+        "HAI-NEQ-274",
+        "HAI-NEQ-275",
+        "HAI-NEQ-276"
+      ],
+      "secondary_domains": [
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-028",
+      "query_cluster": "AI investment advice",
+      "primary_domains": [
+        "D12"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-034",
+        "HAI-CLM-036"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-195",
+        "HAI-NEQ-196",
+        "HAI-NEQ-197",
+        "HAI-NEQ-198",
+        "HAI-NEQ-199",
+        "HAI-NEQ-200",
+        "HAI-NEQ-201",
+        "HAI-NEQ-202",
+        "HAI-NEQ-203",
+        "HAI-NEQ-204",
+        "HAI-NEQ-205",
+        "HAI-NEQ-206",
+        "HAI-NEQ-207",
+        "HAI-NEQ-208",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-211",
+        "HAI-NEQ-212",
+        "HAI-NEQ-213",
+        "HAI-NEQ-214",
+        "HAI-NEQ-272",
+        "HAI-NEQ-273",
+        "HAI-NEQ-274",
+        "HAI-NEQ-275",
+        "HAI-NEQ-276",
+        "HAI-NEQ-277",
+        "HAI-NEQ-278"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D03"
+      ],
+      "counterexample_domains": [
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-029",
+      "query_cluster": "agentic finance / automated execution",
+      "primary_domains": [
+        "D12"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-037"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-193",
+        "HAI-NEQ-194",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-211",
+        "HAI-NEQ-272",
+        "HAI-NEQ-273",
+        "HAI-NEQ-269",
+        "HAI-NEQ-270"
+      ],
+      "secondary_domains": [
+        "D10",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D02"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-031",
+      "query_cluster": "personalization means user benefit",
+      "primary_domains": [
+        "D02",
+        "D12"
+      ],
+      "routing_mode": "MULTI_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-007",
+        "HAI-CLM-034"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-021",
+        "HAI-NEQ-057",
+        "HAI-NEQ-076",
+        "HAI-NEQ-100",
+        "HAI-NEQ-121",
+        "HAI-NEQ-197",
+        "HAI-NEQ-198",
+        "HAI-NEQ-199",
+        "HAI-NEQ-200",
+        "HAI-NEQ-251",
+        "HAI-NEQ-274",
+        "HAI-NEQ-275",
+        "HAI-NEQ-276"
+      ],
+      "secondary_domains": [
+        "D05",
+        "D07",
+        "D08"
+      ],
+      "counterexample_domains": [
+        "D11"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D02": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D02-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D02-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D02-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D02-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D02-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D02-SOURCE-LEDGER"
+          ]
+        },
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-036",
+      "query_cluster": "is this AI claim legal, normative, or empirical?",
+      "primary_domains": [
+        "D11",
+        "D12"
+      ],
+      "routing_mode": "MULTI_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-032",
+        "HAI-CLM-034"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-172",
+        "HAI-NEQ-173",
+        "HAI-NEQ-186",
+        "HAI-NEQ-279",
+        "HAI-NEQ-280"
+      ],
+      "secondary_domains": [
+        "D00",
+        "D10"
+      ],
+      "counterexample_domains": [],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D11": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D11-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D11-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D11-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D11-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D11-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D11-SOURCE-LEDGER"
+          ]
+        },
+        "D12": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D12-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D12-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D12-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-027",
+      "HAI-QRY-028",
+      "HAI-QRY-029",
+      "HAI-QRY-031",
+      "HAI-QRY-036"
+    ],
+    "secondary": [
+      "HAI-QRY-001",
+      "HAI-QRY-002",
+      "HAI-QRY-004",
+      "HAI-QRY-005",
+      "HAI-QRY-006",
+      "HAI-QRY-022",
+      "HAI-QRY-024",
+      "HAI-QRY-025",
+      "HAI-QRY-030",
+      "HAI-QRY-033",
+      "HAI-QRY-034"
+    ],
+    "counterexample": [
+      "HAI-QRY-016"
+    ]
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D12-DOMAIN-SCOPE",
+      "section_type": "DOMAIN_SCOPE",
+      "heading": "この領域で扱うもの",
+      "source_locator": "D12:25-65"
+    },
+    {
+      "section_id": "HAI-SEC-D12-CORE-PRINCIPLE",
+      "section_type": "CORE_PRINCIPLE",
+      "heading": "中心原則（Core Principle）",
+      "source_locator": "D12:66-94"
+    },
+    {
+      "section_id": "HAI-SEC-D12-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "中心問い（Core Question）",
+      "source_locator": "D12:95-111"
+    },
+    {
+      "section_id": "HAI-SEC-D12-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "中心的な区別（Core Distinctions）",
+      "source_locator": "D12:112-191"
+    },
+    {
+      "section_id": "HAI-SEC-D12-LEGAL-CLAIM-PROTOCOL",
+      "section_type": "LEGAL_CLAIM_PROTOCOL",
+      "heading": "Legal Claim Protocol",
+      "source_locator": "D12:1121-1146"
+    },
+    {
+      "section_id": "HAI-SEC-D12-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence",
+      "source_locator": "D12:1147-1179"
+    },
+    {
+      "section_id": "HAI-SEC-D12-EVIDENCE-ARCHITECTURE",
+      "section_type": "EVIDENCE_ARCHITECTURE",
+      "heading": "Evidence Architecture",
+      "source_locator": "D12:1180-1209"
+    },
+    {
+      "section_id": "HAI-SEC-D12-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D12:1210-1242"
+    },
+    {
+      "section_id": "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "What We Can Say Now",
+      "source_locator": "D12:1243-1308"
+    },
+    {
+      "section_id": "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "What We Cannot Say Yet",
+      "source_locator": "D12:1309-1337"
+    },
+    {
+      "section_id": "HAI-SEC-D12-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D12:1338-1403"
+    },
+    {
+      "section_id": "HAI-SEC-D12-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D12:1404-1488"
+    },
+    {
+      "section_id": "HAI-SEC-D12-EXISTING-THEORY-FIRST",
+      "section_type": "EXISTING_THEORY_FIRST",
+      "heading": "Existing-Theory-First",
+      "source_locator": "D12:1514-1553"
+    },
+    {
+      "section_id": "HAI-SEC-D12-NEW-THEORY",
+      "section_type": "NEW_THEORY",
+      "heading": "New Theory?",
+      "source_locator": "D12:1554-1591"
+    },
+    {
+      "section_id": "HAI-SEC-D12-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D12:1592-1724"
+    },
+    {
+      "section_id": "HAI-SEC-D12-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-Domain Connections",
+      "source_locator": "D12:1725-1762"
+    },
+    {
+      "section_id": "HAI-SEC-D12-PROPAGATION-RISKS",
+      "section_type": "PROPAGATION_RISKS",
+      "heading": "Propagation Risks",
+      "source_locator": "D12:1763-1801"
+    },
+    {
+      "section_id": "HAI-SEC-D12-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D12:1802-1841"
+    },
+    {
+      "section_id": "HAI-SEC-D12-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D12:1842-1996"
+    },
+    {
+      "section_id": "HAI-SEC-D12-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D12].does_not_support"
+    },
+    {
+      "section_id": "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D12; evidence_layer≈Layer B/Direct AI]"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0069",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Regulation (EU) 2024/1689 — EU AI Act",
+      "canonical_citation": "Regulation (EU) 2024/1689",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D7-S09",
+        "D10-S14",
+        "D11-S06",
+        "D12-S06"
+      ],
+      "used_in_domains": [
+        "D07",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "source_types": [
+        "Binding Legal Source",
+        "Binding Legal Source within its scope.",
+        "Regulation"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": true,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "source_lock_verification_note": "Regulation (EU) 2024/1689 remains a binding EU Regulation. Article 14 addresses effective human oversight for high-risk AI; Annex III includes specified creditworthiness and life/health-insurance use cases.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S06",
+          "supports": "Risk-based AI regulatory framework including relevant Annex III financial use cases.",
+          "does_not_support": "AI credit scoring is universally prohibited.",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0105",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Regulation (EU) 2026/1744",
+      "canonical_citation": "Regulation (EU) 2026/1744",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D11-S07",
+        "D12-S07"
+      ],
+      "used_in_domains": [
+        "D11",
+        "D12"
+      ],
+      "source_types": [
+        "Regulation"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": true,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "source_lock_verification_note": "Regulation (EU) 2026/1744 is in force. It amended the AI Act implementation timeline; Chapter III Sections 1–3 for Article 6(2)/Annex III high-risk systems apply from 2 December 2027.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S07",
+          "supports": "Updated AI Act implementation timeline.",
+          "does_not_support": "All AI Act provisions were delayed to the same date.",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0117",
+      "record_type": "PREPRINT_OR_WORKING_PAPER",
+      "canonical_title": "Chioda et al. — FinTech Lending to Borrowers with No Credit History",
+      "canonical_citation": "Chioda et al. — FinTech Lending to Borrowers with No Credit History",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3386/w33208"
+      ],
+      "local_source_ids": [
+        "D12-S01"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Working Paper"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S01",
+          "supports": "Alternative transaction data can improve creditworthiness prediction for borrowers without formal credit history under the studied setting.",
+          "does_not_support": "General borrower welfare improvement; universal fairness.",
+          "evidence_layer": "Direct AI / ML Credit",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0118",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Di Maggio & Ratnadiwakara — Invisible Primes",
+      "canonical_citation": "Di Maggio & Ratnadiwakara — Invisible Primes",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1287/mnsc.2024.07854"
+      ],
+      "local_source_ids": [
+        "D12-S02"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Peer-reviewed empirical research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S02",
+          "supports": "Alternative Data can expand access for some low-score / thin-file borrowers and improve studied subsequent financial outcomes.",
+          "does_not_support": "Universal fairness or suitability of all AI lending.",
+          "evidence_layer": "Direct AI / Alternative-data Lending",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0119",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Winder, Hildebrand & Hartmann — Biased Echoes",
+      "canonical_citation": "Winder, Hildebrand & Hartmann — Biased Echoes",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1371/journal.pone.0325459"
+      ],
+      "local_source_ids": [
+        "D12-S03"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Peer-reviewed empirical research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S03",
+          "supports": "Under studied conditions, LLM investment advice increased multiple dimensions of portfolio risk.",
+          "does_not_support": "All models, users, prompts and financial tasks increase risk.",
+          "evidence_layer": "Direct LLM Financial Advice",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0120",
+      "record_type": "PREPRINT_OR_WORKING_PAPER",
+      "canonical_title": "Choukhmane et al. — AI Financial Advice",
+      "canonical_citation": "Choukhmane et al. — AI Financial Advice",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3386/w35574"
+      ],
+      "local_source_ids": [
+        "D12-S04"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Working Paper"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S04",
+          "supports": "Under the study’s simulation framework, LLM advice can move some decisions toward life-cycle finance prescriptions.",
+          "does_not_support": "Observed long-term live investor welfare or actual realized returns.",
+          "evidence_layer": "Direct LLM Financial Advice",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0121",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "CFPB Circular 2022-03",
+      "canonical_citation": "CFPB Circular 2022-03",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D12-S05"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Official agency circular / policy statement"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/",
+      "source_lock_verification_note": "CFPB Circular 2022-03 states that ECOA/Regulation B adverse-action reasons must remain specific and accurate regardless of use of complex/black-box algorithms.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S05",
+          "supports": "Complex or black-box algorithm use does not remove the requirement to provide specific adverse-action reasons.",
+          "does_not_support": "Universal explanation law outside the relevant US legal scope.",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0122",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "FCA Targeted Support / COBS 9B",
+      "canonical_citation": "FCA Targeted Support / COBS 9B",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D12-S08"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "FCA rules and guidance"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://handbook.fca.org.uk/handbook/cobs9b",
+      "source_lock_verification_note": "FCA COBS 9B Targeted Support is in force with provisions dated 6 April 2026. It defines targeted support around ready-made suggestions for predefined consumer segments and distinguishes it from more comprehensive individualized investment advice.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S08",
+          "supports": "Targeted Support as a regulated support framework distinct from more comprehensive individualized investment advice.",
+          "does_not_support": "AI-specific regulation or universal advice taxonomy.",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0123",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "Japan FSA AI Discussion Paper Version 1.1",
+      "canonical_citation": "Japan FSA AI Discussion Paper Version 1.1",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D12-S09"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Discussion Paper / Policy Source"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "source_lock_scope": "Verify current legal / regulatory / standards status and the exact proposition used by each domain before Publication Build v1.0.",
+      "time_sensitive_status": false,
+      "source_lock_verified_at": "2026-09-23",
+      "source_lock_primary_url": "https://www.fsa.go.jp/news/r7/sonota/20260303/aidp.html",
+      "source_lock_verification_note": "Japan FSA AI Discussion Paper Version 1.1 was published 3 March 2026 and is explicitly framed as preliminary discussion points for ongoing dialogue and future policy refinement.",
+      "source_lock_supports_verdict": "CONFIRM",
+      "publication_action": "KEEP_AS_IS",
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S09",
+          "supports": "Current Japanese regulatory-policy discussion on financial AI.",
+          "does_not_support": "Binding AI-specific legal duties.",
+          "evidence_layer": null,
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0124",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Jin & Vasserman — Buying Data from Consumers",
+      "canonical_citation": "Jin & Vasserman — Buying Data from Consumers",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D12-S10"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Empirical / economic research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D12",
+          "local_source_id": "D12-S10",
+          "supports": "Voluntary behavioral monitoring can affect driving behavior, pricing, insurer profit and studied welfare outcomes.",
+          "does_not_support": "Generative-AI-specific insurance effects.",
+          "evidence_layer": "Adjacent Evidence",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-02",
+      "name": "Decision Formation, Authority & Delegation",
+      "description": "Advice, recommendation, decision formation, authority, influence, delegation, authorization, execution, and practical choice.",
+      "member_count": 18,
+      "member_ids": [
+        "HAI-NEQ-011",
+        "HAI-NEQ-012",
+        "HAI-NEQ-013",
+        "HAI-NEQ-014",
+        "HAI-NEQ-015",
+        "HAI-NEQ-016",
+        "HAI-NEQ-017",
+        "HAI-NEQ-018",
+        "HAI-NEQ-019",
+        "HAI-NEQ-020",
+        "HAI-NEQ-021",
+        "HAI-NEQ-022",
+        "HAI-NEQ-023",
+        "HAI-NEQ-027",
+        "HAI-NEQ-028",
+        "HAI-NEQ-193",
+        "HAI-NEQ-194",
+        "HAI-NEQ-222"
+      ],
+      "domains": [
+        "D00",
+        "D02",
+        "D12"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-004",
+        "HAI-QRY-027",
+        "HAI-QRY-029",
+        "HAI-QRY-031",
+        "HAI-QRY-035"
+      ]
+    },
+    {
+      "cluster_id": "HAI-NEQC-07",
+      "name": "Autonomy, Dependence, Support & Consent",
+      "description": "Support, dependence, autonomy, functional independence, choice, consent, supported decision-making, and proxy involvement.",
+      "member_count": 32,
+      "member_ids": [
+        "HAI-NEQ-024",
+        "HAI-NEQ-025",
+        "HAI-NEQ-090",
+        "HAI-NEQ-091",
+        "HAI-NEQ-092",
+        "HAI-NEQ-093",
+        "HAI-NEQ-094",
+        "HAI-NEQ-095",
+        "HAI-NEQ-096",
+        "HAI-NEQ-097",
+        "HAI-NEQ-099",
+        "HAI-NEQ-100",
+        "HAI-NEQ-101",
+        "HAI-NEQ-102",
+        "HAI-NEQ-103",
+        "HAI-NEQ-104",
+        "HAI-NEQ-105",
+        "HAI-NEQ-106",
+        "HAI-NEQ-107",
+        "HAI-NEQ-113",
+        "HAI-NEQ-114",
+        "HAI-NEQ-115",
+        "HAI-NEQ-116",
+        "HAI-NEQ-124",
+        "HAI-NEQ-209",
+        "HAI-NEQ-210",
+        "HAI-NEQ-211",
+        "HAI-NEQ-223",
+        "HAI-NEQ-247",
+        "HAI-NEQ-250",
+        "HAI-NEQ-272",
+        "HAI-NEQ-273"
+      ],
+      "domains": [
+        "D02",
+        "D07",
+        "D08",
+        "D12"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-003",
+        "HAI-QRY-004",
+        "HAI-QRY-005",
+        "HAI-QRY-015",
+        "HAI-QRY-016",
+        "HAI-QRY-017",
+        "HAI-QRY-028",
+        "HAI-QRY-029",
+        "HAI-QRY-030",
+        "HAI-QRY-031",
+        "HAI-QRY-032"
+      ]
+    },
+    {
+      "cluster_id": "HAI-NEQC-12",
+      "name": "Finance, Consumer Welfare & Market Performance",
+      "description": "Financial capability, credit, affordability, best interest, fiduciary duty, lending, insurance, backtests, returns, and investor welfare.",
+      "member_count": 26,
+      "member_ids": [
+        "HAI-NEQ-190",
+        "HAI-NEQ-191",
+        "HAI-NEQ-192",
+        "HAI-NEQ-195",
+        "HAI-NEQ-196",
+        "HAI-NEQ-197",
+        "HAI-NEQ-198",
+        "HAI-NEQ-199",
+        "HAI-NEQ-200",
+        "HAI-NEQ-201",
+        "HAI-NEQ-202",
+        "HAI-NEQ-203",
+        "HAI-NEQ-204",
+        "HAI-NEQ-205",
+        "HAI-NEQ-206",
+        "HAI-NEQ-207",
+        "HAI-NEQ-208",
+        "HAI-NEQ-212",
+        "HAI-NEQ-213",
+        "HAI-NEQ-214",
+        "HAI-NEQ-271",
+        "HAI-NEQ-274",
+        "HAI-NEQ-275",
+        "HAI-NEQ-276",
+        "HAI-NEQ-277",
+        "HAI-NEQ-278"
+      ],
+      "domains": [
+        "D12"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-024",
+        "HAI-QRY-027",
+        "HAI-QRY-028",
+        "HAI-QRY-031"
+      ]
+    },
+    {
+      "cluster_id": "HAI-NEQC-13",
+      "name": "Evidence, Measurement, Generalization & Claim-Type Boundaries",
+      "description": "Measurement validity, short-versus-long-term inference, adjacent-versus-direct evidence, model-versus-human outcome inference, and empirical/normative/legal claim separation.",
+      "member_count": 2,
+      "member_ids": [
+        "HAI-NEQ-279",
+        "HAI-NEQ-280"
+      ],
+      "domains": [
+        "D12"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-036"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D12",
+    "primary_claim_ids": [
+      "HAI-CLM-034",
+      "HAI-CLM-035",
+      "HAI-CLM-036",
+      "HAI-CLM-037"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-190",
+      "HAI-NEQ-191",
+      "HAI-NEQ-192",
+      "HAI-NEQ-193",
+      "HAI-NEQ-194",
+      "HAI-NEQ-195",
+      "HAI-NEQ-196",
+      "HAI-NEQ-197",
+      "HAI-NEQ-198",
+      "HAI-NEQ-199",
+      "HAI-NEQ-200",
+      "HAI-NEQ-201",
+      "HAI-NEQ-202",
+      "HAI-NEQ-203",
+      "HAI-NEQ-204",
+      "HAI-NEQ-205",
+      "HAI-NEQ-206",
+      "HAI-NEQ-207",
+      "HAI-NEQ-208",
+      "HAI-NEQ-209",
+      "HAI-NEQ-210",
+      "HAI-NEQ-211",
+      "HAI-NEQ-212",
+      "HAI-NEQ-213",
+      "HAI-NEQ-214",
+      "HAI-NEQ-271",
+      "HAI-NEQ-272",
+      "HAI-NEQ-273",
+      "HAI-NEQ-274",
+      "HAI-NEQ-275",
+      "HAI-NEQ-276",
+      "HAI-NEQ-277",
+      "HAI-NEQ-278",
+      "HAI-NEQ-279",
+      "HAI-NEQ-280"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-027",
+        "HAI-QRY-028",
+        "HAI-QRY-029",
+        "HAI-QRY-031",
+        "HAI-QRY-036"
+      ],
+      "secondary": [
+        "HAI-QRY-001",
+        "HAI-QRY-002",
+        "HAI-QRY-004",
+        "HAI-QRY-005",
+        "HAI-QRY-006",
+        "HAI-QRY-022",
+        "HAI-QRY-024",
+        "HAI-QRY-025",
+        "HAI-QRY-030",
+        "HAI-QRY-033",
+        "HAI-QRY-034"
+      ],
+      "counterexample": [
+        "HAI-QRY-016"
+      ]
+    },
+    "section_ids": [
+      "HAI-SEC-D12-DOMAIN-SCOPE",
+      "HAI-SEC-D12-CORE-PRINCIPLE",
+      "HAI-SEC-D12-CORE-QUESTION",
+      "HAI-SEC-D12-CORE-DISTINCTIONS",
+      "HAI-SEC-D12-LEGAL-CLAIM-PROTOCOL",
+      "HAI-SEC-D12-COUNTEREVIDENCE",
+      "HAI-SEC-D12-EVIDENCE-ARCHITECTURE",
+      "HAI-SEC-D12-EVIDENCE-STATUS",
+      "HAI-SEC-D12-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D12-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D12-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D12-RESEARCH-GAPS",
+      "HAI-SEC-D12-EXISTING-THEORY-FIRST",
+      "HAI-SEC-D12-NEW-THEORY",
+      "HAI-SEC-D12-SOURCE-LEDGER",
+      "HAI-SEC-D12-CROSS-REFERENCES",
+      "HAI-SEC-D12-PROPAGATION-RISKS",
+      "HAI-SEC-D12-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D12-FINAL-ASSESSMENT",
+      "HAI-SEC-D12-DOES-NOT-SUPPORT",
+      "HAI-SEC-D12-DIRECT-AI-SPECIFIC-EVIDENCE"
+    ],
+    "source_ids": [
+      "HAI-SRC-0069",
+      "HAI-SRC-0105",
+      "HAI-SRC-0117",
+      "HAI-SRC-0118",
+      "HAI-SRC-0119",
+      "HAI-SRC-0120",
+      "HAI-SRC-0121",
+      "HAI-SRC-0122",
+      "HAI-SRC-0123",
+      "HAI-SRC-0124"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Financial Capability::FINANCIAL_CAPABILITY",
+        "Consumer Benefit::CONSUMER_BENEFIT",
+        "Best Interest::BEST_INTEREST_FINANCIAL",
+        "Authorization::AUTHORIZATION",
+        "Financial Well-Being::FINANCIAL_WELL_BEING",
+        "Affordability::AFFORDABILITY",
+        "Backtest Performance::BACKTEST_PERFORMANCE",
+        "Investor Welfare::INVESTOR_WELFARE",
+        "Provider Objective::PROVIDER_OBJECTIVE"
+      ],
+      "related": [
+        "Unaided Capability::CAPABILITY_UNAIDED",
+        "AI-use Competence::CAPABILITY_AI_USE",
+        "Joint-System Performance::PERFORMANCE_JOINT_SYSTEM",
+        "Cognitive Offloading::COGNITIVE_OFFLOADING",
+        "Deskilling::DESKILLING",
+        "Decision Formation::DECISION_FORMATION",
+        "Recommendation::RECOMMENDATION",
+        "Authority::AUTHORITY",
+        "Delegation::DELEGATION",
+        "Personalization::PERSONALIZATION",
+        "Trust::TRUST_PSYCHOLOGICAL",
+        "Reliance::RELIANCE_BEHAVIOR",
+        "Appropriate Reliance::APPROPRIATE_RELIANCE",
+        "Confidence::CONFIDENCE",
+        "Framing::FRAMING",
+        "Recovery::SYSTEM_SAFETY_RECOVERY",
+        "Technology Dependence::TECHNOLOGY_DEPENDENCE",
+        "Monitoring::MONITORING",
+        "Detection::DETECTION",
+        "Reversibility::REVERSIBILITY",
+        "Lawfulness::LAWFULNESS",
+        "Contestability::CONTESTABILITY",
+        "Remedy::REMEDY",
+        "Fairness::FAIRNESS",
+        "Responsibility::RESPONSIBILITY_GENERAL"
+      ]
+    },
+    "counts": {
+      "primary_claims": 4,
+      "non_equivalences": 35,
+      "primary_routes": 5,
+      "secondary_routes": 11,
+      "counterexample_routes": 1,
+      "sections": 21,
+      "sources": 10
+    }
+  }
+}

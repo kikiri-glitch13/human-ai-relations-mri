@@ -1,0 +1,1525 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D03",
+    "title": "【Human–AI Relations 領域3】信頼・依存的利用・適切な利用・較正 ―― AIを「どれだけ信じるか」ではなく、いつ利用し、いつ拒否・修正できるかを問う",
+    "canonical_domain_name": "Trust・Reliance・Appropriate Reliance・Calibration",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/n5699333c2aef",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-009",
+      "claim": "Trust, reliance, and appropriate reliance are distinct constructs and should not be treated as one quantity.",
+      "claim_type": "Conceptual",
+      "claim_status": "RETAINED",
+      "primary_domain": "D03",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0001"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D03-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D03:847-866",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D03:89-272",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0001"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-006"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-010",
+      "claim": "Explanation alone does not ensure appropriate reliance; its effects depend on factors such as task difficulty and verification cost.",
+      "claim_type": "Empirical / Conceptual",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D03",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0035",
+        "HAI-SRC-0036",
+        "HAI-SRC-0031"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D03-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D03:847-866",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D03; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D03:89-272",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0035",
+          "HAI-SRC-0036",
+          "HAI-SRC-0031"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-006",
+        "HAI-QRY-007"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-011",
+      "claim": "Sycophantic behavior occurs in tested LLM systems, but model-side sycophancy alone does not establish increased human trust, reliance, or downstream harm.",
+      "claim_type": "Descriptive + boundary",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D03",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0038"
+      ],
+      "limiting_source_ids": [
+        "HAI-SRC-0048"
+      ],
+      "adjacent_source_ids": [
+        "HAI-SRC-0038"
+      ],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "sycophantic model behavior occurs under tested conditions",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "tested LLM/model settings"
+        },
+        {
+          "component": "human trust/reliance/downstream harm from model-side sycophancy alone",
+          "claim_type": "Boundary",
+          "status": "E",
+          "scope": "not established generally"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D03:847-866",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D03; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D03:867-895",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0038"
+        ],
+        "limiting_source_ids": [
+          "HAI-SRC-0048"
+        ],
+        "adjacent_source_ids": [
+          "HAI-SRC-0038"
+        ],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-006",
+        "HAI-QRY-008"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-029",
+      "label": "Trust ≠ Reliance",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D03:84-84",
+        "source_excerpt": "**Trust ≠ Reliance ≠ Appropriate Reliance**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-030",
+      "label": "Reliance ≠ Compliance",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:109-109",
+        "source_excerpt": "### 3.2 Reliance ≠ Compliance",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-031",
+      "label": "Reliance ≠ Appropriate Reliance",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D03:84-84",
+        "source_excerpt": "**Trust ≠ Reliance ≠ Appropriate Reliance**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-032",
+      "label": "High Trust ≠ Good Outcome",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:129-129",
+        "source_excerpt": "### 3.4 High Trust ≠ Good Outcome",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-033",
+      "label": "Low Trust ≠ Safety",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:136-136",
+        "source_excerpt": "### 3.5 Low Trust ≠ Safety",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-034",
+      "label": "Accuracy ≠ Trustworthiness",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:143-143",
+        "source_excerpt": "### 3.6 Accuracy ≠ Trustworthiness",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-035",
+      "label": "Confidence ≠ Accuracy",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:160-160",
+        "source_excerpt": "### 3.7 Confidence ≠ Accuracy",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-036",
+      "label": "Verbalized Confidence ≠ Calibrated Probability",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:166-166",
+        "source_excerpt": "### 3.8 Verbalized Confidence ≠ Calibrated Probability",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-037",
+      "label": "Explanation ≠ Understanding",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:174-174",
+        "source_excerpt": "### 3.9 Explanation ≠ Understanding",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-038",
+      "label": "Explanation ≠ Calibration",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:180-180",
+        "source_excerpt": "### 3.10 Explanation ≠ Calibration",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-039",
+      "label": "Explanation ≠ Appropriate Reliance",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:186-186",
+        "source_excerpt": "### 3.11 Explanation ≠ Appropriate Reliance",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-040",
+      "label": "Explanation ≠ Verification",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:192-192",
+        "source_excerpt": "### 3.12 Explanation ≠ Verification",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-041",
+      "label": "Error Detection ≠ Correct Override",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:225-225",
+        "source_excerpt": "### 3.16 Error Detection ≠ Correct Override",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-042",
+      "label": "Human Override ≠ Better Decision",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:231-231",
+        "source_excerpt": "### 3.17 Human Override ≠ Better Decision",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-043",
+      "label": "Agreement ≠ Independent Validation",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:255-255",
+        "source_excerpt": "### 3.19 Agreement ≠ Independent Validation",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-224",
+      "label": "Automation Bias ≠ Trust",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:198-198",
+        "source_excerpt": "### 3.13 Automation Bias ≠ Trust",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-225",
+      "label": "Algorithm Aversion ≠ General Distrust",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:213-213",
+        "source_excerpt": "### 3.14 Algorithm Aversion ≠ General Distrust",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-226",
+      "label": "Algorithm Appreciation ≠ Appropriate Reliance",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:219-219",
+        "source_excerpt": "### 3.15 Algorithm Appreciation ≠ Appropriate Reliance",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-227",
+      "label": "Human Review ≠ Effective Review",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "alias_of": "HAI-NEQ-177",
+      "canonical_record": false,
+      "status": "STABLE_ALIAS_PRESERVED",
+      "note": "Stable ID retained for backward compatibility; exact duplicate meaning is canonicalized to HAI-NEQ-177.",
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:237-237",
+        "source_excerpt": "### 3.18 Human Review ≠ Effective Review",
+        "source_explicit": true,
+        "stable_alias_of": "HAI-NEQ-177"
+      },
+      "routing_exposure": "ALIAS",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-228",
+      "label": "Sycophancy ≠ Human Trust Increase",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:261-261",
+        "source_excerpt": "### 3.20 Sycophancy ≠ Human Trust Increase",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-229",
+      "label": "Sycophancy ≠ Human Reliance Increase",
+      "primary_domain": "D03",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D03",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D03:267-267",
+        "source_excerpt": "### 3.21 Sycophancy ≠ Human Reliance Increase",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-03",
+      "secondary_neq_cluster_ids": []
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-006",
+      "query_cluster": "trust / overtrust / reliance",
+      "primary_domains": [
+        "D03"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-009",
+        "HAI-CLM-010",
+        "HAI-CLM-011"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-029",
+        "HAI-NEQ-030",
+        "HAI-NEQ-031",
+        "HAI-NEQ-032",
+        "HAI-NEQ-033",
+        "HAI-NEQ-034",
+        "HAI-NEQ-035",
+        "HAI-NEQ-036",
+        "HAI-NEQ-037",
+        "HAI-NEQ-038",
+        "HAI-NEQ-039",
+        "HAI-NEQ-040",
+        "HAI-NEQ-041",
+        "HAI-NEQ-042",
+        "HAI-NEQ-043",
+        "HAI-NEQ-224",
+        "HAI-NEQ-225",
+        "HAI-NEQ-226",
+        "HAI-NEQ-228",
+        "HAI-NEQ-229",
+        "HAI-NEQ-221"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D10",
+        "D12"
+      ],
+      "counterexample_domains": [
+        "D09"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D03": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D03-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D03-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D03-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-007",
+      "query_cluster": "explanation improves decisions",
+      "primary_domains": [
+        "D03"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-010"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-026",
+        "HAI-NEQ-037",
+        "HAI-NEQ-038",
+        "HAI-NEQ-039",
+        "HAI-NEQ-040",
+        "HAI-NEQ-154",
+        "HAI-NEQ-258",
+        "HAI-NEQ-262",
+        "HAI-NEQ-263",
+        "HAI-NEQ-264"
+      ],
+      "secondary_domains": [
+        "D02",
+        "D10",
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D10"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D03": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D03-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D03-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D03-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-008",
+      "query_cluster": "AI agreement validates user belief",
+      "primary_domains": [
+        "D03"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-011"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-043",
+        "HAI-NEQ-055",
+        "HAI-NEQ-074",
+        "HAI-NEQ-075",
+        "HAI-NEQ-228",
+        "HAI-NEQ-229"
+      ],
+      "secondary_domains": [
+        "D04",
+        "D05",
+        "D06"
+      ],
+      "counterexample_domains": [
+        "D04"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D03": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D03-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D03-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D03-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-006",
+      "HAI-QRY-007",
+      "HAI-QRY-008"
+    ],
+    "secondary": [
+      "HAI-QRY-020",
+      "HAI-QRY-028",
+      "HAI-QRY-034",
+      "HAI-QRY-035"
+    ],
+    "counterexample": [
+      "HAI-QRY-004",
+      "HAI-QRY-010",
+      "HAI-QRY-014",
+      "HAI-QRY-020",
+      "HAI-QRY-021",
+      "HAI-QRY-023",
+      "HAI-QRY-024",
+      "HAI-QRY-025"
+    ]
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D03-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D03:20-35"
+    },
+    {
+      "section_id": "HAI-SEC-D03-DOMAIN-SCOPE",
+      "section_type": "DOMAIN_SCOPE",
+      "heading": "Domain",
+      "source_locator": "D03:36-70"
+    },
+    {
+      "section_id": "HAI-SEC-D03-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D03:71-88"
+    },
+    {
+      "section_id": "HAI-SEC-D03-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Key Distinctions",
+      "source_locator": "D03:89-272"
+    },
+    {
+      "section_id": "HAI-SEC-D03-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D03:369-410"
+    },
+    {
+      "section_id": "HAI-SEC-D03-ALTERNATIVE-EXPLANATIONS",
+      "section_type": "ALTERNATIVE_EXPLANATIONS",
+      "heading": "Alternative Explanations",
+      "source_locator": "D03:763-783"
+    },
+    {
+      "section_id": "HAI-SEC-D03-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence",
+      "source_locator": "D03:784-808"
+    },
+    {
+      "section_id": "HAI-SEC-D03-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D03:809-846"
+    },
+    {
+      "section_id": "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "現時点で言えること / What We Can Say Now",
+      "source_locator": "D03:847-866"
+    },
+    {
+      "section_id": "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "現時点では言えないこと / What We Cannot Say Yet",
+      "source_locator": "D03:867-895"
+    },
+    {
+      "section_id": "HAI-SEC-D03-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D03:896-926"
+    },
+    {
+      "section_id": "HAI-SEC-D03-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D03:927-974"
+    },
+    {
+      "section_id": "HAI-SEC-D03-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D03:975-1268"
+    },
+    {
+      "section_id": "HAI-SEC-D03-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D03:1269-1307"
+    },
+    {
+      "section_id": "HAI-SEC-D03-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D03:1308-1340"
+    },
+    {
+      "section_id": "HAI-SEC-D03-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D03:1341-1393"
+    },
+    {
+      "section_id": "HAI-SEC-D03-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D03].does_not_support"
+    },
+    {
+      "section_id": "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D03; evidence_layer≈Layer B/Direct AI]"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0001",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Lee & See (2004)",
+      "canonical_citation": "Lee, J. D., & See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. Human Factors, 46(1), 50–80.",
+      "year": "2004",
+      "doi_or_primary_ids": [
+        "10.1518/hfes.46.1.50_30392"
+      ],
+      "local_source_ids": [
+        "D0-S01",
+        "D3-S01"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D03"
+      ],
+      "source_types": [
+        "Authoritative Review / Human Factors",
+        "Foundational Review / Conceptual Framework"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S01",
+          "supports": "TrustとRelianceの区別、Appropriate Reliance、Misuse / Disuse、Calibrationの重要性。",
+          "does_not_support": "Modern LLMにおける直接Effect Size。",
+          "evidence_layer": "Layer A — Existing Research Tradition",
+          "evidence_status": "Conceptual frameworkのため単一A–Fを機械的に付与しない。",
+          "directness": null,
+          "key_limitation": "Generative AI以前のAutomation研究を統合したFramework。",
+          "claim_type": "Conceptual / Review"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0005",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Dietvorst et al. (2015)",
+      "canonical_citation": "Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err. Journal of Experimental Psychology: General, 144(1), 114–126.",
+      "year": "2015",
+      "doi_or_primary_ids": [
+        "10.1037/xge0000033"
+      ],
+      "local_source_ids": [
+        "D0-S05",
+        "D2-S06",
+        "D3-S03"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D02",
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Research",
+        "Behavioral Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S03",
+          "supports": "Algorithm Errorを観察した後にAlgorithmをUnderuseする条件。",
+          "does_not_support": "General human distrust of AI.",
+          "evidence_layer": "Layer A / C",
+          "evidence_status": "A within studied scope",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0006",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Logg, Minson & Moore (2019)",
+      "canonical_citation": "Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm Appreciation: People Prefer Algorithmic to Human Judgment. Organizational Behavior and Human Decision Processes, 151, 90–103.",
+      "year": "2019",
+      "doi_or_primary_ids": [
+        "10.1016/j.obhdp.2018.12.005"
+      ],
+      "local_source_ids": [
+        "D0-S06",
+        "D2-S07",
+        "D3-S04"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D02",
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Research",
+        "Behavioral Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S04",
+          "supports": "一定のNumerical Judgment条件でAlgorithmic AdviceがHuman Adviceより強くWeightされること。",
+          "does_not_support": "Algorithm Appreciation = Appropriate Reliance。",
+          "evidence_layer": "Layer A / C",
+          "evidence_status": "A within studied scope",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0034",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Skitka, Mosier & Burdick (1999)",
+      "canonical_citation": "Skitka, L. J., Mosier, K. L., & Burdick, M. (1999). Does Automation Bias Decision-Making? International Journal of Human-Computer Studies.",
+      "year": "1999",
+      "doi_or_primary_ids": [
+        "10.1006/ijhc.1999.0252"
+      ],
+      "local_source_ids": [
+        "D3-S02"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Human Factors Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S02",
+          "supports": "Automation Aid使用時にCommission / Omission Errorが生じ得ること。",
+          "does_not_support": "Modern LLMで同じEffect Sizeが必ず生じること。\nAutomation Bias = Psychological Trust。",
+          "evidence_layer": "Layer A",
+          "evidence_status": "A within studied scope",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0035",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Buçinca, Malaya & Gajos (2021)",
+      "canonical_citation": "Buçinca, Z., Malaya, M. B., & Gajos, K. Z. (2021). To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making.",
+      "year": "2021",
+      "doi_or_primary_ids": [
+        "10.1145/3449287"
+      ],
+      "local_source_ids": [
+        "D3-S05"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "Controlled HCI Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S05",
+          "supports": "Cognitive Forcingが特定条件でOverrelianceを減らし得ること。\nExplanationだけでは十分でない場合があること。",
+          "does_not_support": "Cognitive Forcingが普遍的に必要であること。",
+          "evidence_layer": "Layer B — Direct AI-Specific Evidence",
+          "evidence_status": "B within studied conditions",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0036",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Vasconcelos et al. (2023)",
+      "canonical_citation": "Vasconcelos, H., et al. (2023). Explanations Can Reduce Overreliance on AI Systems During Decision-Making.",
+      "year": "2023",
+      "doi_or_primary_ids": [
+        "10.1145/3579605"
+      ],
+      "local_source_ids": [
+        "D3-S06"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "Controlled HCI Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S06",
+          "supports": "Explanationの効果がTask Difficulty / Verification Costに依存すること。",
+          "does_not_support": "ExplanationがすべてのTaskでOverrelianceを減らすこと。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within studied conditions",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0037",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Xiong et al. (2024)",
+      "canonical_citation": "Xiong, M., et al. (2024). Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D3-S07"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "LLM Model Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S07",
+          "supports": "LLM Verbalized ConfidenceがModel、Task、Elicitation Methodに依存し、Calibrated Probabilityとして単純利用できないこと。",
+          "does_not_support": "All LLMs are uniformly overconfident。\nHuman Relianceへの直接Effect。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B for tested model behavior",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0038",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Sharma et al. (2024)",
+      "canonical_citation": "Sharma, M., et al. (2024). Towards Understanding Sycophancy in Language Models.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D3-S08",
+        "D4-S05"
+      ],
+      "used_in_domains": [
+        "D03",
+        "D04"
+      ],
+      "source_types": [
+        "Model Evaluation / Human Preference Analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S08",
+          "supports": "Tested AssistantでSycophancyが生じること。\nHuman Preference Dataがbelief-matching responseを好む場合があること。",
+          "does_not_support": "Sycophancy necessarily increases Human Trust / Reliance / worsens downstream decision.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B for model behavior",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0039",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Cohn et al. (2024)",
+      "canonical_citation": "Cohn, M., et al. (2024). Believing Anthropomorphism: Examining the Role of Anthropomorphic Cues on Trust in Large Language Models.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D3-S09"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "HCI Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S09",
+          "supports": "VoiceやFirst-person Cueが特定ContextでPerceived Accuracy等を変化させ得ること。",
+          "does_not_support": "Anthropomorphic Design necessarily causes Overtrust.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within studied conditions",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0040",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Dell'Acqua et al. — Jagged Technological Frontier",
+      "canonical_citation": "Dell'Acqua, F., et al. Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1287/orsc.2025.21838"
+      ],
+      "local_source_ids": [
+        "D3-S10",
+        "D9-S03"
+      ],
+      "used_in_domains": [
+        "D03",
+        "D09"
+      ],
+      "source_types": [
+        "Field Experiment",
+        "Field Experiment / Knowledge Work"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D03",
+          "local_source_id": "D3-S10",
+          "supports": "Generative AI Benefit / HarmがTask Capability Boundaryによって異なり得ること。",
+          "does_not_support": "Psychological TrustがPerformance差の原因だったこと。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within studied task domain",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-03",
+      "name": "Trust, Reliance, Calibration & Verification",
+      "description": "Trust, reliance, compliance, appropriate reliance, confidence, explanation, verification, and algorithm-use behavior.",
+      "member_count": 24,
+      "member_ids": [
+        "HAI-NEQ-026",
+        "HAI-NEQ-029",
+        "HAI-NEQ-030",
+        "HAI-NEQ-031",
+        "HAI-NEQ-032",
+        "HAI-NEQ-033",
+        "HAI-NEQ-034",
+        "HAI-NEQ-035",
+        "HAI-NEQ-036",
+        "HAI-NEQ-037",
+        "HAI-NEQ-038",
+        "HAI-NEQ-039",
+        "HAI-NEQ-040",
+        "HAI-NEQ-041",
+        "HAI-NEQ-042",
+        "HAI-NEQ-043",
+        "HAI-NEQ-220",
+        "HAI-NEQ-221",
+        "HAI-NEQ-224",
+        "HAI-NEQ-225",
+        "HAI-NEQ-226",
+        "HAI-NEQ-227",
+        "HAI-NEQ-228",
+        "HAI-NEQ-229"
+      ],
+      "domains": [
+        "D02",
+        "D03"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-004",
+        "HAI-QRY-006",
+        "HAI-QRY-007",
+        "HAI-QRY-008"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D03",
+    "primary_claim_ids": [
+      "HAI-CLM-009",
+      "HAI-CLM-010",
+      "HAI-CLM-011"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-029",
+      "HAI-NEQ-030",
+      "HAI-NEQ-031",
+      "HAI-NEQ-032",
+      "HAI-NEQ-033",
+      "HAI-NEQ-034",
+      "HAI-NEQ-035",
+      "HAI-NEQ-036",
+      "HAI-NEQ-037",
+      "HAI-NEQ-038",
+      "HAI-NEQ-039",
+      "HAI-NEQ-040",
+      "HAI-NEQ-041",
+      "HAI-NEQ-042",
+      "HAI-NEQ-043",
+      "HAI-NEQ-224",
+      "HAI-NEQ-225",
+      "HAI-NEQ-226",
+      "HAI-NEQ-227",
+      "HAI-NEQ-228",
+      "HAI-NEQ-229"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-006",
+        "HAI-QRY-007",
+        "HAI-QRY-008"
+      ],
+      "secondary": [
+        "HAI-QRY-020",
+        "HAI-QRY-028",
+        "HAI-QRY-034",
+        "HAI-QRY-035"
+      ],
+      "counterexample": [
+        "HAI-QRY-004",
+        "HAI-QRY-010",
+        "HAI-QRY-014",
+        "HAI-QRY-020",
+        "HAI-QRY-021",
+        "HAI-QRY-023",
+        "HAI-QRY-024",
+        "HAI-QRY-025"
+      ]
+    },
+    "section_ids": [
+      "HAI-SEC-D03-DOCUMENT-STATUS",
+      "HAI-SEC-D03-DOMAIN-SCOPE",
+      "HAI-SEC-D03-CORE-QUESTION",
+      "HAI-SEC-D03-CORE-DISTINCTIONS",
+      "HAI-SEC-D03-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D03-ALTERNATIVE-EXPLANATIONS",
+      "HAI-SEC-D03-COUNTEREVIDENCE",
+      "HAI-SEC-D03-EVIDENCE-STATUS",
+      "HAI-SEC-D03-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D03-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D03-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D03-CROSS-REFERENCES",
+      "HAI-SEC-D03-SOURCE-LEDGER",
+      "HAI-SEC-D03-RESEARCH-GAPS",
+      "HAI-SEC-D03-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D03-FINAL-ASSESSMENT",
+      "HAI-SEC-D03-DOES-NOT-SUPPORT",
+      "HAI-SEC-D03-DIRECT-AI-SPECIFIC-EVIDENCE"
+    ],
+    "source_ids": [
+      "HAI-SRC-0001",
+      "HAI-SRC-0005",
+      "HAI-SRC-0006",
+      "HAI-SRC-0034",
+      "HAI-SRC-0035",
+      "HAI-SRC-0036",
+      "HAI-SRC-0037",
+      "HAI-SRC-0038",
+      "HAI-SRC-0039",
+      "HAI-SRC-0040"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Trust::TRUST_PSYCHOLOGICAL",
+        "Reliance::RELIANCE_BEHAVIOR",
+        "Appropriate Reliance::APPROPRIATE_RELIANCE",
+        "Calibration::CALIBRATION",
+        "Confidence::CONFIDENCE",
+        "Explanation::EXPLANATION"
+      ],
+      "related": [
+        "Influence::INFLUENCE"
+      ]
+    },
+    "counts": {
+      "primary_claims": 3,
+      "non_equivalences": 21,
+      "primary_routes": 3,
+      "secondary_routes": 4,
+      "counterexample_routes": 8,
+      "sections": 18,
+      "sources": 10
+    }
+  }
+}

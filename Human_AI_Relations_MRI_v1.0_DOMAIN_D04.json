@@ -1,0 +1,1375 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D04",
+    "title": "【Human–AI Relations 領域4】コミュニケーション・仲介・翻訳・表象 ―― AIは何を保存し、何を変え、誰の意図として届けるのか",
+    "canonical_domain_name": "Communication・Mediation・Translation・Representation",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/nef06a51db232",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-012",
+      "claim": "AI-mediated communication can alter message characteristics, communication speed, emotional language, and interpersonal perception under studied conditions.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D04",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0041"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D04:1061-1079",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D04:360-381",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0041"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-009"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-013",
+      "claim": "Generative-AI dialogue can produce persistent belief change under some experimentally studied conditions, but this does not establish general behavioral or institutional effects.",
+      "claim_type": "Causal",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D04",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0043"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D04:1061-1079",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D04:360-381",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0043"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-010"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-014",
+      "claim": "AI-mediated common-ground generation can increase agreement or endorsement under studied conditions; increased agreement does not establish mutual understanding or legitimacy.",
+      "claim_type": "Empirical + Conceptual",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D04",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0044"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "AI common-ground generation can increase agreement/endorsement",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "studied experimental conditions"
+        },
+        {
+          "component": "agreement establishes understanding or legitimacy",
+          "claim_type": "Conceptual non-entailment",
+          "status": null,
+          "scope": "not entailed"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D04-CORE-DISTINCTIONS"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D04:1061-1079",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D04:360-381",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+            "heading": "Key Distinctions",
+            "locator": "D04:97-265",
+            "section_type": "CORE_DISTINCTIONS"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0044"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-010"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-044",
+      "label": "Transmission ≠ Translation",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:99-99",
+        "source_excerpt": "## 3.1 Transmission ≠ Translation",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-045",
+      "label": "Semantic Similarity ≠ Intent Fidelity",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:120-120",
+        "source_excerpt": "## 3.3 Semantic Similarity ≠ Intent Fidelity",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-046",
+      "label": "Summarization ≠ Neutral Compression",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:127-127",
+        "source_excerpt": "## 3.4 Summarization ≠ Neutral Compression",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-047",
+      "label": "Selection ≠ Manipulation",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:135-141",
+        "source_excerpt": " を伴う。 したがって、 **Compression ≠ Neutrality** である。 ただし、 **Selection ≠ Manipulation**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-048",
+      "label": "Framing ≠ Persuasion",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:147-147",
+        "source_excerpt": "## 3.5 Framing ≠ Persuasion",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-049",
+      "label": "Fluency ≠ Fidelity",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:155-155",
+        "source_excerpt": "## 3.6 Fluency ≠ Fidelity",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-050",
+      "label": "Tone Improvement ≠ Communication Improvement",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:161-161",
+        "source_excerpt": "## 3.7 Tone Improvement ≠ Communication Improvement",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-051",
+      "label": "Communication Speed ≠ Relationship Quality",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:168-168",
+        "source_excerpt": "## 3.8 Communication Speed ≠ Relationship Quality",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-05"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-052",
+      "label": "Mediation ≠ Neutrality",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:174-174",
+        "source_excerpt": "## 3.9 Mediation ≠ Neutrality",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-053",
+      "label": "Conflict Reduction ≠ Better Relationship",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:181-181",
+        "source_excerpt": "## 3.10 Conflict Reduction ≠ Better Relationship",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-05"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-054",
+      "label": "Common Ground ≠ Consensus",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:188-188",
+        "source_excerpt": "## 3.11 Common Ground ≠ Consensus",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-05"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-055",
+      "label": "Agreement ≠ Understanding",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:194-194",
+        "source_excerpt": "## 3.12 Agreement ≠ Understanding",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-05"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-056",
+      "label": "Agreement ≠ Democratic Legitimacy",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:200-200",
+        "source_excerpt": "## 3.13 Agreement ≠ Democratic Legitimacy",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-11"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-057",
+      "label": "Personalization ≠ Representation",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:216-216",
+        "source_excerpt": "## 3.14 Personalization ≠ Representation",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-058",
+      "label": "AI-assisted Expression ≠ AI Authorship",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:222-222",
+        "source_excerpt": "## 3.15 AI-Assisted Expression ≠ AI Authorship",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-059",
+      "label": "User Approval ≠ Full Authorship",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:228-228",
+        "source_excerpt": "## 3.16 User Approval ≠ Full Authorship",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-060",
+      "label": "Representation ≠ Voice",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:241-241",
+        "source_excerpt": "## 3.17 Representation ≠ Voice",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-061",
+      "label": "Voice ≠ Formal Authority",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:247-247",
+        "source_excerpt": "## 3.18 Voice ≠ Formal Authority",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-230",
+      "label": "Message Transmission ≠ Meaning Preservation",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D04:90-92",
+        "source_excerpt": "**Message Transmission（メッセージ伝送）** **≠ Meaning Preservation（意味保存）** **≠ Relationship Preservation（関係維持）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-231",
+      "label": "Meaning Preservation ≠ Relationship Preservation",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-QUESTION",
+        "origin_heading": "Core Question",
+        "origin_locator": "D04:90-92",
+        "source_excerpt": "**Message Transmission（メッセージ伝送）** **≠ Meaning Preservation（意味保存）** **≠ Relationship Preservation（関係維持）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-05"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-232",
+      "label": "Translation ≠ Literal Substitution",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:105-105",
+        "source_excerpt": "## 3.2 Translation ≠ Literal Substitution",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-233",
+      "label": "Compression ≠ Neutrality",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:138-138",
+        "source_excerpt": "**Compression ≠ Neutrality**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-234",
+      "label": "Actual AI Use ≠ Perceived AI Use",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+        "origin_heading": "Direct AI-Specific Evidence",
+        "origin_locator": "D04:374-374",
+        "source_excerpt": "**実際のAI利用（Actual AI Use） ≠ AI利用だと認識されたこと（Perceived AI Use）**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-235",
+      "label": "Persuasion ≠ Deliberation",
+      "primary_domain": "D04",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D04",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D04:253-253",
+        "source_excerpt": "## 3.19 Persuasion ≠ Deliberation",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-04",
+      "secondary_neq_cluster_ids": []
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-009",
+      "query_cluster": "AI translation / rewriting preserves intent",
+      "primary_domains": [
+        "D04"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-012"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-044",
+        "HAI-NEQ-045",
+        "HAI-NEQ-046",
+        "HAI-NEQ-047",
+        "HAI-NEQ-048",
+        "HAI-NEQ-049",
+        "HAI-NEQ-050",
+        "HAI-NEQ-051",
+        "HAI-NEQ-052",
+        "HAI-NEQ-053",
+        "HAI-NEQ-054",
+        "HAI-NEQ-055",
+        "HAI-NEQ-056",
+        "HAI-NEQ-057",
+        "HAI-NEQ-058",
+        "HAI-NEQ-059",
+        "HAI-NEQ-060",
+        "HAI-NEQ-061",
+        "HAI-NEQ-230",
+        "HAI-NEQ-231",
+        "HAI-NEQ-232",
+        "HAI-NEQ-233",
+        "HAI-NEQ-248",
+        "HAI-NEQ-249",
+        "HAI-NEQ-234"
+      ],
+      "secondary_domains": [
+        "D08"
+      ],
+      "counterexample_domains": [
+        "D11"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D04": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D04-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D04-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D04-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D04-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-010",
+      "query_cluster": "AI persuasion / deliberation / consensus",
+      "primary_domains": [
+        "D04"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-013",
+        "HAI-CLM-014"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-048",
+        "HAI-NEQ-054",
+        "HAI-NEQ-055",
+        "HAI-NEQ-056",
+        "HAI-NEQ-235"
+      ],
+      "secondary_domains": [
+        "D11"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D04": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D04-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D04-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D04-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D04-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-009",
+      "HAI-QRY-010"
+    ],
+    "secondary": [
+      "HAI-QRY-008",
+      "HAI-QRY-034"
+    ],
+    "counterexample": [
+      "HAI-QRY-008",
+      "HAI-QRY-011"
+    ]
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D04-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D04:20-36"
+    },
+    {
+      "section_id": "HAI-SEC-D04-DOMAIN-SCOPE",
+      "section_type": "DOMAIN_SCOPE",
+      "heading": "Domain",
+      "source_locator": "D04:37-72"
+    },
+    {
+      "section_id": "HAI-SEC-D04-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D04:73-96"
+    },
+    {
+      "section_id": "HAI-SEC-D04-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Key Distinctions",
+      "source_locator": "D04:97-265"
+    },
+    {
+      "section_id": "HAI-SEC-D04-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D04:266-315"
+    },
+    {
+      "section_id": "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence",
+      "source_locator": "D04:360-381"
+    },
+    {
+      "section_id": "HAI-SEC-D04-ALTERNATIVE-EXPLANATIONS",
+      "section_type": "ALTERNATIVE_EXPLANATIONS",
+      "heading": "Alternative Explanations",
+      "source_locator": "D04:953-990"
+    },
+    {
+      "section_id": "HAI-SEC-D04-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence",
+      "source_locator": "D04:991-1021"
+    },
+    {
+      "section_id": "HAI-SEC-D04-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D04:1022-1060"
+    },
+    {
+      "section_id": "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "現時点で言えること / What We Can Say Now",
+      "source_locator": "D04:1061-1079"
+    },
+    {
+      "section_id": "HAI-SEC-D04-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "現時点では言えないこと / What We Cannot Say Yet",
+      "source_locator": "D04:1080-1102"
+    },
+    {
+      "section_id": "HAI-SEC-D04-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D04:1103-1127"
+    },
+    {
+      "section_id": "HAI-SEC-D04-HIGH-RISK-MISINTERPRETATIONS",
+      "section_type": "HIGH_RISK_MISINTERPRETATIONS",
+      "heading": "High-Risk Misinterpretations",
+      "source_locator": "D04:1128-1167"
+    },
+    {
+      "section_id": "HAI-SEC-D04-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D04:1168-1215"
+    },
+    {
+      "section_id": "HAI-SEC-D04-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D04:1216-1437"
+    },
+    {
+      "section_id": "HAI-SEC-D04-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D04:1438-1478"
+    },
+    {
+      "section_id": "HAI-SEC-D04-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D04:1479-1513"
+    },
+    {
+      "section_id": "HAI-SEC-D04-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D04:1514-1568"
+    },
+    {
+      "section_id": "HAI-SEC-D04-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D04].does_not_support"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0038",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Sharma et al. (2024)",
+      "canonical_citation": "Sharma, M., et al. (2024). Towards Understanding Sycophancy in Language Models.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D3-S08",
+        "D4-S05"
+      ],
+      "used_in_domains": [
+        "D03",
+        "D04"
+      ],
+      "source_types": [
+        "Model Evaluation / Human Preference Analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D04",
+          "local_source_id": "D4-S05",
+          "supports": "Sycophantic model behavior can occur under tested conditions.",
+          "does_not_support": "Inevitable false consensus, polarization, relationship harm, downstream decision harm.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B — Direct empirical support for model behavior",
+          "directness": null,
+          "key_limitation": "Human downstream communication outcomes were not directly measured.",
+          "claim_type": "Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0041",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Hohenstein et al. (2023)",
+      "canonical_citation": "Hohenstein, J., et al. Artificial intelligence in communication impacts language and social relationships. Scientific Reports.",
+      "year": "2023",
+      "doi_or_primary_ids": [
+        "10.1038/s41598-023-30938-9"
+      ],
+      "local_source_ids": [
+        "D4-S01"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Controlled Interpersonal Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D04",
+          "local_source_id": "D4-S01",
+          "supports": "AI-mediated communication can alter message characteristics and recipient perception.",
+          "does_not_support": "Long-term relationship improvement or faithful preservation of speaker intent.",
+          "evidence_layer": "Layer B — Direct AI-Specific Evidence",
+          "evidence_status": "B — Direct empirical support",
+          "directness": null,
+          "key_limitation": "Short-term experimental interaction.",
+          "claim_type": "Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0042",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Jiang et al. (2024)",
+      "canonical_citation": "Jiang et al. Insights from Comparing ChatGPT-Generated Translation and Human Translation Evaluation.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D4-S02"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Comparative Translation Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D04",
+          "local_source_id": "D4-S02",
+          "supports": "Automatic metrics and human judgments can diverge across formal, semantic and pragmatic dimensions.",
+          "does_not_support": "Automatic metrics are useless; all pragmatic fidelity is unmeasurable.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B within studied scope, with preprint limitation.",
+          "directness": null,
+          "key_limitation": "Preprint and domain-limited evaluation.",
+          "claim_type": "Empirical / Methodological"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0043",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Costello et al. (2024)",
+      "canonical_citation": "Costello, T. H., et al. Durably reducing conspiracy beliefs through dialogues with AI. Science.",
+      "year": "2024",
+      "doi_or_primary_ids": [
+        "10.1126/science.adq1814"
+      ],
+      "local_source_ids": [
+        "D4-S03"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Randomized Controlled Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D04",
+          "local_source_id": "D4-S03",
+          "supports": "Generative AI can produce durable belief change under some experimentally studied conditions.",
+          "does_not_support": "Universal persuasion effectiveness, general behavioral change, political outcome, normative desirability.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B — Direct empirical support",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Causal / Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0044",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Tessler et al. (2024)",
+      "canonical_citation": "Tessler, M. H., et al. AI can help humans find common ground in democratic deliberation. Science.",
+      "year": "2024",
+      "doi_or_primary_ids": [
+        "10.1126/science.adq2852"
+      ],
+      "local_source_ids": [
+        "D4-S04"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Large Experimental Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D04",
+          "local_source_id": "D4-S04",
+          "supports": "AI-generated mediation can increase endorsement and agreement under studied conditions.",
+          "does_not_support": "Deep mutual understanding, democratic legitimacy, long-term institutional outcome.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B — Direct empirical support",
+          "directness": null,
+          "key_limitation": "Measured agreement / endorsement does not exhaust deliberative quality.",
+          "claim_type": "Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0045",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Hancock, Naaman & Levy (2020)",
+      "canonical_citation": "Hancock, Naaman & Levy (2020)",
+      "year": "2020",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D4-S06"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Conceptual / Research Agenda"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D04",
+          "local_source_id": "D4-S06",
+          "supports": "AI may modify, augment or generate messages between humans; AI-mediated communication should not be treated as a passive channel.",
+          "does_not_support": "Specific causal effect sizes for modern LLM-mediated communication.",
+          "evidence_layer": "Layer A — Existing Research Tradition",
+          "evidence_status": "Conceptual source; no mechanical A–F assignment.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0046",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Walther — Hyperpersonal Model",
+      "canonical_citation": "Walther — Hyperpersonal Model",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D4-S07"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Foundational Communication Theory"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D04",
+          "local_source_id": "D4-S07",
+          "supports": "Mediated communication can alter self-presentation and interpersonal perception.",
+          "does_not_support": "Direct causal claims about LLM-specific mediation.",
+          "evidence_layer": "Layer A",
+          "evidence_status": "Conceptual / foundational; no mechanical A–F assignment.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-04",
+      "name": "Communication, Meaning, Mediation & Representation",
+      "description": "Transmission, translation, meaning preservation, intent fidelity, framing, persuasion, mediation, representation, voice, and authorship.",
+      "member_count": 24,
+      "member_ids": [
+        "HAI-NEQ-044",
+        "HAI-NEQ-045",
+        "HAI-NEQ-046",
+        "HAI-NEQ-047",
+        "HAI-NEQ-048",
+        "HAI-NEQ-049",
+        "HAI-NEQ-050",
+        "HAI-NEQ-051",
+        "HAI-NEQ-052",
+        "HAI-NEQ-053",
+        "HAI-NEQ-054",
+        "HAI-NEQ-055",
+        "HAI-NEQ-056",
+        "HAI-NEQ-057",
+        "HAI-NEQ-058",
+        "HAI-NEQ-059",
+        "HAI-NEQ-060",
+        "HAI-NEQ-061",
+        "HAI-NEQ-230",
+        "HAI-NEQ-231",
+        "HAI-NEQ-232",
+        "HAI-NEQ-233",
+        "HAI-NEQ-234",
+        "HAI-NEQ-235"
+      ],
+      "domains": [
+        "D04"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-008",
+        "HAI-QRY-009",
+        "HAI-QRY-010",
+        "HAI-QRY-031"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D04",
+    "primary_claim_ids": [
+      "HAI-CLM-012",
+      "HAI-CLM-013",
+      "HAI-CLM-014"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-044",
+      "HAI-NEQ-045",
+      "HAI-NEQ-046",
+      "HAI-NEQ-047",
+      "HAI-NEQ-048",
+      "HAI-NEQ-049",
+      "HAI-NEQ-050",
+      "HAI-NEQ-051",
+      "HAI-NEQ-052",
+      "HAI-NEQ-053",
+      "HAI-NEQ-054",
+      "HAI-NEQ-055",
+      "HAI-NEQ-056",
+      "HAI-NEQ-057",
+      "HAI-NEQ-058",
+      "HAI-NEQ-059",
+      "HAI-NEQ-060",
+      "HAI-NEQ-061",
+      "HAI-NEQ-230",
+      "HAI-NEQ-231",
+      "HAI-NEQ-232",
+      "HAI-NEQ-233",
+      "HAI-NEQ-234",
+      "HAI-NEQ-235"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-009",
+        "HAI-QRY-010"
+      ],
+      "secondary": [
+        "HAI-QRY-008",
+        "HAI-QRY-034"
+      ],
+      "counterexample": [
+        "HAI-QRY-008",
+        "HAI-QRY-011"
+      ]
+    },
+    "section_ids": [
+      "HAI-SEC-D04-DOCUMENT-STATUS",
+      "HAI-SEC-D04-DOMAIN-SCOPE",
+      "HAI-SEC-D04-CORE-QUESTION",
+      "HAI-SEC-D04-CORE-DISTINCTIONS",
+      "HAI-SEC-D04-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D04-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "HAI-SEC-D04-ALTERNATIVE-EXPLANATIONS",
+      "HAI-SEC-D04-COUNTEREVIDENCE",
+      "HAI-SEC-D04-EVIDENCE-STATUS",
+      "HAI-SEC-D04-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D04-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D04-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D04-HIGH-RISK-MISINTERPRETATIONS",
+      "HAI-SEC-D04-CROSS-REFERENCES",
+      "HAI-SEC-D04-SOURCE-LEDGER",
+      "HAI-SEC-D04-RESEARCH-GAPS",
+      "HAI-SEC-D04-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D04-FINAL-ASSESSMENT",
+      "HAI-SEC-D04-DOES-NOT-SUPPORT"
+    ],
+    "source_ids": [
+      "HAI-SRC-0038",
+      "HAI-SRC-0041",
+      "HAI-SRC-0042",
+      "HAI-SRC-0043",
+      "HAI-SRC-0044",
+      "HAI-SRC-0045",
+      "HAI-SRC-0046"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Meaning Preservation::MEANING_PRESERVATION",
+        "Intent Fidelity::INTENT_FIDELITY",
+        "Mediation::MEDIATION"
+      ],
+      "related": [
+        "Decision Formation::DECISION_FORMATION",
+        "Influence::INFLUENCE",
+        "Personalization::PERSONALIZATION",
+        "Framing::FRAMING",
+        "Reciprocity::RECIPROCITY_RELATIONAL",
+        "Accessibility::ACCESSIBILITY",
+        "Authorship::AUTHORSHIP",
+        "Legitimacy::LEGITIMACY_INSTITUTIONAL"
+      ]
+    },
+    "counts": {
+      "primary_claims": 3,
+      "non_equivalences": 24,
+      "primary_routes": 2,
+      "secondary_routes": 2,
+      "counterexample_routes": 2,
+      "sections": 19,
+      "sources": 7
+    }
+  }
+}

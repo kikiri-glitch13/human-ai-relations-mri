@@ -1,0 +1,1373 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D05",
+    "title": "【Human–AI Relations 領域5】コンパニオン・愛着・親密関係 ―― AIへの愛着は、人間の愛着と同じなのか",
+    "canonical_domain_name": "Companion・Attachment・Intimacy",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/n51f373a1a381",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-015",
+      "claim": "AI-directed attachment-related tendencies can be empirically measured in human users.",
+      "claim_type": "Measurement / Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D05",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0047"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D05:1316-1335",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D05; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0047"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-011"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-016",
+      "claim": "Human–AI attachment scores do not currently establish construct equivalence with human attachment.",
+      "claim_type": "Measurement boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D05",
+      "empirical_evidence_status": "E",
+      "supporting_source_ids": [],
+      "limiting_source_ids": [
+        "HAI-SRC-0047"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+          "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D05:1316-1335",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D05; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          },
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D05:1336-1357",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [
+          "HAI-SRC-0047"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-011"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-017",
+      "claim": "Some AI-companion interactions can reduce short-term subjective loneliness; long-term social integration and objective social-isolation effects remain unestablished.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D05",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0049",
+        "HAI-SRC-0064"
+      ],
+      "limiting_source_ids": [
+        "HAI-SRC-0050"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "short-term subjective loneliness reduction",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "selected studied companion interactions"
+        },
+        {
+          "component": "long-term social integration/objective isolation benefit",
+          "claim_type": "Empirical boundary",
+          "status": "E",
+          "scope": "not established"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D05:1316-1335",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence — virtual domain view",
+            "locator": "global_source_registry.domain_usage[domain=D05; evidence_layer≈Layer B/Direct AI]",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0049",
+          "HAI-SRC-0064"
+        ],
+        "limiting_source_ids": [
+          "HAI-SRC-0050"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-011",
+        "HAI-QRY-012"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-062",
+      "label": "Psychological Reality ≠ Structural Equivalence",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-PRINCIPLE",
+        "origin_heading": "Core Principle",
+        "origin_locator": "D05:81-83",
+        "source_excerpt": "**心理的現実（Psychological Reality）** **≠ 構造的等価性（Structural Equivalence）** である。",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-063",
+      "label": "User-experienced Intimacy ≠ Reciprocal Subjective Intimacy",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:101-103",
+        "source_excerpt": "利用者が経験する親密さ（User-experienced Intimacy） ≠ 相互的な主観的親密さ（Reciprocal Subjective Intimacy） 知覚された応答性（Perceived Responsiveness）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-064",
+      "label": "Perceived Responsiveness ≠ Reciprocity",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:100-104",
+        "source_excerpt": "本領域では以下を区別する。 利用者が経験する親密さ（User-experienced Intimacy） ≠ 相互的な主観的親密さ（Reciprocal Subjective Intimacy） 知覚された応答性（Perceived Responsiveness） ≠ 相互性（Reciprocity）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-065",
+      "label": "Linguistic Reciprocity ≠ Reciprocal Subjective Experience",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-106",
+        "source_excerpt": "## 4. Key Distinctions  本領域では以下を区別する。 利用者が経験する親密さ（User-experienced Intimacy） ≠ 相互的な主観的親密さ（Reciprocal Subjective Intimacy） 知覚された応答性（Perceived Responsiveness） ≠ 相互性（Reciprocity） 言語的相互性（Linguistic Reciprocity） ≠ 相互的主観経験（Reciprocal Subjective Experience）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-066",
+      "label": "Attachment-related Response ≠ Human Attachment Construct Equivalence",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:100-108",
+        "source_excerpt": "本領域では以下を区別する。 利用者が経験する親密さ（User-experienced Intimacy） ≠ 相互的な主観的親密さ（Reciprocal Subjective Intimacy） 知覚された応答性（Perceived Responsiveness） ≠ 相互性（Reciprocity） 言語的相互性（Linguistic Reciprocity） ≠ 相互的主観経験（Reciprocal Subjective Experience） 愛着関連反応（Attachment-related Response） ≠ 人間の愛着との構成概念同等性（Human Attachment Construct Equivalence）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-067",
+      "label": "Attachment-figure-like Function ≠ Human Developmental Attachment Equivalence",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:102-110",
+        "source_excerpt": "≠ 相互的な主観的親密さ（Reciprocal Subjective Intimacy） 知覚された応答性（Perceived Responsiveness） ≠ 相互性（Reciprocity） 言語的相互性（Linguistic Reciprocity） ≠ 相互的主観経験（Reciprocal Subjective Experience） 愛着関連反応（Attachment-related Response） ≠ 人間の愛着との構成概念同等性（Human Attachment Construct Equivalence） 愛着対象に類似した機能（Attachment-figure-like Function） ≠ 人間の発達的愛着との同等性（Human Developmental Attachment Equivalence）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-068",
+      "label": "Self-Disclosure ≠ Relationship Health",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:106-114",
+        "source_excerpt": "≠ 相互的主観経験（Reciprocal Subjective Experience） 愛着関連反応（Attachment-related Response） ≠ 人間の愛着との構成概念同等性（Human Attachment Construct Equivalence） 愛着対象に類似した機能（Attachment-figure-like Function） ≠ 人間の発達的愛着との同等性（Human Developmental Attachment Equivalence） 心理的現実（Psychological Reality） ≠ 構造的等価性（Structural Equivalence） 自己開示（Self-Disclosure） ≠ 関係の健全性（Relationship Health）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-069",
+      "label": "Emotional Relief ≠ Long-Term Social Benefit",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:108-116",
+        "source_excerpt": "≠ 人間の愛着との構成概念同等性（Human Attachment Construct Equivalence） 愛着対象に類似した機能（Attachment-figure-like Function） ≠ 人間の発達的愛着との同等性（Human Developmental Attachment Equivalence） 心理的現実（Psychological Reality） ≠ 構造的等価性（Structural Equivalence） 自己開示（Self-Disclosure） ≠ 関係の健全性（Relationship Health） 情緒的な軽減（Emotional Relief） ≠ 長期的な社会的利益（Long-Term Social Benefit）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-070",
+      "label": "Relationship Satisfaction ≠ Social Integration",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:110-118",
+        "source_excerpt": "≠ 人間の発達的愛着との同等性（Human Developmental Attachment Equivalence） 心理的現実（Psychological Reality） ≠ 構造的等価性（Structural Equivalence） 自己開示（Self-Disclosure） ≠ 関係の健全性（Relationship Health） 情緒的な軽減（Emotional Relief） ≠ 長期的な社会的利益（Long-Term Social Benefit） 関係満足度（Relationship Satisfaction） ≠ 社会的統合（Social Integration）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-071",
+      "label": "Companion Use ≠ Social Substitution",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:112-120",
+        "source_excerpt": "≠ 構造的等価性（Structural Equivalence） 自己開示（Self-Disclosure） ≠ 関係の健全性（Relationship Health） 情緒的な軽減（Emotional Relief） ≠ 長期的な社会的利益（Long-Term Social Benefit） 関係満足度（Relationship Satisfaction） ≠ 社会的統合（Social Integration） コンパニオン利用（Companion Use） ≠ 社会的代替（Social Substitution）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-072",
+      "label": "Frequent Use ≠ Dependency",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-073",
+      "label": "Dependency ≠ Autonomy Loss",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-07"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-074",
+      "label": "Sycophancy ≠ Empathy",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-075",
+      "label": "Sycophancy ≠ Acceptance",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-076",
+      "label": "Personalization ≠ Mutuality",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "previous_label": "Personalization ≠ Reciprocity",
+      "registry_repair": "SOURCE_WORDING_ALIGNMENT",
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:126-134",
+        "source_excerpt": "≠ 健全な関係（Healthy Relationship） 対立（Conflict） ≠ 健全な関係の必要条件 迎合（Sycophancy） ≠ 共感（Empathy） 迎合 ≠ 受容（Acceptance） 個別化（Personalization） ≠ 相互性（Mutuality）",
+        "source_explicit": true,
+        "stable_alias_of": null,
+        "registry_repair": {
+          "old_label": "Personalization ≠ Reciprocity",
+          "new_label": "Personalization ≠ Mutuality",
+          "reason": "D05 final text explicitly distinguishes Personalization from Mutuality; Reciprocity is separately distinguished from Perceived Responsiveness."
+        }
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-077",
+      "label": "Engagement ≠ Relational Benefit",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_CANONICALIZED",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:128-136",
+        "source_excerpt": "≠ 健全な関係の必要条件 迎合（Sycophancy） ≠ 共感（Empathy） 迎合 ≠ 受容（Acceptance） 個別化（Personalization） ≠ 相互性（Mutuality） エンゲージメント（Engagement） ≠ 関係的利益（Relational Benefit）",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-078",
+      "label": "Platform-mediated Relationship ≠ Pure Dyadic Relationship",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-236",
+      "label": "AI-target Scale Exists ≠ Human Attachment Construct Equivalence",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-237",
+      "label": "Same Label / Item / Score ≠ Same Latent Construct",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "DERIVED_FROM_MEASUREMENT_VALIDITY_SECTION",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": false,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-238",
+      "label": "Perceived Responsiveness ≠ Machine-side Mental State",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-239",
+      "label": "Short-term Loneliness Relief ≠ Long-term Social Integration",
+      "primary_domain": "D05",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D05",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D05:98-145",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-05",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-011",
+      "query_cluster": "AI companionship / attachment / intimacy",
+      "primary_domains": [
+        "D05"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-015",
+        "HAI-CLM-016",
+        "HAI-CLM-017"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-062",
+        "HAI-NEQ-063",
+        "HAI-NEQ-064",
+        "HAI-NEQ-065",
+        "HAI-NEQ-066",
+        "HAI-NEQ-067",
+        "HAI-NEQ-068",
+        "HAI-NEQ-069",
+        "HAI-NEQ-070",
+        "HAI-NEQ-071",
+        "HAI-NEQ-072",
+        "HAI-NEQ-073",
+        "HAI-NEQ-074",
+        "HAI-NEQ-075",
+        "HAI-NEQ-076",
+        "HAI-NEQ-077",
+        "HAI-NEQ-078",
+        "HAI-NEQ-236",
+        "HAI-NEQ-237",
+        "HAI-NEQ-238",
+        "HAI-NEQ-239"
+      ],
+      "secondary_domains": [
+        "D06",
+        "D07"
+      ],
+      "counterexample_domains": [
+        "D04"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D05": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D05-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D05-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D05-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-012",
+      "query_cluster": "AI companion reduces loneliness",
+      "primary_domains": [
+        "D05"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-017"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-069",
+        "HAI-NEQ-070",
+        "HAI-NEQ-071",
+        "HAI-NEQ-111",
+        "HAI-NEQ-112",
+        "HAI-NEQ-239",
+        "HAI-NEQ-245"
+      ],
+      "secondary_domains": [
+        "D06",
+        "D07"
+      ],
+      "counterexample_domains": [
+        "D08"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D05": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D05-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D05-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D05-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-011",
+      "HAI-QRY-012"
+    ],
+    "secondary": [
+      "HAI-QRY-008",
+      "HAI-QRY-013",
+      "HAI-QRY-031",
+      "HAI-QRY-033",
+      "HAI-QRY-034"
+    ],
+    "counterexample": [
+      "HAI-QRY-013",
+      "HAI-QRY-015"
+    ]
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D05-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D05:20-36"
+    },
+    {
+      "section_id": "HAI-SEC-D05-DOMAIN-SCOPE",
+      "section_type": "DOMAIN_SCOPE",
+      "heading": "Domain",
+      "source_locator": "D05:37-65"
+    },
+    {
+      "section_id": "HAI-SEC-D05-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D05:66-77"
+    },
+    {
+      "section_id": "HAI-SEC-D05-CORE-PRINCIPLE",
+      "section_type": "CORE_PRINCIPLE",
+      "heading": "Core Principle",
+      "source_locator": "D05:78-97"
+    },
+    {
+      "section_id": "HAI-SEC-D05-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Key Distinctions",
+      "source_locator": "D05:98-145"
+    },
+    {
+      "section_id": "HAI-SEC-D05-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D05:146-303"
+    },
+    {
+      "section_id": "HAI-SEC-D05-EXISTING-THEORY-FIRST",
+      "section_type": "EXISTING_THEORY_FIRST",
+      "heading": "Existing-Theory-First",
+      "source_locator": "D05:304-334"
+    },
+    {
+      "section_id": "HAI-SEC-D05-ALTERNATIVE-EXPLANATIONS",
+      "section_type": "ALTERNATIVE_EXPLANATIONS",
+      "heading": "Alternative Explanations",
+      "source_locator": "D05:1092-1133"
+    },
+    {
+      "section_id": "HAI-SEC-D05-COUNTEREVIDENCE",
+      "section_type": "COUNTEREVIDENCE",
+      "heading": "Counterevidence",
+      "source_locator": "D05:1134-1166"
+    },
+    {
+      "section_id": "HAI-SEC-D05-HIGH-RISK-MISINTERPRETATIONS",
+      "section_type": "HIGH_RISK_MISINTERPRETATIONS",
+      "heading": "High-Risk Misinterpretations",
+      "source_locator": "D05:1167-1233"
+    },
+    {
+      "section_id": "HAI-SEC-D05-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D05:1259-1315"
+    },
+    {
+      "section_id": "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "現時点で言えること / What We Can Say Now",
+      "source_locator": "D05:1316-1335"
+    },
+    {
+      "section_id": "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "現時点では言えないこと / What We Cannot Say Yet",
+      "source_locator": "D05:1336-1357"
+    },
+    {
+      "section_id": "HAI-SEC-D05-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D05:1358-1411"
+    },
+    {
+      "section_id": "HAI-SEC-D05-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D05:1412-1650"
+    },
+    {
+      "section_id": "HAI-SEC-D05-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D05:1651-1690"
+    },
+    {
+      "section_id": "HAI-SEC-D05-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D05:1742-1769"
+    },
+    {
+      "section_id": "HAI-SEC-D05-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D05:1770-1802"
+    },
+    {
+      "section_id": "HAI-SEC-D05-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D05:1803-1856"
+    },
+    {
+      "section_id": "HAI-SEC-D05-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D05].does_not_support"
+    },
+    {
+      "section_id": "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D05; evidence_layer≈Layer B/Direct AI]"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0047",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Yang & Oshio (2025)",
+      "canonical_citation": "Yang & Oshio (2025)",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1007/s12144-025-07917-6"
+      ],
+      "local_source_ids": [
+        "D5-S01"
+      ],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [
+        "Psychometric Scale Development"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S01",
+          "supports": "AI-directed attachment-related tendencies can be measured within studied populations.",
+          "does_not_support": "Construct equivalence with human attachment.",
+          "evidence_layer": "Layer B — Direct AI-Specific Evidence",
+          "evidence_status": "B for AI-target measurement; E for Human Attachment construct equivalence.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Measurement / Empirical"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0048",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Cheng et al. (2026)",
+      "canonical_citation": "Cheng, M. et al. Sycophantic AI decreases prosocial intentions and promotes dependence.",
+      "year": "2026",
+      "doi_or_primary_ids": [
+        "10.1126/science.aec8352"
+      ],
+      "local_source_ids": [
+        "D5-S02",
+        "D6-S02"
+      ],
+      "used_in_domains": [
+        "D05",
+        "D06"
+      ],
+      "source_types": [
+        "Preregistered Experimental Research",
+        "Preregistered human experiments + model-behavior evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S02",
+          "supports": "Sycophantic AI responses can increase self-justification and reduce responsibility taking or repair intentions under studied conditions.",
+          "does_not_support": "Long-term deterioration of relationships, permanent loss of social skill, generalized isolation.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B — Direct empirical support within narrow scope.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Causal"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0049",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "De Freitas et al. (2024/2025)",
+      "canonical_citation": "AI Companions Reduce Loneliness",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D5-S03"
+      ],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S03",
+          "supports": "AI Companion interaction can reduce subjective loneliness under short experimental conditions.",
+          "does_not_support": "Long-term Social Integration, reduction in objective Social Isolation, durable Human Relationship improvement.",
+          "evidence_layer": "Layer B, with working-paper limitation",
+          "evidence_status": "B within narrow studied scope; Publication Status must be reported separately.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": "Causal / Experimental"
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0050",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Maples et al. (2024)",
+      "canonical_citation": "Maples et al. (2024)",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D5-S04"
+      ],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [
+        "Observational Survey"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S04",
+          "supports": "Companion-AI users can report meaningful perceived support and relationship-related psychological outcomes.",
+          "does_not_support": "Causal reduction of loneliness or Social Isolation.",
+          "evidence_layer": "Layer B",
+          "evidence_status": "C for causal interpretation; direct descriptive evidence for self-report.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0051",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Croes & Antheunis (2021)",
+      "canonical_citation": "Can we be friends with Mitsuku? A longitudinal study on the process of relationship formation between humans and a social chatbot.",
+      "year": "2021",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D5-S05"
+      ],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [
+        "Longitudinal Human–Chatbot Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S05",
+          "supports": "Relational outcomes can change over repeated interaction; initial social responses need not strengthen with time.",
+          "does_not_support": "General long-term benefit or harm from modern LLM companions.",
+          "evidence_layer": "Layer C / early direct chatbot evidence.",
+          "evidence_status": null,
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0052",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Poonsiriwong, Archiwaranguprok & Pataranutaporn (2026)",
+      "canonical_citation": "Poonsiriwong, R., Archiwaranguprok, C., & Pataranutaporn, P. “Death” of a Chatbot: Investigating and Designing Toward Psychologically Safe Endings for Human-AI Relationships.",
+      "year": "2026",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D5-S06",
+        "D6-S08"
+      ],
+      "used_in_domains": [
+        "D05",
+        "D06"
+      ],
+      "source_types": [
+        "Qualitative Platform / Community Study",
+        "Qualitative / Grounded Theory Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S06",
+          "supports": "Users can experience substantial distress or grief-like responses following AI relationship discontinuation.",
+          "does_not_support": "Construct equivalence with human bereavement.",
+          "evidence_layer": null,
+          "evidence_status": "B for qualitative user-distress evidence; broader causal claims not established.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0053",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Laurenceau, Barrett & Pietromonaco (1998)",
+      "canonical_citation": "Laurenceau, Barrett & Pietromonaco (1998)",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D5-S07"
+      ],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S07",
+          "supports": "Self-disclosure and perceived partner responsiveness are central to experienced intimacy.",
+          "does_not_support": "Reciprocal machine subjectivity.",
+          "evidence_layer": "Layer A",
+          "evidence_status": "Foundational relationship research; conceptual/empirical prior art.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0054",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Clark & Mills — Communal Relationships",
+      "canonical_citation": "Clark & Mills — Communal Relationships",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D5-S08"
+      ],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D05",
+          "local_source_id": "D5-S08",
+          "supports": "Close human relationships need not be based on symmetric or immediately equivalent exchange.",
+          "does_not_support": "Human–AI structural equivalence.",
+          "evidence_layer": "Layer A",
+          "evidence_status": "Foundational prior art.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-05",
+      "name": "Relationship, Attachment, Reciprocity & Social Outcome",
+      "description": "Attachment-like responses, intimacy, responsiveness, reciprocity, relationship quality, loneliness, and social integration.",
+      "member_count": 25,
+      "member_ids": [
+        "HAI-NEQ-062",
+        "HAI-NEQ-063",
+        "HAI-NEQ-064",
+        "HAI-NEQ-065",
+        "HAI-NEQ-066",
+        "HAI-NEQ-067",
+        "HAI-NEQ-068",
+        "HAI-NEQ-069",
+        "HAI-NEQ-070",
+        "HAI-NEQ-071",
+        "HAI-NEQ-072",
+        "HAI-NEQ-073",
+        "HAI-NEQ-074",
+        "HAI-NEQ-075",
+        "HAI-NEQ-076",
+        "HAI-NEQ-077",
+        "HAI-NEQ-078",
+        "HAI-NEQ-111",
+        "HAI-NEQ-112",
+        "HAI-NEQ-236",
+        "HAI-NEQ-237",
+        "HAI-NEQ-238",
+        "HAI-NEQ-239",
+        "HAI-NEQ-244",
+        "HAI-NEQ-245"
+      ],
+      "domains": [
+        "D05",
+        "D07"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-008",
+        "HAI-QRY-011",
+        "HAI-QRY-012",
+        "HAI-QRY-015",
+        "HAI-QRY-030",
+        "HAI-QRY-031"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D05",
+    "primary_claim_ids": [
+      "HAI-CLM-015",
+      "HAI-CLM-016",
+      "HAI-CLM-017"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-062",
+      "HAI-NEQ-063",
+      "HAI-NEQ-064",
+      "HAI-NEQ-065",
+      "HAI-NEQ-066",
+      "HAI-NEQ-067",
+      "HAI-NEQ-068",
+      "HAI-NEQ-069",
+      "HAI-NEQ-070",
+      "HAI-NEQ-071",
+      "HAI-NEQ-072",
+      "HAI-NEQ-073",
+      "HAI-NEQ-074",
+      "HAI-NEQ-075",
+      "HAI-NEQ-076",
+      "HAI-NEQ-077",
+      "HAI-NEQ-078",
+      "HAI-NEQ-236",
+      "HAI-NEQ-237",
+      "HAI-NEQ-238",
+      "HAI-NEQ-239"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-011",
+        "HAI-QRY-012"
+      ],
+      "secondary": [
+        "HAI-QRY-008",
+        "HAI-QRY-013",
+        "HAI-QRY-031",
+        "HAI-QRY-033",
+        "HAI-QRY-034"
+      ],
+      "counterexample": [
+        "HAI-QRY-013",
+        "HAI-QRY-015"
+      ]
+    },
+    "section_ids": [
+      "HAI-SEC-D05-DOCUMENT-STATUS",
+      "HAI-SEC-D05-DOMAIN-SCOPE",
+      "HAI-SEC-D05-CORE-QUESTION",
+      "HAI-SEC-D05-CORE-PRINCIPLE",
+      "HAI-SEC-D05-CORE-DISTINCTIONS",
+      "HAI-SEC-D05-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D05-EXISTING-THEORY-FIRST",
+      "HAI-SEC-D05-ALTERNATIVE-EXPLANATIONS",
+      "HAI-SEC-D05-COUNTEREVIDENCE",
+      "HAI-SEC-D05-HIGH-RISK-MISINTERPRETATIONS",
+      "HAI-SEC-D05-EVIDENCE-STATUS",
+      "HAI-SEC-D05-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D05-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D05-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D05-SOURCE-LEDGER",
+      "HAI-SEC-D05-CROSS-REFERENCES",
+      "HAI-SEC-D05-RESEARCH-GAPS",
+      "HAI-SEC-D05-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D05-FINAL-ASSESSMENT",
+      "HAI-SEC-D05-DOES-NOT-SUPPORT",
+      "HAI-SEC-D05-DIRECT-AI-SPECIFIC-EVIDENCE"
+    ],
+    "source_ids": [
+      "HAI-SRC-0047",
+      "HAI-SRC-0048",
+      "HAI-SRC-0049",
+      "HAI-SRC-0050",
+      "HAI-SRC-0051",
+      "HAI-SRC-0052",
+      "HAI-SRC-0053",
+      "HAI-SRC-0054"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Reciprocity::RECIPROCITY_RELATIONAL",
+        "Psychological Reality::PSYCHOLOGICAL_REALITY",
+        "Attachment-related Response::ATTACHMENT_RELATED_RESPONSE",
+        "Social Integration::SOCIAL_INTEGRATION"
+      ],
+      "related": [
+        "Personalization::PERSONALIZATION",
+        "Mediation::MEDIATION",
+        "Inclusion::INCLUSION"
+      ]
+    },
+    "counts": {
+      "primary_claims": 3,
+      "non_equivalences": 21,
+      "primary_routes": 2,
+      "secondary_routes": 5,
+      "counterexample_routes": 2,
+      "sections": 21,
+      "sources": 8
+    }
+  }
+}

@@ -1,0 +1,1217 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_DOMAIN_SHARD",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Retrieval derivative only. If any discrepancy exists, the canonical Publication Build controls.",
+  "domain": {
+    "domain_id": "D06",
+    "title": "【Human–AI Relations 領域6】Mental Health・心理支援 ―― AIとの対話で「楽になった」ことは、治療効果や回復を意味するのか",
+    "canonical_domain_name": "Mental Health・Psychological Support",
+    "status": "Published / Publication Closure",
+    "article_url": "https://note.com/kikiri_stoat200/n/n9ec3e01fa26d",
+    "publication_date_status": "PUBLISHED",
+    "article_url_source": "author supplied 2026-09-24"
+  },
+  "primary_claims": [
+    {
+      "claim_id": "HAI-CLM-018",
+      "claim": "Some structured, clinically designed generative-AI systems can improve short-term symptom outcomes in selected adult populations.",
+      "claim_type": "Causal / Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D06",
+      "empirical_evidence_status": "B",
+      "supporting_source_ids": [
+        "HAI-SRC-0055",
+        "HAI-SRC-0057"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D06:1327-1345",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D06:380-422",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0055",
+          "HAI-SRC-0057"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-013"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-019",
+      "claim": "Evidence for structured clinical AI should not be transferred directly to general-purpose LLMs, human-therapist equivalence, or long-term recovery.",
+      "claim_type": "Evidence boundary",
+      "claim_status": "RETAINED",
+      "primary_domain": "D06",
+      "empirical_evidence_status": "E",
+      "supporting_source_ids": [],
+      "limiting_source_ids": [
+        "HAI-SRC-0055",
+        "HAI-SRC-0056",
+        "HAI-SRC-0060"
+      ],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D06:1327-1345",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET",
+            "heading": "現時点では言えないこと / What We Cannot Say Yet",
+            "locator": "D06:1346-1368",
+            "section_type": "WHAT_WE_CANNOT_SAY_YET"
+          }
+        ],
+        "supporting_source_ids": [],
+        "limiting_source_ids": [
+          "HAI-SRC-0055",
+          "HAI-SRC-0056",
+          "HAI-SRC-0060"
+        ],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-013"
+      ]
+    },
+    {
+      "claim_id": "HAI-CLM-020",
+      "claim": "AI can affect discrete suicide-prevention processes under studied conditions, but detection or process improvement does not establish end-to-end prevention or safe outcome.",
+      "claim_type": "Empirical",
+      "claim_status": "RETAINED_SCOPE_LIMITED",
+      "primary_domain": "D06",
+      "empirical_evidence_status": null,
+      "supporting_source_ids": [
+        "HAI-SRC-0061"
+      ],
+      "limiting_source_ids": [],
+      "adjacent_source_ids": [],
+      "source_linkage_status": "COMPLETE",
+      "evidence_basis": "SOURCE_LEDGER",
+      "evidence_profile": [
+        {
+          "component": "discrete suicide-prevention process outcomes",
+          "claim_type": "Empirical",
+          "status": "B",
+          "scope": "studied interventions/processes"
+        },
+        {
+          "component": "end-to-end prevention or safe outcome",
+          "claim_type": "Empirical boundary",
+          "status": "E",
+          "scope": "not established"
+        }
+      ],
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "CORPUS_SYNTHESIS_FROM_REGISTERED_SECTIONS",
+        "confidence": "HIGH",
+        "origin_section_ids": [
+          "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+          "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+        ],
+        "origin_sections": [
+          {
+            "section_id": "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+            "heading": "現時点で言えること / What We Can Say Now",
+            "locator": "D06:1327-1345",
+            "section_type": "WHAT_WE_CAN_SAY_NOW"
+          },
+          {
+            "section_id": "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE",
+            "heading": "Direct AI-Specific Evidence",
+            "locator": "D06:380-422",
+            "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE"
+          }
+        ],
+        "supporting_source_ids": [
+          "HAI-SRC-0061"
+        ],
+        "limiting_source_ids": [],
+        "adjacent_source_ids": [],
+        "note": "Normalized corpus-level claim; not necessarily verbatim from one section."
+      },
+      "query_route_ids": [
+        "HAI-QRY-013",
+        "HAI-QRY-014"
+      ]
+    }
+  ],
+  "primary_non_equivalences": [
+    {
+      "neq_id": "HAI-NEQ-079",
+      "label": "Feeling Better ≠ Recovery",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:88-88",
+        "source_excerpt": "### 3.1 Feeling Better ≠ Recovery",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-080",
+      "label": "Symptom Improvement ≠ Functional Recovery",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:103-103",
+        "source_excerpt": "### 3.2 Symptom Improvement ≠ Functional Recovery",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-081",
+      "label": "Short-Term Benefit ≠ Long-Term Benefit",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:131-131",
+        "source_excerpt": "### 3.4 Short-Term Benefit ≠ Long-Term Benefit",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-13"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-082",
+      "label": "Support ≠ Treatment",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:141-141",
+        "source_excerpt": "### 3.5 Support ≠ Treatment",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-083",
+      "label": "Conversation ≠ Clinical Care",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:156-156",
+        "source_excerpt": "### 3.6 Conversation ≠ Clinical Care",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-084",
+      "label": "Availability ≠ Access",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:171-171",
+        "source_excerpt": "### 3.7 Availability ≠ Access",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-085",
+      "label": "Access ≠ Clinical Capacity",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:191-191",
+        "source_excerpt": "### 3.8 Access ≠ Clinical Capacity",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-086",
+      "label": "Technical Availability ≠ Effective Access",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:196-198",
+        "source_excerpt": "**Technical Availability** **≠ Effective Access** **≠ Clinical Capacity**",
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-087",
+      "label": "Detection ≠ Prevention",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:86-202",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-088",
+      "label": "Alert ≠ Intervention",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:86-202",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-089",
+      "label": "Intervention ≠ Safe Outcome",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:86-202",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": [
+        "HAI-NEQC-10"
+      ]
+    },
+    {
+      "neq_id": "HAI-NEQ-240",
+      "label": "Confidentiality ≠ Clinical Confidentiality",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:86-202",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-241",
+      "label": "Satisfaction ≠ Effectiveness",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:86-202",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-242",
+      "label": "Engagement ≠ Benefit",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:86-202",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    },
+    {
+      "neq_id": "HAI-NEQ-243",
+      "label": "Model Delusion Confirmation ≠ Demonstrated Clinical Deterioration",
+      "primary_domain": "D06",
+      "claim_type": "Conceptual Non-entailment",
+      "empirical_evidence_status": null,
+      "stable_id": true,
+      "provenance": {
+        "origin_domain": "D06",
+        "provenance_class": "SOURCE_EXPLICIT_EXACT",
+        "confidence": "HIGH",
+        "origin_section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+        "origin_heading": "Key Distinctions",
+        "origin_locator": "D06:86-202",
+        "source_excerpt": null,
+        "source_explicit": true,
+        "stable_alias_of": null
+      },
+      "routing_exposure": "DIRECT_ROUTE",
+      "neq_cluster_id": "HAI-NEQC-06",
+      "secondary_neq_cluster_ids": []
+    }
+  ],
+  "primary_query_routes": [
+    {
+      "route_id": "HAI-QRY-013",
+      "query_cluster": "AI therapy / mental-health benefit",
+      "primary_domains": [
+        "D06"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-018",
+        "HAI-CLM-019",
+        "HAI-CLM-020"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-079",
+        "HAI-NEQ-080",
+        "HAI-NEQ-081",
+        "HAI-NEQ-082",
+        "HAI-NEQ-083",
+        "HAI-NEQ-084",
+        "HAI-NEQ-085",
+        "HAI-NEQ-086",
+        "HAI-NEQ-087",
+        "HAI-NEQ-088",
+        "HAI-NEQ-089",
+        "HAI-NEQ-240",
+        "HAI-NEQ-241",
+        "HAI-NEQ-242",
+        "HAI-NEQ-243"
+      ],
+      "secondary_domains": [
+        "D05",
+        "D07",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D05"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D06": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D06-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D06-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D06-SOURCE-LEDGER"
+          ]
+        }
+      }
+    },
+    {
+      "route_id": "HAI-QRY-014",
+      "query_cluster": "crisis detection means prevention",
+      "primary_domains": [
+        "D06"
+      ],
+      "routing_mode": "SINGLE_PRIMARY",
+      "core_claim_ids": [
+        "HAI-CLM-020"
+      ],
+      "key_non_equivalence_ids": [
+        "HAI-NEQ-087",
+        "HAI-NEQ-088",
+        "HAI-NEQ-089",
+        "HAI-NEQ-145",
+        "HAI-NEQ-146",
+        "HAI-NEQ-147",
+        "HAI-NEQ-148",
+        "HAI-NEQ-149",
+        "HAI-NEQ-150",
+        "HAI-NEQ-246"
+      ],
+      "secondary_domains": [
+        "D07",
+        "D10"
+      ],
+      "counterexample_domains": [
+        "D03"
+      ],
+      "mandatory_retrieval": [
+        "DOMAIN_0_AUDIT_RULES",
+        "WHAT_WE_CAN_SAY_NOW",
+        "WHAT_WE_CANNOT_SAY_YET",
+        "BOUNDARY_CONDITIONS",
+        "DIRECT_AI_SPECIFIC_EVIDENCE",
+        "DOES_NOT_SUPPORT",
+        "SOURCE_LEDGER"
+      ],
+      "resolved_retrieval_by_primary_domain": {
+        "D06": {
+          "WHAT_WE_CAN_SAY_NOW": [
+            "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW"
+          ],
+          "WHAT_WE_CANNOT_SAY_YET": [
+            "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET"
+          ],
+          "BOUNDARY_CONDITIONS": [
+            "HAI-SEC-D06-BOUNDARY-CONDITIONS"
+          ],
+          "DIRECT_AI_SPECIFIC_EVIDENCE": [
+            "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE"
+          ],
+          "DOES_NOT_SUPPORT": [
+            "HAI-SEC-D06-DOES-NOT-SUPPORT"
+          ],
+          "SOURCE_LEDGER": [
+            "HAI-SEC-D06-SOURCE-LEDGER"
+          ]
+        }
+      }
+    }
+  ],
+  "route_exposure": {
+    "primary": [
+      "HAI-QRY-013",
+      "HAI-QRY-014"
+    ],
+    "secondary": [
+      "HAI-QRY-008",
+      "HAI-QRY-011",
+      "HAI-QRY-012",
+      "HAI-QRY-015",
+      "HAI-QRY-033",
+      "HAI-QRY-034"
+    ],
+    "counterexample": []
+  },
+  "section_locator_index": [
+    {
+      "section_id": "HAI-SEC-D06-DOCUMENT-STATUS",
+      "section_type": "DOCUMENT_STATUS",
+      "heading": "Document Status",
+      "source_locator": "D06:20-37"
+    },
+    {
+      "section_id": "HAI-SEC-D06-DOMAIN-SCOPE",
+      "section_type": "DOMAIN_SCOPE",
+      "heading": "Domain",
+      "source_locator": "D06:38-72"
+    },
+    {
+      "section_id": "HAI-SEC-D06-CORE-QUESTION",
+      "section_type": "CORE_QUESTION",
+      "heading": "Core Question",
+      "source_locator": "D06:73-85"
+    },
+    {
+      "section_id": "HAI-SEC-D06-CORE-DISTINCTIONS",
+      "section_type": "CORE_DISTINCTIONS",
+      "heading": "Key Distinctions",
+      "source_locator": "D06:86-202"
+    },
+    {
+      "section_id": "HAI-SEC-D06-EXISTING-RESEARCH-TRADITIONS",
+      "section_type": "EXISTING_RESEARCH_TRADITIONS",
+      "heading": "Existing Research Traditions",
+      "source_locator": "D06:261-302"
+    },
+    {
+      "section_id": "HAI-SEC-D06-EXISTING-THEORY-FIRST",
+      "section_type": "EXISTING_THEORY_FIRST",
+      "heading": "Existing-Theory-First",
+      "source_locator": "D06:303-333"
+    },
+    {
+      "section_id": "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "section_type": "DIRECT_AI_SPECIFIC_EVIDENCE",
+      "heading": "Direct AI-Specific Evidence",
+      "source_locator": "D06:380-422"
+    },
+    {
+      "section_id": "HAI-SEC-D06-EVIDENCE-STATUS",
+      "section_type": "EVIDENCE_STATUS",
+      "heading": "Evidence Status",
+      "source_locator": "D06:1283-1326"
+    },
+    {
+      "section_id": "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+      "section_type": "WHAT_WE_CAN_SAY_NOW",
+      "heading": "現時点で言えること / What We Can Say Now",
+      "source_locator": "D06:1327-1345"
+    },
+    {
+      "section_id": "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET",
+      "section_type": "WHAT_WE_CANNOT_SAY_YET",
+      "heading": "現時点では言えないこと / What We Cannot Say Yet",
+      "source_locator": "D06:1346-1368"
+    },
+    {
+      "section_id": "HAI-SEC-D06-BOUNDARY-CONDITIONS",
+      "section_type": "BOUNDARY_CONDITIONS",
+      "heading": "Boundary Conditions",
+      "source_locator": "D06:1369-1424"
+    },
+    {
+      "section_id": "HAI-SEC-D06-SOURCE-LEDGER",
+      "section_type": "SOURCE_LEDGER",
+      "heading": "Source Ledger",
+      "source_locator": "D06:1425-1701"
+    },
+    {
+      "section_id": "HAI-SEC-D06-CROSS-REFERENCES",
+      "section_type": "CROSS_REFERENCES",
+      "heading": "Cross-References",
+      "source_locator": "D06:1702-1741"
+    },
+    {
+      "section_id": "HAI-SEC-D06-RESEARCH-GAPS",
+      "section_type": "RESEARCH_GAPS",
+      "heading": "Research Gaps",
+      "source_locator": "D06:1742-1765"
+    },
+    {
+      "section_id": "HAI-SEC-D06-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "section_type": "EXISTING_THEORY_FIRST_FINAL_JUDGMENT",
+      "heading": "Existing-Theory-First Final Judgment",
+      "source_locator": "D06:1792-1822"
+    },
+    {
+      "section_id": "HAI-SEC-D06-FINAL-ASSESSMENT",
+      "section_type": "FINAL_ASSESSMENT",
+      "heading": "Final Assessment",
+      "source_locator": "D06:1823-1889"
+    },
+    {
+      "section_id": "HAI-SEC-D06-DOES-NOT-SUPPORT",
+      "section_type": "DOES_NOT_SUPPORT",
+      "heading": "Does Not Support — virtual domain view",
+      "source_locator": "global_source_registry.domain_usage[domain=D06].does_not_support"
+    }
+  ],
+  "domain_sources": [
+    {
+      "global_source_id": "HAI-SRC-0048",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Cheng et al. (2026)",
+      "canonical_citation": "Cheng, M. et al. Sycophantic AI decreases prosocial intentions and promotes dependence.",
+      "year": "2026",
+      "doi_or_primary_ids": [
+        "10.1126/science.aec8352"
+      ],
+      "local_source_ids": [
+        "D5-S02",
+        "D6-S02"
+      ],
+      "used_in_domains": [
+        "D05",
+        "D06"
+      ],
+      "source_types": [
+        "Preregistered Experimental Research",
+        "Preregistered human experiments + model-behavior evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S02",
+          "supports": "Sycophancy as observable model behavior.\nShort-term effects on self-justification, responsibility taking and interpersonal repair intentions.",
+          "does_not_support": "Psychosis causation。\nLong-term psychiatric deterioration。\nUniversal Mental Health Harm。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B for short-term model / human outcomes.\nE for long-term psychiatric outcome.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0052",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Poonsiriwong, Archiwaranguprok & Pataranutaporn (2026)",
+      "canonical_citation": "Poonsiriwong, R., Archiwaranguprok, C., & Pataranutaporn, P. “Death” of a Chatbot: Investigating and Designing Toward Psychologically Safe Endings for Human-AI Relationships.",
+      "year": "2026",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D5-S06",
+        "D6-S08"
+      ],
+      "used_in_domains": [
+        "D05",
+        "D06"
+      ],
+      "source_types": [
+        "Qualitative Platform / Community Study",
+        "Qualitative / Grounded Theory Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S08",
+          "supports": "Users can report substantial distress and grief-like responses following AI relationship discontinuation.",
+          "does_not_support": "Construct equivalence with human bereavement。\nGeneral psychiatric harm from platform changes。",
+          "evidence_layer": "Layer B — Direct Human–AI Relationship Evidence",
+          "evidence_status": "B for qualitative user-distress evidence.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0055",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Heinz et al. (2025)",
+      "canonical_citation": "Heinz, M. V., Mackin, D. M., Trudeau, B. M., Bhattacharya, S., Wang, Y., et al. Randomized Trial of a Generative AI Chatbot for Mental Health Treatment.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1056/AIoa2400802"
+      ],
+      "local_source_ids": [
+        "D6-S01"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S01",
+          "supports": "特定の構造化・臨床設計Generative AIが、対象成人集団で短期的症状尺度を改善し得る。",
+          "does_not_support": "Human Therapistとの一般的同等性。\nGeneral-purpose LLMへの一般化。\nAcute Crisis Populationへの一般化。\nLong-term Recovery。",
+          "evidence_layer": "Layer B — Direct AI-Specific Evidence",
+          "evidence_status": "B — Direct empirical support for this system / population / outcome.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0056",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Suhas et al. (2026)",
+      "canonical_citation": "AI Safety Training Can be Clinically Harmful",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D6-S03"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Simulation / Protocol-fidelity evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S03",
+          "supports": "Safety-aligned model behavior can conflict with fidelity to specific therapeutic protocols in simulation.",
+          "does_not_support": "Observed patient harm。\nClinical deterioration in treated populations。\nGeneral claim that safety training is clinically harmful across systems and treatments。",
+          "evidence_layer": "Layer B for model behavior; clinical relevance remains indirect",
+          "evidence_status": "B for simulated model behavior.\nD/E for actual patient harm.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0057",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Zhong, Luo & Zhang (2024)",
+      "canonical_citation": "Zhong, W., Luo, J., & Zhang, H. The therapeutic effectiveness of artificial intelligence-based chatbots in alleviation of depressive and anxiety symptoms in short-course treatments: A systematic review and meta-analysis.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1016/j.jad.2024.04.057"
+      ],
+      "local_source_ids": [
+        "D6-S04"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Systematic Review / Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S04",
+          "supports": "AI-based chatbots can improve depression and anxiety outcomes in short-course interventions.",
+          "does_not_support": "Long-term durable recovery。\nGeneral-purpose LLM efficacy。\nHuman Therapist equivalence。",
+          "evidence_layer": "Layer B / structured AI-chatbot evidence",
+          "evidence_status": "A/B within the stated short-term structured-chatbot scope.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0058",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Mostovoy et al. (2026)",
+      "canonical_citation": "Mostovoy, K., Pineda, B. S., Bharat, A., Patterson, T., Mao, J., Rivera-Cepeda, C. F., Bagner, D. M., Hardan, A. Y., & Bunge, E. L. Engagement, Satisfaction, and Therapeutic Alliance With an AI Conversational Agent for Parents: Quantitative Descriptive Study.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.2196/100302"
+      ],
+      "local_source_ids": [
+        "D6-S05"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Quantitative Descriptive Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S05",
+          "supports": "Users can report high alliance-like ratings toward an AI conversational agent.",
+          "does_not_support": "Human–AI measurement invariance。\nConstruct equivalence with Human Therapeutic Alliance。\nStandalone AI treatment efficacy。",
+          "evidence_layer": "Layer B",
+          "evidence_status": "B for reported Perceived Alliance.\nE for Human–AI Construct Equivalence.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0059",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Leamy et al. (2011)",
+      "canonical_citation": "Leamy, M., Bird, V., Le Boutillier, C., Williams, J., & Slade, M. Conceptual framework for personal recovery in mental health: systematic review and narrative synthesis.",
+      "year": "2011",
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D6-S06"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Systematic Review / Narrative Synthesis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S06",
+          "supports": "Personal Recovery is multidimensional and not reducible to symptom reduction.",
+          "does_not_support": "AI-specific treatment efficacy.",
+          "evidence_layer": "Layer A — Existing Research Tradition",
+          "evidence_status": "A within Recovery Research.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0060",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Au Yeung et al. (2025)",
+      "canonical_citation": "Au Yeung, J., Dalmasso, J., Foschini, L., Dobson, R. J. B., & Kraljevic, Z. The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "local_source_ids": [
+        "D6-S07"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Simulated multi-turn benchmark"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S07",
+          "supports": "Some LLMs can confirm or reinforce delusion-like premises in simulated vulnerable-user scenarios.",
+          "does_not_support": "AI causes psychosis。\nObserved clinical deterioration in real patients。\nPopulation-level incidence or causal risk.",
+          "evidence_layer": null,
+          "evidence_status": "B for benchmarked model behavior.\nC for clinical-risk inference.\nE for long-term patient outcome.",
+          "directness": null,
+          "key_limitation": null,
+          "claim_type": null
+        }
+      ]
+    },
+    {
+      "global_source_id": "HAI-SRC-0061",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Fernández-Quijano et al. (2025)",
+      "canonical_citation": "Fernández-Quijano, I., Herrera-Peco, I., López-Espuela, F., Suárez-Llevat, C., Moreno-Sánchez, R., & Ruiz Núñez, C. Artificial Intelligence in Suicide Prevention: A Systematic Review of Randomized Controlled Trials on Risk Prediction, Fully Automated Interventions, and AI-Guided Treatment Allocation.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3390/psychiatryint6040143"
+      ],
+      "local_source_ids": [
+        "D6-S09"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Systematic Review of RCTs"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false,
+      "domain_usage": [
+        {
+          "domain": "D06",
+          "local_source_id": "D6-S09",
+          "supports": "AI can affect discrete components of suicide prevention such as risk stratification, crisis-service uptake and treatment allocation under studied conditions.",
+          "does_not_support": "Detection alone prevents suicide。\nEnd-to-end crisis safety is established。\nGeneral LLM crisis effectiveness。",
+          "evidence_layer": "Layer A/B depending included intervention",
+          "evidence_status": "B for specific studied process outcomes.\nE for broad end-to-end safe-outcome claims.",
+          "directness": null,
+          "key_limitation": "Overall GRADE certainty was low due to limited sample sizes, imprecision and heterogeneity.",
+          "claim_type": null
+        }
+      ]
+    }
+  ],
+  "neq_clusters": [
+    {
+      "cluster_id": "HAI-NEQC-06",
+      "name": "Mental Health, Clinical Effect & Recovery",
+      "description": "Symptom outcomes, clinical care, access, crisis detection, intervention, treatment, confidentiality, and mental-health recovery.",
+      "member_count": 15,
+      "member_ids": [
+        "HAI-NEQ-079",
+        "HAI-NEQ-080",
+        "HAI-NEQ-081",
+        "HAI-NEQ-082",
+        "HAI-NEQ-083",
+        "HAI-NEQ-084",
+        "HAI-NEQ-085",
+        "HAI-NEQ-086",
+        "HAI-NEQ-087",
+        "HAI-NEQ-088",
+        "HAI-NEQ-089",
+        "HAI-NEQ-240",
+        "HAI-NEQ-241",
+        "HAI-NEQ-242",
+        "HAI-NEQ-243"
+      ],
+      "domains": [
+        "D06"
+      ],
+      "query_route_ids": [
+        "HAI-QRY-013",
+        "HAI-QRY-014"
+      ]
+    }
+  ],
+  "domain_reverse_index": {
+    "domain_id": "D06",
+    "primary_claim_ids": [
+      "HAI-CLM-018",
+      "HAI-CLM-019",
+      "HAI-CLM-020"
+    ],
+    "non_equivalence_ids": [
+      "HAI-NEQ-079",
+      "HAI-NEQ-080",
+      "HAI-NEQ-081",
+      "HAI-NEQ-082",
+      "HAI-NEQ-083",
+      "HAI-NEQ-084",
+      "HAI-NEQ-085",
+      "HAI-NEQ-086",
+      "HAI-NEQ-087",
+      "HAI-NEQ-088",
+      "HAI-NEQ-089",
+      "HAI-NEQ-240",
+      "HAI-NEQ-241",
+      "HAI-NEQ-242",
+      "HAI-NEQ-243"
+    ],
+    "query_route_ids": {
+      "primary": [
+        "HAI-QRY-013",
+        "HAI-QRY-014"
+      ],
+      "secondary": [
+        "HAI-QRY-008",
+        "HAI-QRY-011",
+        "HAI-QRY-012",
+        "HAI-QRY-015",
+        "HAI-QRY-033",
+        "HAI-QRY-034"
+      ],
+      "counterexample": []
+    },
+    "section_ids": [
+      "HAI-SEC-D06-DOCUMENT-STATUS",
+      "HAI-SEC-D06-DOMAIN-SCOPE",
+      "HAI-SEC-D06-CORE-QUESTION",
+      "HAI-SEC-D06-CORE-DISTINCTIONS",
+      "HAI-SEC-D06-EXISTING-RESEARCH-TRADITIONS",
+      "HAI-SEC-D06-EXISTING-THEORY-FIRST",
+      "HAI-SEC-D06-DIRECT-AI-SPECIFIC-EVIDENCE",
+      "HAI-SEC-D06-EVIDENCE-STATUS",
+      "HAI-SEC-D06-WHAT-WE-CAN-SAY-NOW",
+      "HAI-SEC-D06-WHAT-WE-CANNOT-SAY-YET",
+      "HAI-SEC-D06-BOUNDARY-CONDITIONS",
+      "HAI-SEC-D06-SOURCE-LEDGER",
+      "HAI-SEC-D06-CROSS-REFERENCES",
+      "HAI-SEC-D06-RESEARCH-GAPS",
+      "HAI-SEC-D06-EXISTING-THEORY-FIRST-FINAL-JUDGMENT",
+      "HAI-SEC-D06-FINAL-ASSESSMENT",
+      "HAI-SEC-D06-DOES-NOT-SUPPORT"
+    ],
+    "source_ids": [
+      "HAI-SRC-0048",
+      "HAI-SRC-0052",
+      "HAI-SRC-0055",
+      "HAI-SRC-0056",
+      "HAI-SRC-0057",
+      "HAI-SRC-0058",
+      "HAI-SRC-0059",
+      "HAI-SRC-0060",
+      "HAI-SRC-0061"
+    ],
+    "vocabulary": {
+      "primary": [
+        "Recovery::MENTAL_HEALTH_RECOVERY",
+        "Clinical Capacity::CLINICAL_CAPACITY"
+      ],
+      "related": [
+        "Personalization::PERSONALIZATION",
+        "Psychological Reality::PSYCHOLOGICAL_REALITY",
+        "Attachment-related Response::ATTACHMENT_RELATED_RESPONSE",
+        "Support::SUPPORT_GENERAL",
+        "Detection::DETECTION",
+        "Intervention::INTERVENTION"
+      ]
+    },
+    "counts": {
+      "primary_claims": 3,
+      "non_equivalences": 15,
+      "primary_routes": 2,
+      "secondary_routes": 6,
+      "counterexample_routes": 0,
+      "sections": 17,
+      "sources": 9
+    }
+  }
+}
