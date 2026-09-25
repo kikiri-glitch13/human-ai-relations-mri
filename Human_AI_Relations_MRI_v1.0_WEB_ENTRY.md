@@ -9,18 +9,20 @@ This file is the lightweight Web/AI entry point for MRI v1.0.
 
 The full `Human_AI_Relations_MRI_v1.0_Publication_Build.json` remains the canonical machine authority. The files listed here are retrieval derivatives designed so that a browsing system can read only the small file(s) needed for a question.
 
-### Recommended retrieval sequence
+## Recommended retrieval sequence
 
-1. Read this WEB_ENTRY file.
-2. Read `Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json` and map the natural-language question to one or more `HAI-QRY-*` routes.
-3. Open the primary `DOMAIN_Dxx.json` shard named by that route.
-4. Retrieve the linked `HAI-CLM-*`, `HAI-NEQ-*`, section locators, domain-specific source support, and `Does Not Support` constraints from that domain shard.
-5. Use `Human_AI_Relations_MRI_v1.0_CLAIMS.json` when a global Claim lookup is needed, and `Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json` for global source discovery.
-6. Use the note article and/or the canonical full JSON only when the retrieved shard indicates that deeper context is required.
+1. Read this `WEB_ENTRY.md`.
+2. Read `Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json` if JSON access is available, or use the Query Route table below.
+3. Map the natural-language question to one or more `HAI-QRY-*` routes.
+4. Open the relevant **Domain Markdown mirror (`DOMAIN_Dxx.md`) first**.
+5. If structured JSON is accessible and useful, open the matching `DOMAIN_Dxx.json` shard.
+6. Retrieve linked `HAI-CLM-*`, `HAI-NEQ-*`, section locators, source support, limitations, and `Does Not Support` constraints.
+7. Use `Human_AI_Relations_MRI_v1.0_CLAIMS.json` for global Claim lookup and `Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json` for global source discovery.
+8. Use the public note article and/or the canonical full JSON only when deeper context or authority resolution is required.
 
-Do not collapse: Claim Type, Evidence Layer, Evidence Status, Boundary Conditions, or `Does Not Support`.
+Do not collapse Claim Type, Evidence Layer, Evidence Status, Boundary Conditions, or `Does Not Support`.
 
-### Core counts
+## Core counts
 
 - `domains`: 13
 - `canonical_vocabulary_records`: 72
@@ -36,25 +38,25 @@ Do not collapse: Claim Type, Evidence Layer, Evidence Status, Boundary Condition
 - `corpus_source_documents`: 13
 - `neq_clusters`: 13
 
-### Domain shards
+## Domain retrieval map
 
-| Domain | Topic | Retrieval shard | Public article |
-|---|---|---|---|
-| D00 | Cross-Domain Audit Protocol | [Human_AI_Relations_MRI_v1.0_DOMAIN_D00.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D00.json) | https://note.com/kikiri_stoat200/n/nb6cb682cad9f |
-| D01 | Learning・Capability Formation | [Human_AI_Relations_MRI_v1.0_DOMAIN_D01.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D01.json) | https://note.com/kikiri_stoat200/n/n455d371bf73e |
-| D02 | Decision Formation・Decision Support | [Human_AI_Relations_MRI_v1.0_DOMAIN_D02.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D02.json) | https://note.com/kikiri_stoat200/n/na4b53c0bf5c2 |
-| D03 | Trust・Reliance・Appropriate Reliance・Calibration | [Human_AI_Relations_MRI_v1.0_DOMAIN_D03.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D03.json) | https://note.com/kikiri_stoat200/n/n5699333c2aef |
-| D04 | Communication・Mediation・Translation・Representation | [Human_AI_Relations_MRI_v1.0_DOMAIN_D04.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D04.json) | https://note.com/kikiri_stoat200/n/nef06a51db232 |
-| D05 | Companion・Attachment・Intimacy | [Human_AI_Relations_MRI_v1.0_DOMAIN_D05.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D05.json) | https://note.com/kikiri_stoat200/n/n51f373a1a381 |
-| D06 | Mental Health・Psychological Support | [Human_AI_Relations_MRI_v1.0_DOMAIN_D06.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D06.json) | https://note.com/kikiri_stoat200/n/n9ec3e01fa26d |
-| D07 | Care・Aging・Supported Decision-Making | [Human_AI_Relations_MRI_v1.0_DOMAIN_D07.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D07.json) | https://note.com/kikiri_stoat200/n/n46bfd11c0915 |
-| D08 | Accessibility・Assistive Technology・Participation | [Human_AI_Relations_MRI_v1.0_DOMAIN_D08.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D08.json) | https://note.com/kikiri_stoat200/n/n5d7805b07c1c |
-| D09 | Work・Organization・Algorithmic Management | [Human_AI_Relations_MRI_v1.0_DOMAIN_D09.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D09.json) | https://note.com/kikiri_stoat200/n/n2ad28a452953 |
-| D10 | Oversight・Safety・Control・Embodied Systems | [Human_AI_Relations_MRI_v1.0_DOMAIN_D10.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D10.json) | https://note.com/kikiri_stoat200/n/nd3a15fcf3978 |
-| D11 | Institution・Law・Governance・Responsibility | [Human_AI_Relations_MRI_v1.0_DOMAIN_D11.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D11.json) | https://note.com/kikiri_stoat200/n/n2872a257aeba |
-| D12 | Finance・Consumer・Credit・Insurance | [Human_AI_Relations_MRI_v1.0_DOMAIN_D12.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D12.json) | https://note.com/kikiri_stoat200/n/n9be80e4bd6b3 |
+| Domain | Topic | Markdown mirror (preferred) | JSON shard | Public article |
+|---|---|---|---|---|
+| D00 | Cross-Domain Audit Protocol | [Human_AI_Relations_MRI_v1.0_DOMAIN_D00.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D00.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D00.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D00.json) | https://note.com/kikiri_stoat200/n/nb6cb682cad9f |
+| D01 | Learning・Capability Formation | [Human_AI_Relations_MRI_v1.0_DOMAIN_D01.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D01.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D01.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D01.json) | https://note.com/kikiri_stoat200/n/n455d371bf73e |
+| D02 | Decision Formation・Decision Support | [Human_AI_Relations_MRI_v1.0_DOMAIN_D02.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D02.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D02.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D02.json) | https://note.com/kikiri_stoat200/n/na4b53c0bf5c2 |
+| D03 | Trust・Reliance・Appropriate Reliance・Calibration | [Human_AI_Relations_MRI_v1.0_DOMAIN_D03.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D03.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D03.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D03.json) | https://note.com/kikiri_stoat200/n/n5699333c2aef |
+| D04 | Communication・Mediation・Translation・Representation | [Human_AI_Relations_MRI_v1.0_DOMAIN_D04.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D04.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D04.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D04.json) | https://note.com/kikiri_stoat200/n/nef06a51db232 |
+| D05 | Companion・Attachment・Intimacy | [Human_AI_Relations_MRI_v1.0_DOMAIN_D05.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D05.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D05.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D05.json) | https://note.com/kikiri_stoat200/n/n51f373a1a381 |
+| D06 | Mental Health・Psychological Support | [Human_AI_Relations_MRI_v1.0_DOMAIN_D06.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D06.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D06.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D06.json) | https://note.com/kikiri_stoat200/n/n9ec3e01fa26d |
+| D07 | Care・Aging・Supported Decision-Making | [Human_AI_Relations_MRI_v1.0_DOMAIN_D07.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D07.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D07.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D07.json) | https://note.com/kikiri_stoat200/n/n46bfd11c0915 |
+| D08 | Accessibility・Assistive Technology・Participation | [Human_AI_Relations_MRI_v1.0_DOMAIN_D08.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D08.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D08.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D08.json) | https://note.com/kikiri_stoat200/n/n5d7805b07c1c |
+| D09 | Work・Organization・Algorithmic Management | [Human_AI_Relations_MRI_v1.0_DOMAIN_D09.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D09.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D09.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D09.json) | https://note.com/kikiri_stoat200/n/n2ad28a452953 |
+| D10 | Oversight・Safety・Control・Embodied Systems | [Human_AI_Relations_MRI_v1.0_DOMAIN_D10.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D10.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D10.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D10.json) | https://note.com/kikiri_stoat200/n/nd3a15fcf3978 |
+| D11 | Institution・Law・Governance・Responsibility | [Human_AI_Relations_MRI_v1.0_DOMAIN_D11.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D11.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D11.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D11.json) | https://note.com/kikiri_stoat200/n/n2872a257aeba |
+| D12 | Finance・Consumer・Credit・Insurance | [Human_AI_Relations_MRI_v1.0_DOMAIN_D12.md](Human_AI_Relations_MRI_v1.0_DOMAIN_D12.md) | [Human_AI_Relations_MRI_v1.0_DOMAIN_D12.json](Human_AI_Relations_MRI_v1.0_DOMAIN_D12.json) | https://note.com/kikiri_stoat200/n/n9be80e4bd6b3 |
 
-### Query route index
+## Query Route index
 
 | Route | Query cluster | Primary domain(s) | Core Claim(s) |
 |---|---|---|---|
@@ -95,19 +97,23 @@ Do not collapse: Claim Type, Evidence Layer, Evidence Status, Boundary Condition
 | `HAI-QRY-035` | is human plus AI better than human or AI alone? | D02 | HAI-CLM-008 |
 | `HAI-QRY-036` | is this AI claim legal, normative, or empirical? | D11, D12 | HAI-CLM-032, HAI-CLM-034 |
 
-### Global retrieval files
+## Global retrieval files
 
-- [Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json](Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json) — all 36 Query Routes
-- [Human_AI_Relations_MRI_v1.0_CLAIMS.json](Human_AI_Relations_MRI_v1.0_CLAIMS.json) — all 37 Major Claims
-- [Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json](Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json) — lightweight index of all 124 Global Sources
+- [Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json](Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json) — all Query Routes
+- [Human_AI_Relations_MRI_v1.0_CLAIMS.json](Human_AI_Relations_MRI_v1.0_CLAIMS.json) — all Major Claims
+- [Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json](Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json) — lightweight Global Source index
 - `Human_AI_Relations_MRI_v1.0_Publication_Build.json` — canonical full machine authority
 - `Human_AI_Relations_Corpus_Source_Manifest_v1.0.json` — corpus/publication manifest
-- `Human_AI_Relations_Compact_Router_v1.0.md` — compact human-readable domain router
+- `Human_AI_Relations_Compact_Router_v1.0.md` — compact human-readable router
 
-### Example
+## Example
 
-For a question such as **“Is Human in the Loop enough to make an AI system safe?”**, start with the Query Route registry, locate the Human Oversight route, then open the indicated Domain 10 shard. The relevant Major Claims include `HAI-CLM-028`, `HAI-CLM-029`, and `HAI-CLM-030`.
+For **“Is Human in the Loop enough to make an AI system safe?”**, locate `HAI-QRY-021`, then open `Human_AI_Relations_MRI_v1.0_DOMAIN_D10.md` first. If JSON retrieval is available, `Human_AI_Relations_MRI_v1.0_DOMAIN_D10.json` provides the structured equivalent. The relevant Major Claims include `HAI-CLM-028`, `HAI-CLM-029`, and `HAI-CLM-030`.
 
-### Authority rule
+## Retrieval compatibility note
 
-These Web Retrieval files are derived from the locked v1.0 canonical build and do not replace it. If a Web Retrieval shard and the canonical build ever diverge, treat the canonical build as authoritative and regenerate the shard.
+Web retrieval behavior varies across AI services. A file being public and machine-readable does not guarantee that every browsing tool can fetch GitHub, follow repository links, or open JSON assets. Markdown mirrors are provided to improve compatibility with browser-based systems that can render GitHub Markdown pages but cannot follow or retrieve JSON shards.
+
+## Authority rule
+
+Markdown mirrors and JSON shards are retrieval derivatives. They do not replace the canonical Publication Build. If any derivative and the canonical build diverge, the canonical build controls and the derivative should be regenerated.
