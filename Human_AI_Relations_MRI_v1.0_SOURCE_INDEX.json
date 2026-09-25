@@ -1,0 +1,2254 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_SHARD",
+  "registry": "Global Source Index",
+  "version": "1.0",
+  "status": "PUBLICATION_LOCKED",
+  "evidence_cutoff": "2026-09",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "authority_note": "Lightweight discovery index. Domain-specific support/Does Not Support details are in DOMAIN shards.",
+  "count": 124,
+  "sources": [
+    {
+      "global_source_id": "HAI-SRC-0001",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Lee & See (2004)",
+      "canonical_citation": "Lee, J. D., & See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. Human Factors, 46(1), 50–80.",
+      "year": "2004",
+      "doi_or_primary_ids": [
+        "10.1518/hfes.46.1.50_30392"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D03"
+      ],
+      "source_types": [
+        "Authoritative Review / Human Factors",
+        "Foundational Review / Conceptual Framework"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0002",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Parasuraman, Sheridan & Wickens (2000)",
+      "canonical_citation": "Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). A model for types and levels of human interaction with automation. IEEE Transactions on Systems, Man, and Cybernetics—Part A, 30(3), 286–297.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1109/3468.844354"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D10"
+      ],
+      "source_types": [
+        "Conceptual / Human Factors framework"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0003",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Assistive Technology / Independence Review",
+      "canonical_citation": "van Dam et al. Systematic Review on Assistive Technology, independence, choice and control.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1080/17483107.2022.2162614"
+      ],
+      "used_in_domains": [
+        "D00"
+      ],
+      "source_types": [
+        "Systematic Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0004",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "Sociotechnical Systems Tradition",
+      "canonical_citation": "Sociotechnical Systems Tradition",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D00"
+      ],
+      "source_types": [
+        "Existing Research Tradition / Sociotechnical Systems"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0005",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Dietvorst et al. (2015)",
+      "canonical_citation": "Dietvorst, B. J., Simmons, J. P., & Massey, C. (2015). Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err. Journal of Experimental Psychology: General, 144(1), 114–126.",
+      "year": "2015",
+      "doi_or_primary_ids": [
+        "10.1037/xge0000033"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D02",
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Research",
+        "Behavioral Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0006",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Logg, Minson & Moore (2019)",
+      "canonical_citation": "Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm Appreciation: People Prefer Algorithmic to Human Judgment. Organizational Behavior and Human Decision Processes, 151, 90–103.",
+      "year": "2019",
+      "doi_or_primary_ids": [
+        "10.1016/j.obhdp.2018.12.005"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D02",
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Research",
+        "Behavioral Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0007",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Endsley & Kiris — Out-of-the-Loop",
+      "canonical_citation": "Endsley, M. R., & Kiris, E. O. (1995). The Out-of-the-Loop Performance Problem and Level of Control in Automation. Human Factors, 37(2), 381–394.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1518/001872095779064555"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D09",
+        "D10"
+      ],
+      "source_types": [
+        "Human Factors / Experimental Automation Research",
+        "Human Factors / Automation Experimental Literature",
+        "Controlled Human Factors Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0008",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Clark & Chalmers (1998)",
+      "canonical_citation": "Clark, A., & Chalmers, D. (1998). The Extended Mind. Analysis, 58(1), 7–19.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D00"
+      ],
+      "source_types": [
+        "Conceptual / Philosophy"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0009",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Elish — Moral Crumple Zone",
+      "canonical_citation": "Elish — Moral Crumple Zone",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D00",
+        "D09"
+      ],
+      "source_types": [
+        "Critical / Conceptual literature on responsibility in automated systems",
+        "Conceptual / Ethics of Automation",
+        "Conceptual Lens."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0010",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO/IEC FDIS 42105",
+      "canonical_citation": "Guidance for human oversight of AI systems",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D00",
+        "D11"
+      ],
+      "source_types": [
+        "Standardization Document"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": true
+    },
+    {
+      "global_source_id": "HAI-SRC-0011",
+      "record_type": "STANDARD",
+      "canonical_title": "AERA / APA / NCME (2014)",
+      "canonical_citation": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for Educational and Psychological Testing.",
+      "year": "2014",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D00",
+        "D01"
+      ],
+      "source_types": [
+        "Authoritative Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0012",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Risko & Gilbert (2016)",
+      "canonical_citation": "Risko, E. F., & Gilbert, S. J. (2016). Cognitive Offloading. Trends in Cognitive Sciences, 20(9), 676–688.",
+      "year": "2016",
+      "doi_or_primary_ids": [
+        "10.1016/j.tics.2016.07.002"
+      ],
+      "used_in_domains": [
+        "D00",
+        "D01"
+      ],
+      "source_types": [
+        "Review",
+        "Authoritative Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0013",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Barnett & Ceci (2002)",
+      "canonical_citation": "Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? A taxonomy for far transfer. Psychological Bulletin, 128(4), 612–637.",
+      "year": "2002",
+      "doi_or_primary_ids": [
+        "10.1037/0033-2909.128.4.612"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Authoritative Review / Taxonomy"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0014",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Roediger & Karpicke (2006)",
+      "canonical_citation": "Roediger, H. L., III, & Karpicke, J. D. (2006). Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention. Psychological Science, 17(3), 249–255.",
+      "year": "2006",
+      "doi_or_primary_ids": [
+        "10.1111/j.1467-9280.2006.01693.x"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Experimental Cognitive Psychology"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0015",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Bastani et al. (2025)",
+      "canonical_citation": "Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. Proceedings of the National Academy of Sciences, 122(26), e2422633122.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1073/pnas.2422633122",
+        "10.1073/pnas.2518204122"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0016",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Kestin et al. (2025)",
+      "canonical_citation": "Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting. Scientific Reports, 15, 17458.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1038/s41598-025-97652-6"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Randomized Crossover Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0017",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Barcaui (2025)",
+      "canonical_citation": "Barcaui, A. (2025). ChatGPT as a cognitive crutch: Evidence from a randomized controlled trial on knowledge retention. Social Sciences & Humanities Open, 12, 102287.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1016/j.ssaho.2025.102287"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0018",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Fernandes et al. (2026)",
+      "canonical_citation": "Fernandes, D., Villa, S., Nicholls, S., Haavisto, O., Buschek, D., Schmidt, A., Kosch, T., Shen, C., & Welsch, R. (2026). AI makes you smarter but none the wiser: The disconnect between performance and metacognition. Computers in Human Behavior, 175, 108779.",
+      "year": "2026",
+      "doi_or_primary_ids": [
+        "10.1016/j.chb.2025.108779"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Experimental Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0019",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Liebenow (2025)",
+      "canonical_citation": "Liebenow, L. (2025). Self-Assessment Accuracy in the Age of Artificial Intelligence: Differential Effects of LLM-Generated Feedback. Computers & Education, 237, 105385.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1016/j.compedu.2025.105385"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Empirical Educational Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0020",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Tran-Le et al. / LeetCoach (2026)",
+      "canonical_citation": "Tran-Le, B.-T., Thomas, P., Stiffler, N. M., & Nguyen, T. N. (2026). How Does LLM-powered Coding Assistance Shape Incidental Learning? Exploring Cognitive Forcing Strategies in Programming Education. Proceedings of the AAAI Conference on Artificial Intelligence, 40(48), 40880–40888.",
+      "year": "2026",
+      "doi_or_primary_ids": [
+        "10.1609/aaai.v40i48.42121"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Pilot Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0021",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Chi et al. (1989; 1994)",
+      "canonical_citation": "Chi et al. (1989; 1994)",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1207/s15516709cog1302_1",
+        "10.1207/s15516709cog1803_3"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Experimental Learning Research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0022",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Sweller, van Merriënboer & Paas (2019)",
+      "canonical_citation": "Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive Architecture and Instructional Design: 20 Years Later. Educational Psychology Review, 31(2), 261–292.",
+      "year": "2019",
+      "doi_or_primary_ids": [
+        "10.1007/s10648-019-09465-5"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Major Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0023",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Kalyuga et al. (2003)",
+      "canonical_citation": "Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The Expertise Reversal Effect. Educational Psychologist, 38(1), 23–31.",
+      "year": "2003",
+      "doi_or_primary_ids": [
+        "10.1207/S15326985EP3801_4"
+      ],
+      "used_in_domains": [
+        "D01"
+      ],
+      "source_types": [
+        "Theoretical / Empirical Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0024",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "WHO — International Classification of Functioning, Disability and Health",
+      "canonical_citation": "World Health Organization. (2001). International Classification of Functioning, Disability and Health.",
+      "year": "2001",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D01",
+        "D07",
+        "D08"
+      ],
+      "source_types": [
+        "Authoritative International Framework",
+        "International Classification / Foundational Framework",
+        "Foundational conceptual framework."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0025",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Tversky & Kahneman (1981)",
+      "canonical_citation": "Tversky, A., & Kahneman, D. (1981). The Framing of Decisions and the Psychology of Choice. Science, 211(4481), 453–458.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1126/science.7455683"
+      ],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Foundational Behavioral Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0026",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Sniezek & Buckley (1995)",
+      "canonical_citation": "Sniezek, J. A., & Buckley, T. (1995). Cueing and Cognitive Conflict in Judge-Advisor Decision Making. Organizational Behavior and Human Decision Processes, 62(2), 159–174.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1006/obhd.1995.1040"
+      ],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Behavioral Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0027",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Bailey et al. (2023)",
+      "canonical_citation": "Bailey, P. E., Leon, T., Ebner, N. C., Moustafa, A. A., & Weidemann, G. (2023). A meta-analysis of the weight of advice in decision-making. Current Psychology, 42, 24516–24541.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1007/s12144-022-03573-2"
+      ],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0028",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Mosier et al. (1998)",
+      "canonical_citation": "Mosier, K. L., Skitka, L. J., Heers, S., & Burdick, M. (1998). Automation Bias: Decision Making and Performance in High-Tech Cockpits. The International Journal of Aviation Psychology, 8(1), 47–63.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1207/s15327108ijap0801_3"
+      ],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Experimental Human Factors Research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0029",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Parasuraman & Manzey (2010)",
+      "canonical_citation": "Parasuraman, R., & Manzey, D. H. (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. Human Factors, 52(3), 381–410.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1177/0018720810376055"
+      ],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Review / Integrative Model"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0030",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Vaccaro, Almaatouq & Malone (2024)",
+      "canonical_citation": "Vaccaro, A. G., Almaatouq, A., & Malone, T. W. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. Nature Human Behaviour.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1038/s41562-024-02024-1"
+      ],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Preregistered Systematic Review / Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0031",
+      "record_type": "PREPRINT_OR_WORKING_PAPER",
+      "canonical_title": "Lane et al. — Narrative AI",
+      "canonical_citation": "Lane, J. N., Boussioux, L., Ayoubi, C., Chen, Y. H., Lin, C., Spens, R., Wagh, P., & Wang, P.-H. The Narrative AI Advantage? A Field Experiment on AI-Augmented Evaluations of Early-Stage Innovations.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Field Experiment / Working Paper"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0032",
+      "record_type": "PREPRINT_OR_WORKING_PAPER",
+      "canonical_title": "Luettgau et al. — Personal LLM Advice",
+      "canonical_citation": "Luettgau, L., Cheung, V., Dubois, M., Juechems, K., Bergs, J., Symes, L., Davidson, H., O'Dell, B., Kirk, H. R., Rollwage, M., & Summerfield, C. People readily follow personal advice from AI but it does not improve their well-being.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Longitudinal Randomized Controlled Trial / Preprint"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0033",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Zhu et al. (2026)",
+      "canonical_citation": "Zhu, Q., Li, X., Dong, Y., Chang, P., & Fan, M. (2026). Not all cognitive offloading is equal: distinguishing dependent and autonomous offloading to generative AI. Frontiers in Psychology, 17, 1878629.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3389/fpsyg.2026.1878629"
+      ],
+      "used_in_domains": [
+        "D02"
+      ],
+      "source_types": [
+        "Three-wave Time-lagged Survey"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0034",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Skitka, Mosier & Burdick (1999)",
+      "canonical_citation": "Skitka, L. J., Mosier, K. L., & Burdick, M. (1999). Does Automation Bias Decision-Making? International Journal of Human-Computer Studies.",
+      "year": "1999",
+      "doi_or_primary_ids": [
+        "10.1006/ijhc.1999.0252"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "Experimental Human Factors Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0035",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Buçinca, Malaya & Gajos (2021)",
+      "canonical_citation": "Buçinca, Z., Malaya, M. B., & Gajos, K. Z. (2021). To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making.",
+      "year": "2021",
+      "doi_or_primary_ids": [
+        "10.1145/3449287"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "Controlled HCI Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0036",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Vasconcelos et al. (2023)",
+      "canonical_citation": "Vasconcelos, H., et al. (2023). Explanations Can Reduce Overreliance on AI Systems During Decision-Making.",
+      "year": "2023",
+      "doi_or_primary_ids": [
+        "10.1145/3579605"
+      ],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "Controlled HCI Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0037",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Xiong et al. (2024)",
+      "canonical_citation": "Xiong, M., et al. (2024). Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "LLM Model Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0038",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Sharma et al. (2024)",
+      "canonical_citation": "Sharma, M., et al. (2024). Towards Understanding Sycophancy in Language Models.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D03",
+        "D04"
+      ],
+      "source_types": [
+        "Model Evaluation / Human Preference Analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0039",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Cohn et al. (2024)",
+      "canonical_citation": "Cohn, M., et al. (2024). Believing Anthropomorphism: Examining the Role of Anthropomorphic Cues on Trust in Large Language Models.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D03"
+      ],
+      "source_types": [
+        "HCI Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0040",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Dell'Acqua et al. — Jagged Technological Frontier",
+      "canonical_citation": "Dell'Acqua, F., et al. Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1287/orsc.2025.21838"
+      ],
+      "used_in_domains": [
+        "D03",
+        "D09"
+      ],
+      "source_types": [
+        "Field Experiment",
+        "Field Experiment / Knowledge Work"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0041",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Hohenstein et al. (2023)",
+      "canonical_citation": "Hohenstein, J., et al. Artificial intelligence in communication impacts language and social relationships. Scientific Reports.",
+      "year": "2023",
+      "doi_or_primary_ids": [
+        "10.1038/s41598-023-30938-9"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Controlled Interpersonal Experiments"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0042",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Jiang et al. (2024)",
+      "canonical_citation": "Jiang et al. Insights from Comparing ChatGPT-Generated Translation and Human Translation Evaluation.",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Comparative Translation Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0043",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Costello et al. (2024)",
+      "canonical_citation": "Costello, T. H., et al. Durably reducing conspiracy beliefs through dialogues with AI. Science.",
+      "year": "2024",
+      "doi_or_primary_ids": [
+        "10.1126/science.adq1814"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Randomized Controlled Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0044",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Tessler et al. (2024)",
+      "canonical_citation": "Tessler, M. H., et al. AI can help humans find common ground in democratic deliberation. Science.",
+      "year": "2024",
+      "doi_or_primary_ids": [
+        "10.1126/science.adq2852"
+      ],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Large Experimental Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0045",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Hancock, Naaman & Levy (2020)",
+      "canonical_citation": "Hancock, Naaman & Levy (2020)",
+      "year": "2020",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Conceptual / Research Agenda"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0046",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Walther — Hyperpersonal Model",
+      "canonical_citation": "Walther — Hyperpersonal Model",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D04"
+      ],
+      "source_types": [
+        "Foundational Communication Theory"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0047",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Yang & Oshio (2025)",
+      "canonical_citation": "Yang & Oshio (2025)",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1007/s12144-025-07917-6"
+      ],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [
+        "Psychometric Scale Development"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0048",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Cheng et al. (2026)",
+      "canonical_citation": "Cheng, M. et al. Sycophantic AI decreases prosocial intentions and promotes dependence.",
+      "year": "2026",
+      "doi_or_primary_ids": [
+        "10.1126/science.aec8352"
+      ],
+      "used_in_domains": [
+        "D05",
+        "D06"
+      ],
+      "source_types": [
+        "Preregistered Experimental Research",
+        "Preregistered human experiments + model-behavior evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0049",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "De Freitas et al. (2024/2025)",
+      "canonical_citation": "AI Companions Reduce Loneliness",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0050",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Maples et al. (2024)",
+      "canonical_citation": "Maples et al. (2024)",
+      "year": "2024",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [
+        "Observational Survey"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0051",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Croes & Antheunis (2021)",
+      "canonical_citation": "Can we be friends with Mitsuku? A longitudinal study on the process of relationship formation between humans and a social chatbot.",
+      "year": "2021",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [
+        "Longitudinal Human–Chatbot Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0052",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Poonsiriwong, Archiwaranguprok & Pataranutaporn (2026)",
+      "canonical_citation": "Poonsiriwong, R., Archiwaranguprok, C., & Pataranutaporn, P. “Death” of a Chatbot: Investigating and Designing Toward Psychologically Safe Endings for Human-AI Relationships.",
+      "year": "2026",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D05",
+        "D06"
+      ],
+      "source_types": [
+        "Qualitative Platform / Community Study",
+        "Qualitative / Grounded Theory Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0053",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Laurenceau, Barrett & Pietromonaco (1998)",
+      "canonical_citation": "Laurenceau, Barrett & Pietromonaco (1998)",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0054",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Clark & Mills — Communal Relationships",
+      "canonical_citation": "Clark & Mills — Communal Relationships",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D05"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0055",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Heinz et al. (2025)",
+      "canonical_citation": "Heinz, M. V., Mackin, D. M., Trudeau, B. M., Bhattacharya, S., Wang, Y., et al. Randomized Trial of a Generative AI Chatbot for Mental Health Treatment.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1056/AIoa2400802"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0056",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Suhas et al. (2026)",
+      "canonical_citation": "AI Safety Training Can be Clinically Harmful",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Simulation / Protocol-fidelity evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0057",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Zhong, Luo & Zhang (2024)",
+      "canonical_citation": "Zhong, W., Luo, J., & Zhang, H. The therapeutic effectiveness of artificial intelligence-based chatbots in alleviation of depressive and anxiety symptoms in short-course treatments: A systematic review and meta-analysis.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1016/j.jad.2024.04.057"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Systematic Review / Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0058",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Mostovoy et al. (2026)",
+      "canonical_citation": "Mostovoy, K., Pineda, B. S., Bharat, A., Patterson, T., Mao, J., Rivera-Cepeda, C. F., Bagner, D. M., Hardan, A. Y., & Bunge, E. L. Engagement, Satisfaction, and Therapeutic Alliance With an AI Conversational Agent for Parents: Quantitative Descriptive Study.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.2196/100302"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Quantitative Descriptive Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0059",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Leamy et al. (2011)",
+      "canonical_citation": "Leamy, M., Bird, V., Le Boutillier, C., Williams, J., & Slade, M. Conceptual framework for personal recovery in mental health: systematic review and narrative synthesis.",
+      "year": "2011",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Systematic Review / Narrative Synthesis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0060",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Au Yeung et al. (2025)",
+      "canonical_citation": "Au Yeung, J., Dalmasso, J., Foschini, L., Dobson, R. J. B., & Kraljevic, Z. The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Simulated multi-turn benchmark"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0061",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Fernández-Quijano et al. (2025)",
+      "canonical_citation": "Fernández-Quijano, I., Herrera-Peco, I., López-Espuela, F., Suárez-Llevat, C., Moreno-Sánchez, R., & Ruiz Núñez, C. Artificial Intelligence in Suicide Prevention: A Systematic Review of Randomized Controlled Trials on Risk Prediction, Fully Automated Interventions, and AI-Guided Treatment Allocation.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3390/psychiatryint6040143"
+      ],
+      "used_in_domains": [
+        "D06"
+      ],
+      "source_types": [
+        "Systematic Review of RCTs"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0062",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "McCance & McCormack (2025)",
+      "canonical_citation": "McCance, T., & McCormack, B. The Person-centred Nursing Framework: a mid-range theory for nursing practice.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1177/17449871241281428"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Conceptual / Mid-range Theory"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0063",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Biard et al. (2025)",
+      "canonical_citation": "Biard, M., et al. Supporting decision making for individuals living with dementia and their care partners with knowledge translation: An umbrella review.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1002/alz.70636"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Umbrella Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0064",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Mehrabi & Ghezelbash (2025)",
+      "canonical_citation": "Mehrabi, F., & Ghezelbash, A. Wired for companionship: a meta-analysis on social robots filling the void of loneliness in later life.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.1093/geront/gnaf219"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0065",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Lee, Lee & Lee (2025)",
+      "canonical_citation": "Lee, A., Lee, H., & Lee, S.-H. Digital Healthcare Approaches for Fall Detection and Prediction in Older Adults: A Systematic Review of Evidence from Hospital and Long-Term Care Settings.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.3390/medicina61111926"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Systematic Review"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0066",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Donelle et al. (2025)",
+      "canonical_citation": "Donelle, L., Hiebert, B., Warner, G., Reid, M., Reid, J., Shariff, S., Richard, E., Regan, S., Weeks, L., & Ledoux, K. Passive Remote Monitoring Technologies’ Influence on Home Care Clients’ Ability to Stay Home: Multiprovincial Randomized Controlled Trial.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.2196/69107"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Pragmatic Randomized Controlled Trial"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0067",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Lumini et al. (2025)",
+      "canonical_citation": "Lumini, M. J., et al. Efficacy of digital technology-based interventions for reducing caregiver burden and stress: a systematic review and meta-analysis.",
+      "year": "2025",
+      "doi_or_primary_ids": [
+        "10.3389/fdgth.2025.1636084"
+      ],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Systematic Review / Meta-analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0068",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Morris et al. (2026)",
+      "canonical_citation": "Morris et al. Transforming dementia caregiver support with AI-powered social robotics.",
+      "year": "2026",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Technical Evaluation / Feasibility / Two-phase User Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0069",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Regulation (EU) 2024/1689 — EU AI Act",
+      "canonical_citation": "Regulation (EU) 2024/1689",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D07",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "source_types": [
+        "Binding Legal Source",
+        "Binding Legal Source within its scope.",
+        "Regulation"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": true
+    },
+    {
+      "global_source_id": "HAI-SRC-0070",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "令和8年 改正個人情報保護法",
+      "canonical_citation": "個人情報の保護に関する法律等の一部を改正する法律",
+      "year": "2026",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Binding Japanese Legal Source"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_WITH_QUALIFICATION",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0071",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "Relational Autonomy Tradition",
+      "canonical_citation": "Relational Autonomy Tradition",
+      "year": "2000",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Conceptual / Philosophical Research Tradition"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0072",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "MacIntyre (1999)",
+      "canonical_citation": "MacIntyre, A. Dependent Rational Animals: Why Human Beings Need the Virtues.",
+      "year": "1999",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D07"
+      ],
+      "source_types": [
+        "Philosophical / Ethical Lens"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0073",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Cook, Polgar & Encarnação — HAAT",
+      "canonical_citation": "Cook, A. M., Polgar, J. M., & Encarnação, P. Assistive Technologies: Principles & Practice, 5th ed.",
+      "year": "2020",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0074",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Scherer & Craddock (2002)",
+      "canonical_citation": "Scherer, M. J., & Craddock, G. Matching Person & Technology (MPT) assessment process.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3233/TAD-2002-14308"
+      ],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Assistive Technology Assessment / Person–Technology Fit"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0075",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Cai et al. (2024)",
+      "canonical_citation": "Cai, S., Venugopalan, S., Seaver, K., et al. Using large language models to accelerate communication for eye gaze typing users with ALS.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1038/s41467-024-53873-3"
+      ],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "System Evaluation / Pilot User Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0076",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Müller-Eberstein et al. (2024)",
+      "canonical_citation": "Müller-Eberstein, M., Yee, D., Yang, K., Mantena, G. V., & Lea, C. Hypernetworks for Personalizing ASR to Atypical Speech.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1162/tacl_a_00696"
+      ],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "ASR Model Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0077",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Xie et al. (2025)",
+      "canonical_citation": "Xie, J., Yu, R., Zhang, H., Billah, S. M., Lee, S., & Carroll, J. M. Beyond Visual Perception: Insights from Smartphone Interaction of Visually Impaired Users with Large Multimodal Models.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1145/3706598.3714210"
+      ],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Qualitative Human-Subject Study"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0078",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Chowdhury & Sanyal (2026)",
+      "canonical_citation": "Chowdhury, A. R., & Sanyal, D. K. Can Small Vision–Language Models Perform Sign Language Translation?",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.18653/v1/2026.findings-acl.1609"
+      ],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Model Evaluation"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0079",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Ventura, Hamilton-Fletcher & Rizzo (2026)",
+      "canonical_citation": "Ventura, R. B., Hamilton-Fletcher, G., & Rizzo, J.-R. From abandonment to adoption: advancing assistive technologies for blindness and low vision in the AI era.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3389/fdgth.2025.1719746"
+      ],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Perspective / Literature Synthesis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0080",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Ma et al. (2026)",
+      "canonical_citation": "Ma, R., Zhang, B. Z., Chen, C., et al. “I use ChatGPT to humanize my words”: Affordances and Risks of ChatGPT to Autistic Users.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Thematic Analysis of Social-Media Posts"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0081",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Second Sight / Argus II Case",
+      "canonical_citation": "IEEE Spectrum. Their Bionic Eyes Are Now Obsolete and Unsupported.",
+      "year": "2022",
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Investigative Technical Journalism / Adjacent Case Evidence"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0082",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Japan — 障害者差別解消法",
+      "canonical_citation": "内閣府",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Legal Source."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0083",
+      "record_type": "STANDARD",
+      "canonical_title": "WCAG 2.2",
+      "canonical_citation": "W3C Web Content Accessibility Guidelines 2.2",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D08"
+      ],
+      "source_types": [
+        "Technical Standard."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0084",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Noy & Zhang (2023)",
+      "canonical_citation": "Noy, S., & Zhang, W. Experimental evidence on the productivity effects of generative artificial intelligence.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1126/science.adh2586"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [
+        "Randomized Experiment"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0085",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Brynjolfsson, Li & Raymond (2025)",
+      "canonical_citation": "Brynjolfsson, E., Li, D., & Raymond, L. R. Generative AI at Work.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1093/qje/qjae044"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0086",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Humlum & Vestergaard",
+      "canonical_citation": "Humlum, A., & Vestergaard, E. Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3386/w33777"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0087",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Becker et al. / METR (2025)",
+      "canonical_citation": "Becker, J., Rush, N., Barnes, B., & Rein, D. Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [
+        "Randomized Controlled Trial / Research Report"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0088",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Ranganathan & Ye (2026)",
+      "canonical_citation": "UC Berkeley Haas ongoing research",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0089",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Brynjolfsson, Chandar & Chen (2026)",
+      "canonical_citation": "Brynjolfsson, E., Chandar, B., & Chen, R. Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0090",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Ravid et al. (2023)",
+      "canonical_citation": "Ravid, D. M., White, J. C., Tomczak, D. L., Miles, A. F., & Behrend, T. S. A meta-analysis of the effects of electronic performance monitoring on work outcomes.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1111/peps.12514"
+      ],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0091",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Directive (EU) 2024/2831",
+      "canonical_citation": "Directive (EU) 2024/2831 on improving working conditions in platform work",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D09"
+      ],
+      "source_types": [
+        "Legal Source."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0092",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Bainbridge (1983)",
+      "canonical_citation": "Bainbridge, L. Ironies of Automation.",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1016/0005-1098(83"
+      ],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0093",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Leveson — STAMP / Systems-Theoretic Safety",
+      "canonical_citation": "Leveson, N. Engineering a Safer World: Systems Thinking Applied to Safety.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0094",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Weak-to-Strong Generalization",
+      "canonical_citation": "OpenAI research, 2023",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "Early evidence / research direction."
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0095",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Meier et al. (2026)",
+      "canonical_citation": "Meier, D., Francis, L. J., Kaiser, M. B., Ruas, T., Wahle, J. P., & Gipp, B. Risky Business: Measuring The Faithfulness-Safety Tension.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0096",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Li, Naito & Shirado — HiddenBench",
+      "canonical_citation": "Li, Y., Naito, A., & Shirado, H. Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0097",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO 18497-1:2024",
+      "canonical_citation": "Agricultural machinery and tractors — Safety of partially automated, semi-autonomous and autonomous machinery — Part 1: Machine design principles and vocabulary",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "International Standard",
+        "Sector Safety Standard."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0098",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO 21448:2022",
+      "canonical_citation": "Road vehicles — Safety of the intended functionality",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "International Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0099",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "DoD Directive 3000.09",
+      "canonical_citation": "Autonomy in Weapon Systems",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D10"
+      ],
+      "source_types": [
+        "Military Policy / Legal-Operational Boundary."
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0100",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "Procedural Justice Tradition",
+      "canonical_citation": "Procedural Justice Tradition",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Social psychology / procedural justice",
+        "Existing Research Tradition"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0101",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Kleinberg, Mullainathan & Raghavan",
+      "canonical_citation": "Kleinberg, Mullainathan & Raghavan",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.4230/LIPIcs.ITCS.2017.43"
+      ],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Formal / algorithmic fairness"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0102",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Chouldechova",
+      "canonical_citation": "Chouldechova",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1089/big.2016.0047"
+      ],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Algorithmic fairness / risk scoring"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0103",
+      "record_type": "CASE_LAW",
+      "canonical_title": "CJEU C-634/21 — SCHUFA",
+      "canonical_citation": "CJEU C-634/21 — SCHUFA",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Case Law"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0104",
+      "record_type": "CASE_LAW",
+      "canonical_title": "CJEU C-203/22 — Dun & Bradstreet Austria",
+      "canonical_citation": "CJEU C-203/22 — Dun & Bradstreet Austria",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Case Law"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0105",
+      "record_type": "LEGAL_INSTRUMENT",
+      "canonical_title": "Regulation (EU) 2026/1744",
+      "canonical_citation": "Regulation (EU) 2026/1744",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11",
+        "D12"
+      ],
+      "source_types": [
+        "Regulation"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": true
+    },
+    {
+      "global_source_id": "HAI-SRC-0106",
+      "record_type": "RESEARCH_TRADITION",
+      "canonical_title": "Council of Europe Framework Convention",
+      "canonical_citation": "Council of Europe Framework Convention",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "International Treaty"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0107",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "NIST AI RMF 1.0",
+      "canonical_citation": "NIST AI RMF 1.0",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Voluntary Framework"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0108",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO/IEC 42001:2023",
+      "canonical_citation": "ISO/IEC 42001:2023",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "International Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0109",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO/IEC 42005:2025",
+      "canonical_citation": "ISO/IEC 42005:2025",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "International Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0110",
+      "record_type": "STANDARD",
+      "canonical_title": "ISO/IEC 42006:2025",
+      "canonical_citation": "ISO/IEC 42006:2025",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "International Standard"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0111",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Laux & Ruschemeier",
+      "canonical_citation": "Laux & Ruschemeier",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Legal / interdisciplinary analysis"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0112",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "EDPS TechDispatch #2/2025",
+      "canonical_citation": "EDPS TechDispatch #2/2025",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Official institutional / technical-policy synthesis"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": true
+    },
+    {
+      "global_source_id": "HAI-SRC-0113",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Chen et al.",
+      "canonical_citation": "Chen et al.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0114",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Herrewijnen et al.",
+      "canonical_citation": "Herrewijnen et al.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Position Paper"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0115",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Kuehnert et al.",
+      "canonical_citation": "Kuehnert et al.",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [
+        "Public-sector procurement / governance research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0116",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "AI Political Persuasion",
+      "canonical_citation": "AI Political Persuasion",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D11"
+      ],
+      "source_types": [],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0117",
+      "record_type": "PREPRINT_OR_WORKING_PAPER",
+      "canonical_title": "Chioda et al. — FinTech Lending to Borrowers with No Credit History",
+      "canonical_citation": "Chioda et al. — FinTech Lending to Borrowers with No Credit History",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3386/w33208"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Working Paper"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0118",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Di Maggio & Ratnadiwakara — Invisible Primes",
+      "canonical_citation": "Di Maggio & Ratnadiwakara — Invisible Primes",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1287/mnsc.2024.07854"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Peer-reviewed empirical research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0119",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Winder, Hildebrand & Hartmann — Biased Echoes",
+      "canonical_citation": "Winder, Hildebrand & Hartmann — Biased Echoes",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.1371/journal.pone.0325459"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Peer-reviewed empirical research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0120",
+      "record_type": "PREPRINT_OR_WORKING_PAPER",
+      "canonical_title": "Choukhmane et al. — AI Financial Advice",
+      "canonical_citation": "Choukhmane et al. — AI Financial Advice",
+      "year": null,
+      "doi_or_primary_ids": [
+        "10.3386/w35574"
+      ],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Working Paper"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0121",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "CFPB Circular 2022-03",
+      "canonical_citation": "CFPB Circular 2022-03",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Official agency circular / policy statement"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0122",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "FCA Targeted Support / COBS 9B",
+      "canonical_citation": "FCA Targeted Support / COBS 9B",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "FCA rules and guidance"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0123",
+      "record_type": "POLICY_OR_GUIDANCE",
+      "canonical_title": "Japan FSA AI Discussion Paper Version 1.1",
+      "canonical_citation": "Japan FSA AI Discussion Paper Version 1.1",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Discussion Paper / Policy Source"
+      ],
+      "publication_source_lock_required": true,
+      "source_lock_status": "LOCKED_CONFIRMED",
+      "time_sensitive_status": false
+    },
+    {
+      "global_source_id": "HAI-SRC-0124",
+      "record_type": "BIBLIOGRAPHIC_SOURCE",
+      "canonical_title": "Jin & Vasserman — Buying Data from Consumers",
+      "canonical_citation": "Jin & Vasserman — Buying Data from Consumers",
+      "year": null,
+      "doi_or_primary_ids": [],
+      "used_in_domains": [
+        "D12"
+      ],
+      "source_types": [
+        "Empirical / economic research"
+      ],
+      "publication_source_lock_required": false,
+      "source_lock_status": "NOT_REQUIRED_FOR_STATUS_LOCK",
+      "time_sensitive_status": false
+    }
+  ]
+}
