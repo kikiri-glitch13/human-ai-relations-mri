@@ -1,0 +1,139 @@
+{
+  "artifact_type": "WEB_RETRIEVAL_MANIFEST",
+  "version": "1.0",
+  "evidence_cutoff": "2026-09",
+  "status": "PUBLICATION_LOCKED",
+  "canonical_authority": "Human_AI_Relations_MRI_v1.0_Publication_Build.json",
+  "canonical_sha256": "9618804f130de0528b921c9316195dca13f4067ee265c3c060d8eb7fbe358c1c",
+  "design": {
+    "purpose": "Small-file Web/AI retrieval layer over the locked canonical MRI v1.0 build.",
+    "target_max_file_size_bytes": 102400,
+    "authority_rule": "Canonical Publication Build controls over all retrieval derivatives.",
+    "retrieval_sequence": [
+      "Human_AI_Relations_MRI_v1.0_WEB_ENTRY.md",
+      "Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json",
+      "relevant DOMAIN_Dxx shard",
+      "Human_AI_Relations_MRI_v1.0_CLAIMS.json",
+      "Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json",
+      "canonical full JSON only if deeper context is needed"
+    ]
+  },
+  "counts": {
+    "domain_shards": 13,
+    "major_claims": 37,
+    "non_equivalences": 280,
+    "query_routes": 36,
+    "global_sources": 124,
+    "files_in_web_retrieval_layer": 19
+  },
+  "files": [
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_CLAIMS.json",
+      "bytes": 72227,
+      "sha256": "4ba3066945227b0f4f6340bdf5ed9921197e6554905f1cccbd4fcd53fff9878a",
+      "role": "CLAIMS"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D00.json",
+      "bytes": 32665,
+      "sha256": "74c273cd30f497c81221302c35fe8daba3db3d1490c2306fee44e9d1e7d4285e",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D01.json",
+      "bytes": 50116,
+      "sha256": "89d825acbc179a153f02705cf9eb29dddfb93170319e59159173854df417351d",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D02.json",
+      "bytes": 57518,
+      "sha256": "920695280f8424b5c0378040cb98968a080795ba76a3e5089f1b29751a0fef86",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D03.json",
+      "bytes": 50593,
+      "sha256": "e4ca9e816563c80397faace96766ddfb39ae1dc4d7747d9cfa6e4ad1bf574be2",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D04.json",
+      "bytes": 46597,
+      "sha256": "384a4c0988ea636320dc89ef6f8e8bf4e27216ad5dd179ed753133f31c940567",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D05.json",
+      "bytes": 50209,
+      "sha256": "9ffc7ff11b342003911ad0945efe5888127079084c1dc8e22c39d96498147856",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D06.json",
+      "bytes": 41855,
+      "sha256": "b9e9664753b992f9f9f145e48dbdbe5ec7803065f8a4e276e08ba08535919476",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D07.json",
+      "bytes": 63911,
+      "sha256": "7d6c1f6ecdd791594daf5572475fcce55cd2817e9e441870690f48c4b2ed9bbd",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D08.json",
+      "bytes": 49950,
+      "sha256": "bfdc2b8816104db294ed3ad4cea6a2f143246a836a4a764c608efe4095dfc761",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D09.json",
+      "bytes": 60745,
+      "sha256": "e4aab8ecc6471e09ab82d04c9720dc776fcc80871c4e2df2cd31e90a769abd75",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D10.json",
+      "bytes": 60800,
+      "sha256": "ccfae50845167c6a36118e0f6f22b9bea7c85fd5e028fdc72c495303f11efaa9",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D11.json",
+      "bytes": 75506,
+      "sha256": "61d53020b9c828dd53d5cf48a3188f737d38b4fce3a63f2aaffb8ccd60b00f5c",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_DOMAIN_D12.json",
+      "bytes": 79767,
+      "sha256": "f5dd0ffd89388a0bfce0cf97302bb303593d7fda554bd01dce7dfa8b270bd010",
+      "role": "DOMAIN_SHARD"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_QUERY_ROUTES.json",
+      "bytes": 63426,
+      "sha256": "5c36786bc45858730f1e8d4b92516f3bc347eda49f4370195c6a68b9fc802a3b",
+      "role": "QUERY_ROUTES"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_SOURCE_INDEX.json",
+      "bytes": 79258,
+      "sha256": "9934a0037fcd5be6384cb74e1cbdac926589578ad41eef223a24d257e6719b4d",
+      "role": "SOURCE_INDEX"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_WEB_ENTRY.md",
+      "bytes": 8823,
+      "sha256": "3494fbc61d26e3edfd11f88a60b6ef8021a8aa162c922d8089a5b390db1e5324",
+      "role": "WEB_ENTRY"
+    },
+    {
+      "filename": "Human_AI_Relations_MRI_v1.0_WEB_RETRIEVAL_VALIDATION.md",
+      "bytes": 1772,
+      "sha256": "cc4db97e11f2a99e53a5e11a5f48ce4fc0bdfd1f3ff90a8942057326faa59c6d",
+      "role": "VALIDATION"
+    }
+  ]
+}
