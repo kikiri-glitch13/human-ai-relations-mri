@@ -219,18 +219,3 @@ Preferred author attribution:
 Kikiri
 
 If a different formal author name is later designated by the author, future releases may update the preferred citation form without altering the identity of historical versions.
-
----
-
-## 15. License
-
-Original repository material is licensed under:
-
-Creative Commons Attribution-NoDerivatives 4.0 International  
-(CC BY-ND 4.0)
-
-See `LICENSE.md`.
-
-For interpretation and responsible reuse, also see:
-
-`INTEGRITY.md`
