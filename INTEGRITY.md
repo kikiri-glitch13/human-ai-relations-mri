@@ -1,7 +1,3 @@
-うん。今の方針なら `INTEGRITY.md` は、CC BY-ND前提だった箇所だけ直すより、文書全体を少し柔らかくして「利用規約」ではなく「解釈上の注意事項」に寄せた方が整合します。
-
-以下をそのまま全文置換で使えます。
-
 # Research Integrity and Interpretation Guide
 
 ## Human–AI Relations Audit Index β
