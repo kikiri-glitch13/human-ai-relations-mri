@@ -27,16 +27,10 @@ Web retrieval behavior differs across AI services; public availability does not 
 
 Connector-based access may succeed even when ordinary web retrieval fails.
 
-## License
+Copyright
 
-CC BY-ND 4.0
+Copyright © 2026 Kikiri. All rights reserved.
 
-See `LICENSE.md`.
+This repository is publicly available for viewing and reference. No additional license to copy, redistribute, modify, or publish the original material is granted unless separately stated.
 
-## Integrity Policy
-
-See `INTEGRITY.md`.
-
-## Citation
-
-See `CITATION.md`.
+Third-party materials remain subject to the rights of their respective rights holders.
